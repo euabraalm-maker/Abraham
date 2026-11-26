@@ -1,6 +1,7 @@
 import '../estilos/fontes';
 import '../estilos/mapa.css';
 import '../estilos/vidro.css';
+import '../estilos/organograma.css';
 import { carregar } from '../dados/carregar';
 import { descendentes } from '../dados/hierarquia';
 import { criarMapa } from '../mapa/mapa';
@@ -10,6 +11,7 @@ import { renderizarFicha, type AcaoFicha } from '../ui/ficha';
 import { criarFiltros } from '../ui/filtros';
 import { criarCaixaBusca } from '../ui/caixaBusca';
 import { criarExterior } from '../ui/exterior';
+import { criarOrganograma } from '../ui/organograma';
 
 const params = new URLSearchParams(location.search);
 const estilo = params.get('estilo');
@@ -25,10 +27,12 @@ const mapa = criarMapa(elMapa, lista, { tema });
 // Barra superior
 const busca = h('div', { class: 'busca' });
 const btFiltros = h('button', { type: 'button', class: 'botao', 'aria-expanded': 'false', 'aria-controls': 'painel-filtros' }, 'Filtros');
+const btVerMapa = h('button', { type: 'button', class: 'botao', 'aria-pressed': 'true' }, 'Mapa');
+const btVerOrg = h('button', { type: 'button', class: 'botao', 'aria-pressed': 'false' }, 'Organograma');
 const barra = h('header', { class: 'barra vidro' },
   h('span', { class: 'marca' }, 'Mapa das OM da FAB', h('small', {}, 'Força Aérea Brasileira')),
   busca,
-  h('div', { class: 'acoes-barra' }, btFiltros));
+  h('div', { class: 'acoes-barra' }, h('div', { class: 'alternancia', role: 'group', 'aria-label': 'Visualização' }, btVerMapa, btVerOrg), btFiltros));
 palco.appendChild(barra);
 
 // Painéis
@@ -50,6 +54,7 @@ btFiltros.addEventListener('click', () => {
 function abrirUnidade(id: string, voar = true) {
   const u = porId.get(id);
   if (!u) return;
+  if (!telaOrg.hidden) mostrarMapa();
   painelGrupo.hidden = true;
   painelFicha.replaceChildren(renderizarFicha(u, porId, 'painel'));
   painelFicha.hidden = false;
@@ -84,11 +89,36 @@ mapa.aoSelecionarGrupo((ids) => {
   painelGrupo.hidden = false;
 });
 
+// Organograma
+const telaOrg = h('section', { id: 'tela-organograma', class: 'vidro tela-organograma', hidden: true, 'aria-label': 'Organograma' });
+palco.appendChild(telaOrg);
+let organograma: ReturnType<typeof criarOrganograma> | null = null;
+function mostrarOrganograma(destaque?: string) {
+  organograma ??= criarOrganograma(telaOrg, lista, (id) => { mostrarMapa(); abrirUnidade(id); });
+  telaOrg.hidden = false;
+  painelFicha.hidden = true;
+  painelFiltros.hidden = true;
+  painelGrupo.hidden = true;
+  rodape.hidden = true;
+  btVerMapa.setAttribute('aria-pressed', 'false');
+  btVerOrg.setAttribute('aria-pressed', 'true');
+  if (destaque) organograma.destacar(destaque);
+}
+function mostrarMapa() {
+  telaOrg.hidden = true;
+  rodape.hidden = false;
+  btVerMapa.setAttribute('aria-pressed', 'true');
+  btVerOrg.setAttribute('aria-pressed', 'false');
+}
+btVerMapa.addEventListener('click', mostrarMapa);
+btVerOrg.addEventListener('click', () => mostrarOrganograma());
+
 document.addEventListener('acao-ficha', (e) => {
   const { acao, id } = (e as CustomEvent<{ acao: AcaoFicha; id: string }>).detail;
   if (acao === 'abrir') abrirUnidade(id);
   else if (acao === 'fechar') painelFicha.hidden = true;
   else if (acao === 'subordinados') mostrarSubordinados(id);
+  else if (acao === 'organograma') mostrarOrganograma(id);
 });
 
 // Endereço com #id (vindo da página da unidade) abre a ficha
