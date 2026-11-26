@@ -15,6 +15,7 @@
     "@playwright/test": "^1.49.1",
     "@types/node": "^22.10.2",
     "jsdom": "^25.0.1",
+    "mapshaper": "^0.6.102",
     "typescript": "^5.6.3",
     "vite": "^5.4.11",
     "vitest": "^2.1.8"
