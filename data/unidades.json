@@ -10911,9 +10911,13 @@
   "fontes": [
    {
     "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "Informação do instrutor (fontes públicas)"
    }
   ],
-  "revisadoEm": "2026-11-26"
+  "revisadoEm": "2026-11-26",
+  "historico": "Organização Militar da FAB sediada em Fortaleza, ligada às obras de infraestrutura da Aeronáutica na região, como as do novo campus do ITA em Fortaleza."
  },
  {
   "id": "gecamp",
@@ -10925,24 +10929,32 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.5333,
-   -23.4538
+   -46.46995,
+   -23.43127
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "dirinfra",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "Informação do instrutor (fontes públicas)"
+   },
+   {
+    "titulo": "Posição: Área da Base Aérea de São Paulo, Cumbica (endereço informado pelo instrutor)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
-  "revisadoEm": "2026-11-26"
+  "revisadoEm": "2026-11-26",
+  "historico": "Unidade de engenharia de campanha da Aeronáutica, com atividades planejadas em Programa de Trabalho Anual. Sediado na área da Base Aérea de São Paulo, em Guarulhos, atua em conjunto com as demais unidades da região, como a BASP e o SEREP-SP."
  },
  {
   "id": "serinfra-be",
@@ -10954,24 +10966,32 @@
   "uf": "PA",
   "pais": "Brasil",
   "coord": [
-   -48.4898,
-   -1.4554
+   -48.47621,
+   -1.37928
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "dirinfra",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "Informação do instrutor (fontes públicas)"
+   },
+   {
+    "titulo": "Posição: Av. Júlio César, Souza — complexo de Val de Cans (endereço informado pelo instrutor)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
-  "revisadoEm": "2026-11-26"
+  "revisadoEm": "2026-11-26",
+  "historico": "Responsável pela gestão, engenharia e manutenção da infraestrutura aeronáutica e das instalações militares da FAB na região de Belém, incluindo serviços como avaliação de pavimentos."
  },
  {
   "id": "serinfra-nt",
@@ -10998,9 +11018,13 @@
   "fontes": [
    {
     "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "Informação do instrutor (fontes públicas)"
    }
   ],
-  "revisadoEm": "2026-11-26"
+  "revisadoEm": "2026-11-26",
+  "historico": "Responsável pela gestão de engenharia, manutenção e patrimônio da infraestrutura da Aeronáutica na região de Natal e Parnamirim."
  },
  {
   "id": "serinfra-rj",
@@ -11029,11 +11053,15 @@
     "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
    },
    {
+    "titulo": "Informação do instrutor (fontes públicas)"
+   },
+   {
     "titulo": "Posição: Av. Marechal Câmara, 233 — endereço público do SERINFRA-RJ",
     "url": "https://www.openstreetmap.org/"
    }
   ],
-  "revisadoEm": "2026-11-26"
+  "revisadoEm": "2026-11-26",
+  "historico": "Gerencia e apoia as atividades de engenharia e infraestrutura aeronáutica, administra o patrimônio imobiliário da União sob sua jurisdição e atua em gestão ambiental e em segurança e saúde do trabalho."
  },
  {
   "id": "serinfra-sj",
@@ -11045,24 +11073,32 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.86843,
+   -23.2233
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "dirinfra",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "Informação do instrutor (fontes públicas)"
+   },
+   {
+    "titulo": "Posição: Campus do DCTA, Praça Mal. Eduardo Gomes, 50 (endereço informado pelo instrutor)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
-  "revisadoEm": "2026-11-26"
+  "revisadoEm": "2026-11-26",
+  "historico": "Responsável pela gestão, manutenção, engenharia e patrimônio imobiliário da FAB na região de São José dos Campos, com sede no campus do DCTA."
  },
  {
   "id": "serinfra-co",
@@ -11074,24 +11110,32 @@
   "uf": "RS",
   "pais": "Brasil",
   "coord": [
-   -51.1857,
-   -29.9128
+   -51.14441,
+   -29.94593
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "dirinfra",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "Informação do instrutor (fontes públicas)"
+   },
+   {
+    "titulo": "Posição: Av. Guilherme Schell, 3950 — Base Aérea de Canoas (endereço informado pelo instrutor)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
-  "revisadoEm": "2026-11-26"
+  "revisadoEm": "2026-11-26",
+  "historico": "Responsável pela gestão e manutenção de obras e da infraestrutura aeronáutica do Comando da Aeronáutica na região de Canoas."
  },
  {
   "id": "serinfra-br",
@@ -11132,23 +11176,31 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -60.0212,
-   -3.1187
+   -59.9863,
+   -3.14604
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "dirinfra",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "Informação do instrutor (fontes públicas)"
+   },
+   {
+    "titulo": "Posição: Av. Gen. Rodrigo Otávio, 430 — Base Aérea de Manaus (endereço informado pelo instrutor)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
-  "revisadoEm": "2026-11-26"
+  "revisadoEm": "2026-11-26",
+  "historico": "Responsável pela gestão de engenharia, patrimônio, segurança do trabalho e infraestrutura das unidades da Aeronáutica na região de Manaus."
  }
 ]

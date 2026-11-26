@@ -213,6 +213,22 @@ function main() {
     historico: 'Acompanha, controla e gerencia as obras e os projetos de infraestrutura ligados à Base Aérea de Anápolis (BAAN). Apoia a ampliação da base para receber novos vetores da FAB, como o caça F-39 Gripen e o cargueiro KC-390 Millennium, incluindo moradias (PNR) e instalações operacionais e administrativas. Segundo seu regulamento (ROCA 21-115), organiza-se em Chefia, Divisão Técnica e Divisão Administrativa.',
     fontes: [ORG_DIRINFRA, { titulo: 'ROCA 21-115 — Regulamento do GAC INFRA-AN (SISLAER)', url: 'https://www.sislaer.fab.mil.br/TerminalWebCENDOC/Busca/Download?codigoArquivo=4068&tipoMidia=0' }],
   });
+  // Atuação das unidades da DIRINFRA (informada pelo instrutor, a partir de fontes públicas)
+  const ATUACAO: Record<string, string> = {
+    "gecamp": "Unidade de engenharia de campanha da Aeronáutica, com atividades planejadas em Programa de Trabalho Anual. Sediado na área da Base Aérea de São Paulo, em Guarulhos, atua em conjunto com as demais unidades da região, como a BASP e o SEREP-SP.",
+    "serinfra-be": "Responsável pela gestão, engenharia e manutenção da infraestrutura aeronáutica e das instalações militares da FAB na região de Belém, incluindo serviços como avaliação de pavimentos.",
+    "serinfra-nt": "Responsável pela gestão de engenharia, manutenção e patrimônio da infraestrutura da Aeronáutica na região de Natal e Parnamirim.",
+    "serinfra-rj": "Gerencia e apoia as atividades de engenharia e infraestrutura aeronáutica, administra o patrimônio imobiliário da União sob sua jurisdição e atua em gestão ambiental e em segurança e saúde do trabalho.",
+    "serinfra-sj": "Responsável pela gestão, manutenção, engenharia e patrimônio imobiliário da FAB na região de São José dos Campos, com sede no campus do DCTA.",
+    "serinfra-co": "Responsável pela gestão e manutenção de obras e da infraestrutura aeronáutica do Comando da Aeronáutica na região de Canoas.",
+    "serinfra-mn": "Responsável pela gestão de engenharia, patrimônio, segurança do trabalho e infraestrutura das unidades da Aeronáutica na região de Manaus.",
+    "co-fz": "Organização Militar da FAB sediada em Fortaleza, ligada às obras de infraestrutura da Aeronáutica na região, como as do novo campus do ITA em Fortaleza.",
+  };
+  for (const [id, texto] of Object.entries(ATUACAO)) {
+    const u = saida.get(id)!;
+    u.historico = texto;
+    if (!u.fontes.some((f) => f.titulo.startsWith('Informação do instrutor'))) u.fontes.push({ titulo: 'Informação do instrutor (fontes públicas)' });
+  }
   // esquadrões sem sede identificável: usar a primeira base existente da UF? Não: ficam sem sediadoEm e são listados.
   const semSede = [...saida.values()].filter((u) => u.categoria === 'esquadrao' && (!u.sediadoEm || !saida.has(u.sediadoEm)));
   if (semSede.length) console.warn('Esquadrões sem sede:', semSede.map((u) => `${u.sigla} (${u.cidade})`).join(', '));

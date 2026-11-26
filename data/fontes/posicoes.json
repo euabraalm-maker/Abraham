@@ -531,6 +531,13 @@
   ],
   "fonte": "Campo de Marte — endereço do catálogo"
  },
+ "gecamp": {
+  "coord": [
+   -46.46995,
+   -23.43127
+  ],
+  "fonte": "Área da Base Aérea de São Paulo, Cumbica (endereço informado pelo instrutor)"
+ },
  "geiv": {
   "coord": [
    -43.16741,
@@ -804,12 +811,40 @@
   ],
   "fonte": "Base Aérea de São Paulo (Cumbica) — endereço do catálogo"
  },
+ "serinfra-be": {
+  "coord": [
+   -48.47621,
+   -1.37928
+  ],
+  "fonte": "Av. Júlio César, Souza — complexo de Val de Cans (endereço informado pelo instrutor)"
+ },
+ "serinfra-co": {
+  "coord": [
+   -51.14441,
+   -29.94593
+  ],
+  "fonte": "Av. Guilherme Schell, 3950 — Base Aérea de Canoas (endereço informado pelo instrutor)"
+ },
+ "serinfra-mn": {
+  "coord": [
+   -59.9863,
+   -3.14604
+  ],
+  "fonte": "Av. Gen. Rodrigo Otávio, 430 — Base Aérea de Manaus (endereço informado pelo instrutor)"
+ },
  "serinfra-rj": {
   "coord": [
    -43.17034,
    -22.90854
   ],
   "fonte": "Av. Marechal Câmara, 233 — endereço público do SERINFRA-RJ"
+ },
+ "serinfra-sj": {
+  "coord": [
+   -45.86843,
+   -23.2233
+  ],
+  "fonte": "Campus do DCTA, Praça Mal. Eduardo Gomes, 50 (endereço informado pelo instrutor)"
  },
  "seripa-ii": {
   "coord": [
