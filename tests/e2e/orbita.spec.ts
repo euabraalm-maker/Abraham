@@ -33,7 +33,7 @@ test('de longe, a base mostra um selo com o número de satélites', async ({ pag
   await abrirMapa(page);
   const n = await page.evaluate(() => {
     const m = (window as any).__mapa.map;
-    m.jumpTo({ center: [-48.96, -16.23], zoom: 8 });
+    m.jumpTo({ center: [-60.69, 2.85], zoom: 8 }); // Boa Vista: BABV com PABV e DTCEA-BV no mesmo ponto
     return new Promise((r) => m.once('idle', () => r(m.queryRenderedFeatures({ layers: ['selo-satelites'] }).length)));
   });
   expect(n).toBeGreaterThan(0);

@@ -109,18 +109,21 @@
    -22.90854
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Pagadoria dos Inativos e Pensionistas da Aeronáutica, 233, A (OpenStreetMap)",
@@ -1053,18 +1056,22 @@
    -23.5658
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "comgap",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Av. Dom Pedro I, 100 (Cambuci) — endereço do catálogo",
@@ -1087,18 +1094,22 @@
    -15.79543
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dti",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
@@ -1121,18 +1132,22 @@
    -23.2233
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dti",
   "site": "https://www2.fab.mil.br/ccasj/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Campus do DCTA — endereço do catálogo",
@@ -1159,18 +1174,22 @@
    -22.81
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dti",
   "site": "https://www2.fab.mil.br/sti/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
@@ -1273,18 +1292,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "dti",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1341,18 +1364,21 @@
    -23.5091
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dirinfra",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Campo de Marte — endereço do catálogo",
@@ -1391,6 +1417,9 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Av. General Justo, 160 (DECEA) — endereço do catálogo",
@@ -1671,18 +1700,22 @@
    -22.81
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "celog",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
@@ -1757,6 +1790,9 @@
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    },
    {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
+   },
+   {
     "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
     "url": "https://www.openstreetmap.org/"
    },
@@ -1799,6 +1835,10 @@
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    },
    {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
+   },
+   {
     "titulo": "Posição: Av. Dom Pedro I, 100 (Cambuci) — endereço do catálogo",
     "url": "https://www.openstreetmap.org/"
    }
@@ -1835,6 +1875,9 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo",
@@ -1879,6 +1922,9 @@
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    },
    {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
+   },
+   {
     "titulo": "Posição: CINDACTA IV (OpenStreetMap)",
     "url": "https://www.openstreetmap.org/"
    },
@@ -1921,6 +1967,9 @@
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    },
    {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
+   },
+   {
     "titulo": "Posição: Bacacheri — endereço do catálogo",
     "url": "https://www.openstreetmap.org/"
    },
@@ -1961,6 +2010,9 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Site oficial",
@@ -2429,18 +2481,22 @@
   "pais": "Reino Unido",
   "coord": null,
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "celog",
   "site": "https://www2.fab.mil.br/cabe/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Site oficial",
@@ -2501,18 +2557,21 @@
    -1.40741
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dirinfra",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Comissão de Aeroportos da Região Amazônica (COMARA) (OpenStreetMap)",
@@ -2623,6 +2682,9 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Comissão de Implantação do Sistema de Controle do Espaço Aéreo (OpenStreetMap)",
@@ -3396,6 +3458,9 @@
    },
    {
     "titulo": "Informação do instrutor (página institucional do CGTEC/PAME-RJ)"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Av. General Justo, 160 (DECEA) — endereço do catálogo",
@@ -5904,6 +5969,10 @@
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    },
    {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
+   },
+   {
     "titulo": "Posição: Av. Dom Pedro I, 100 (Cambuci) — endereço do catálogo",
     "url": "https://www.openstreetmap.org/"
    }
@@ -6575,6 +6644,9 @@
    {
     "titulo": "DECEA — 1º GCC",
     "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -6747,6 +6819,9 @@
    {
     "titulo": "DECEA — 1º GCC",
     "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -6807,6 +6882,9 @@
    {
     "titulo": "DECEA — 1º GCC",
     "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -6895,6 +6973,9 @@
    {
     "titulo": "DECEA — 1º GCC",
     "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -7151,6 +7232,9 @@
    {
     "titulo": "DECEA — 1º GCC",
     "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -7822,6 +7906,9 @@
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    },
    {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
+   },
+   {
     "titulo": "Posição: Grupo Especial de Inspeção em Voo (OpenStreetMap)",
     "url": "https://www.openstreetmap.org/"
    }
@@ -7886,6 +7973,9 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
@@ -8480,6 +8570,9 @@
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    },
    {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
+   },
+   {
     "titulo": "Posição: Instituto de Cartografia Aeronáutica (OpenStreetMap)",
     "url": "https://www.openstreetmap.org/"
    }
@@ -8516,6 +8609,9 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Campus do DCTA — endereço do catálogo",
@@ -8606,18 +8702,22 @@
    -23.43127
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "comgap",
   "site": "https://www2.fab.mil.br/ila/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Base Aérea de São Paulo (Cumbica) — endereço do catálogo",
@@ -8865,18 +8965,22 @@
   "pais": "Paraguai",
   "coord": null,
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comgap",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9035,18 +9139,22 @@
    -19.66175
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dirmab",
   "site": "https://www2.fab.mil.br/pamals/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "OurAirports — coordenadas do aeródromo (SBLS)",
@@ -9073,18 +9181,22 @@
    -23.5091
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dirmab",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "OurAirports — coordenadas do aeródromo (SBMT)",
@@ -9107,18 +9219,22 @@
    -22.81
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dirmab",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "OurAirports — coordenadas do aeródromo (SBGL)",
@@ -9175,18 +9291,22 @@
    -22.81
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dirmab",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
@@ -9225,6 +9345,9 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Parque de Material de Eletrônica da Aeronáutica (OpenStreetMap)",
@@ -10565,6 +10688,9 @@
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    },
    {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
+   },
+   {
     "titulo": "Posição: Aeroporto de Congonhas, torre de controle (página do DECEA)",
     "url": "https://www.openstreetmap.org/"
    },
@@ -10635,6 +10761,392 @@
    {
     "titulo": "Posição: Dentro do PAME-RJ (informação do instrutor)",
     "url": "https://www.openstreetmap.org/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dirmab",
+  "sigla": "DIRMAB",
+  "nome": "Diretoria de Material Aeronáutico e Bélico",
+  "categoria": "administracao",
+  "tipoCatalogo": "Diretoria",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -46.61192,
+   -23.5658
+  ],
+  "coordSituacao": "exata",
+  "subordinadaA": "comgap",
+  "site": "https://www2.fab.mil.br/dirmab/",
+  "ficha": "completa",
+  "historico": "Sua origem está na Diretoria de Material, criada em 1941 junto com o Ministério da Aeronáutica para organizar o apoio logístico à FAB durante a Segunda Guerra Mundial. Com o aumento da complexidade tecnológica, a função foi dividida entre a Diretoria de Material da Aeronáutica (DIRMA, 1978), voltada às aeronaves e seus sistemas, e a Diretoria de Material Bélico da Aeronáutica (DIRMAB, 1980), responsável por armamentos, munições e explosivos. As duas foram reunificadas pelo Decreto nº 4.549, de 2002, dando origem à atual Diretoria de Material Aeronáutico e Bélico, que comemora seu aniversário em 26 de novembro (marco de 1999). Hoje é o órgão central do Sistema de Material Aeronáutico e Bélico (SISMAB), responsável por todo o ciclo logístico do material aeronáutico e bélico, da definição de requisitos e aquisição até a manutenção, o armazenamento e o desfazimento. Integra a estrutura do Comando-Geral de Apoio (COMGAP).",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Histórico da DIRMAB (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
+   },
+   {
+    "titulo": "Posição: Av. Dom Pedro I, 100 (Cambuci) — endereço informado pelo instrutor",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/dirmab/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dirinfra",
+  "sigla": "DIRINFRA",
+  "nome": "Diretoria de Infraestrutura da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Diretoria",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.61192,
+   -23.5658
+  ],
+  "coordSituacao": "exata",
+  "subordinadaA": "comgap",
+  "site": "https://www2.fab.mil.br/dirinfra/",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Av. Dom Pedro I, 100 (Cambuci) — página de contato da DIRINFRA",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/dirinfra/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gac-infra-an",
+  "sigla": "GAC INFRA-AN",
+  "nome": "Grupamento de Acompanhamento e Controle de Infraestrutura de Anápolis",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Anápolis",
+  "uf": "GO",
+  "pais": "Brasil",
+  "coord": [
+   -48.9643,
+   -16.2292
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "ROCA 21-115 — Regulamento do GAC INFRA-AN (SISLAER)",
+    "url": "https://www.sislaer.fab.mil.br/TerminalWebCENDOC/Busca/Download?codigoArquivo=4068&tipoMidia=0"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "historico": "Acompanha, controla e gerencia as obras e os projetos de infraestrutura ligados à Base Aérea de Anápolis (BAAN). Apoia a ampliação da base para receber novos vetores da FAB, como o caça F-39 Gripen e o cargueiro KC-390 Millennium, incluindo moradias (PNR) e instalações operacionais e administrativas. Segundo seu regulamento (ROCA 21-115), organiza-se em Chefia, Divisão Técnica e Divisão Administrativa."
+ },
+ {
+  "id": "co-fz",
+  "sigla": "CO-FZ",
+  "nome": "Comissão de Obras de Fortaleza",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Fortaleza",
+  "uf": "CE",
+  "pais": "Brasil",
+  "coord": [
+   -38.5423,
+   -3.7166
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gecamp",
+  "sigla": "GECAMP",
+  "nome": "Grupamento de Engenharia de Campanha da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Guarulhos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.5333,
+   -23.4538
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-be",
+  "sigla": "SERINFRA-BE",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica de Belém",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Belém",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -48.4898,
+   -1.4554
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-nt",
+  "sigla": "SERINFRA-NT",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica de Natal",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Natal",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": [
+   -35.1986,
+   -5.7936
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-rj",
+  "sigla": "SERINFRA-RJ",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica do Rio de Janeiro",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.17034,
+   -22.90854
+  ],
+  "coordSituacao": "exata",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "Posição: Av. Marechal Câmara, 233 — endereço público do SERINFRA-RJ",
+    "url": "https://www.openstreetmap.org/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-sj",
+  "sigla": "SERINFRA-SJ",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica de São José dos Campos",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-co",
+  "sigla": "SERINFRA-CO",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica de Canoas",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Canoas",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -51.1857,
+   -29.9128
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-br",
+  "sigla": "SERINFRA-BR",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica de Brasília",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-mn",
+  "sigla": "SERINFRA-MN",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica de Manaus",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -60.0212,
+   -3.1187
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
    }
   ],
   "revisadoEm": "2026-11-26"

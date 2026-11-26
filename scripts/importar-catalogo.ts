@@ -168,6 +168,51 @@ function main() {
     fontes: [{ titulo: 'Informação do instrutor (página institucional do CGTEC/PAME-RJ)' }],
     revisadoEm: hoje,
   });
+  // DIRMAB: órgão do COMGAP (Decreto 11.237/2022) sem ficha no catálogo; histórico enviado pelo instrutor
+  saida.set('dirmab', {
+    id: 'dirmab', sigla: 'DIRMAB', nome: 'Diretoria de Material Aeronáutico e Bélico', categoria: 'administracao',
+    tipoCatalogo: 'Diretoria', cidade: 'Rio de Janeiro', uf: 'RJ', pais: 'Brasil', coord: null, coordSituacao: 'aproximada',
+    subordinadaA: null, site: null, ficha: 'completa',
+    historico: 'Sua origem está na Diretoria de Material, criada em 1941 junto com o Ministério da Aeronáutica para organizar o apoio logístico à FAB durante a Segunda Guerra Mundial. Com o aumento da complexidade tecnológica, a função foi dividida entre a Diretoria de Material da Aeronáutica (DIRMA, 1978), voltada às aeronaves e seus sistemas, e a Diretoria de Material Bélico da Aeronáutica (DIRMAB, 1980), responsável por armamentos, munições e explosivos. As duas foram reunificadas pelo Decreto nº 4.549, de 2002, dando origem à atual Diretoria de Material Aeronáutico e Bélico, que comemora seu aniversário em 26 de novembro (marco de 1999). Hoje é o órgão central do Sistema de Material Aeronáutico e Bélico (SISMAB), responsável por todo o ciclo logístico do material aeronáutico e bélico, da definição de requisitos e aquisição até a manutenção, o armazenamento e o desfazimento. Integra a estrutura do Comando-Geral de Apoio (COMGAP).',
+    situacao: { nome: 'confirmado', localizacao: 'a-conferir', subordinacao: 'a-conferir' },
+    fontes: [
+      { titulo: 'Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica', url: 'https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm' },
+      { titulo: 'Histórico da DIRMAB (enviado pelo instrutor)' },
+    ],
+    revisadoEm: hoje,
+  });
+  // DIRINFRA e subordinadas: fora do catálogo; estrutura pelo organograma da DIRINFRA (enviado pelo instrutor),
+  // nomes conforme publicações oficiais (portarias, licitações) e site da DIRINFRA.
+  const ORG_DIRINFRA = { titulo: 'Organograma da DIRINFRA (enviado pelo instrutor)' };
+  const novas: [string, string, string, string, string, boolean][] = [
+    // id, sigla, nome, cidade, uf, nome confirmado
+    ['dirinfra', 'DIRINFRA', 'Diretoria de Infraestrutura da Aeronáutica', 'São Paulo', 'SP', true],
+    ['gac-infra-an', 'GAC INFRA-AN', 'Grupamento de Acompanhamento e Controle de Infraestrutura de Anápolis', 'Anápolis', 'GO', true],
+    ['co-fz', 'CO-FZ', 'Comissão de Obras de Fortaleza', 'Fortaleza', 'CE', true],
+    ['gecamp', 'GECAMP', 'Grupamento de Engenharia de Campanha da Aeronáutica', 'Guarulhos', 'SP', true],
+    ['serinfra-be', 'SERINFRA-BE', 'Serviço Regional de Infraestrutura da Aeronáutica de Belém', 'Belém', 'PA', true],
+    ['serinfra-nt', 'SERINFRA-NT', 'Serviço Regional de Infraestrutura da Aeronáutica de Natal', 'Natal', 'RN', true],
+    ['serinfra-rj', 'SERINFRA-RJ', 'Serviço Regional de Infraestrutura da Aeronáutica do Rio de Janeiro', 'Rio de Janeiro', 'RJ', true],
+    ['serinfra-sj', 'SERINFRA-SJ', 'Serviço Regional de Infraestrutura da Aeronáutica de São José dos Campos', 'São José dos Campos', 'SP', true],
+    ['serinfra-co', 'SERINFRA-CO', 'Serviço Regional de Infraestrutura da Aeronáutica de Canoas', 'Canoas', 'RS', true],
+    ['serinfra-br', 'SERINFRA-BR', 'Serviço Regional de Infraestrutura da Aeronáutica de Brasília', 'Brasília', 'DF', true],
+    ['serinfra-mn', 'SERINFRA-MN', 'Serviço Regional de Infraestrutura da Aeronáutica de Manaus', 'Manaus', 'AM', true],
+  ];
+  for (const [id, sigla, nome, cidade, uf, nomeOk] of novas) {
+    saida.set(id, {
+      id, sigla, nome, categoria: 'administracao', tipoCatalogo: id === 'dirinfra' ? 'Diretoria' : 'Serviço', cidade, uf, pais: 'Brasil',
+      coord: null, coordSituacao: 'aproximada', subordinadaA: null, site: null, ficha: 'basica',
+      situacao: { nome: nomeOk ? 'confirmado' : 'a-conferir', localizacao: 'a-conferir', subordinacao: 'a-conferir' },
+      fontes: [ORG_DIRINFRA], revisadoEm: hoje,
+    });
+  }
+  // GAC INFRA-AN: finalidade e estrutura (ROCA 21-115, informado pelo instrutor). Funciona para a BAAN;
+  // posição junto da base, ainda "aproximada" até confirmar o local exato.
+  Object.assign(saida.get('gac-infra-an')!, {
+    coord: [-48.9643, -16.2292] as [number, number],
+    historico: 'Acompanha, controla e gerencia as obras e os projetos de infraestrutura ligados à Base Aérea de Anápolis (BAAN). Apoia a ampliação da base para receber novos vetores da FAB, como o caça F-39 Gripen e o cargueiro KC-390 Millennium, incluindo moradias (PNR) e instalações operacionais e administrativas. Segundo seu regulamento (ROCA 21-115), organiza-se em Chefia, Divisão Técnica e Divisão Administrativa.',
+    fontes: [ORG_DIRINFRA, { titulo: 'ROCA 21-115 — Regulamento do GAC INFRA-AN (SISLAER)', url: 'https://www.sislaer.fab.mil.br/TerminalWebCENDOC/Busca/Download?codigoArquivo=4068&tipoMidia=0' }],
+  });
   // esquadrões sem sede identificável: usar a primeira base existente da UF? Não: ficam sem sediadoEm e são listados.
   const semSede = [...saida.values()].filter((u) => u.categoria === 'esquadrao' && (!u.sediadoEm || !saida.has(u.sediadoEm)));
   if (semSede.length) console.warn('Esquadrões sem sede:', semSede.map((u) => `${u.sigla} (${u.cidade})`).join(', '));
