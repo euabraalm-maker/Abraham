@@ -30,3 +30,26 @@ describe('agruparPorLocal', () => {
     expect(g.flatMap((x) => x.satelites)).toEqual([]);
   });
 });
+
+describe('hierarquia manda no centro da órbita', () => {
+  it('a unidade superior fica no centro, mesmo sendo de um tipo de menor destaque', () => {
+    const Q: [number, number] = [-43.21, -22.87];
+    const lista = [
+      unidade({ id: 'pame-rj', sigla: 'PAME-RJ', categoria: 'parque', coord: Q }),
+      unidade({ id: 'cgtec', sigla: 'CGTEC', categoria: 'decea', coord: Q, subordinadaA: 'pame-rj' }),
+    ];
+    const [g] = agruparPorLocal(lista, null);
+    expect(g.anfitriao.id).toBe('pame-rj');
+    expect(g.satelites.map((s) => s.id)).toEqual(['cgtec']);
+  });
+  it('vale também para subordinação indireta (neto)', () => {
+    const Q: [number, number] = [-43.21, -22.87];
+    const lista = [
+      unidade({ id: 'avo', sigla: 'AVO', categoria: 'prefeitura', coord: Q }),
+      unidade({ id: 'pai', sigla: 'PAI', categoria: 'administracao', coord: [-40, -10], subordinadaA: 'avo' }),
+      unidade({ id: 'neto', sigla: 'NETO', categoria: 'base', coord: Q, subordinadaA: 'pai' }),
+    ];
+    const g = agruparPorLocal(lista, null).find((x) => x.satelites.length)!;
+    expect(g.anfitriao.id).toBe('avo');
+  });
+});
