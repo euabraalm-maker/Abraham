@@ -1053,18 +1053,22 @@
    -23.5658
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "comgap",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Av. Dom Pedro I, 100 (Cambuci) — endereço do catálogo",
@@ -1087,18 +1091,22 @@
    -15.79543
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dti",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
@@ -1121,18 +1129,22 @@
    -23.2233
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dti",
   "site": "https://www2.fab.mil.br/ccasj/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Campus do DCTA — endereço do catálogo",
@@ -1159,18 +1171,22 @@
    -22.81
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dti",
   "site": "https://www2.fab.mil.br/sti/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
@@ -1273,18 +1289,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "dti",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1671,18 +1691,22 @@
    -22.81
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "celog",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
@@ -1797,6 +1821,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Av. Dom Pedro I, 100 (Cambuci) — endereço do catálogo",
@@ -2429,18 +2457,22 @@
   "pais": "Reino Unido",
   "coord": null,
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "celog",
   "site": "https://www2.fab.mil.br/cabe/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Site oficial",
@@ -5904,6 +5936,10 @@
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    },
    {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
+   },
+   {
     "titulo": "Posição: Av. Dom Pedro I, 100 (Cambuci) — endereço do catálogo",
     "url": "https://www.openstreetmap.org/"
    }
@@ -8606,18 +8642,22 @@
    -23.43127
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "comgap",
   "site": "https://www2.fab.mil.br/ila/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Base Aérea de São Paulo (Cumbica) — endereço do catálogo",
@@ -8865,18 +8905,22 @@
   "pais": "Paraguai",
   "coord": null,
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comgap",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9035,18 +9079,22 @@
    -19.66175
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dirmab",
   "site": "https://www2.fab.mil.br/pamals/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "OurAirports — coordenadas do aeródromo (SBLS)",
@@ -9073,18 +9121,22 @@
    -23.5091
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dirmab",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "OurAirports — coordenadas do aeródromo (SBMT)",
@@ -9107,18 +9159,22 @@
    -22.81
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dirmab",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "OurAirports — coordenadas do aeródromo (SBGL)",
@@ -9175,18 +9231,22 @@
    -22.81
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dirmab",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
     "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
@@ -10635,6 +10695,52 @@
    {
     "titulo": "Posição: Dentro do PAME-RJ (informação do instrutor)",
     "url": "https://www.openstreetmap.org/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dirmab",
+  "sigla": "DIRMAB",
+  "nome": "Diretoria de Material Aeronáutico e Bélico",
+  "categoria": "administracao",
+  "tipoCatalogo": "Diretoria",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.24005,
+   -22.83261
+  ],
+  "coordSituacao": "exata",
+  "subordinadaA": "comgap",
+  "site": "https://www2.fab.mil.br/dirmab/",
+  "ficha": "completa",
+  "historico": "Sua origem está na Diretoria de Material, criada em 1941 junto com o Ministério da Aeronáutica para organizar o apoio logístico à FAB durante a Segunda Guerra Mundial. Com o aumento da complexidade tecnológica, a função foi dividida entre a Diretoria de Material da Aeronáutica (DIRMA, 1978), voltada às aeronaves e seus sistemas, e a Diretoria de Material Bélico da Aeronáutica (DIRMAB, 1980), responsável por armamentos, munições e explosivos. As duas foram reunificadas pelo Decreto nº 4.549, de 2002, dando origem à atual Diretoria de Material Aeronáutico e Bélico, que comemora seu aniversário em 26 de novembro (marco de 1999). Hoje é o órgão central do Sistema de Material Aeronáutico e Bélico (SISMAB), responsável por todo o ciclo logístico do material aeronáutico e bélico, da definição de requisitos e aquisição até a manutenção, o armazenamento e o desfazimento. Integra a estrutura do Comando-Geral de Apoio (COMGAP).",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Histórico da DIRMAB (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "Organograma oficial do COMGAP (fab.mil.br)",
+    "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
+   },
+   {
+    "titulo": "Posição: DIRMAB (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/dirmab/"
    }
   ],
   "revisadoEm": "2026-11-26"

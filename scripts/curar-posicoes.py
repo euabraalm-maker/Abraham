@@ -24,6 +24,7 @@ MANUAL = {
     'cindacta-iv': ([-60.05394, -3.02267], 'CINDACTA IV (OpenStreetMap)'),
     'dtcea-mdi': ([-49.47456, -28.12591], 'Cume do Morro da Igreja (OpenStreetMap)'),
     'cgtec': ([-43.21471, -22.87466], 'Dentro do PAME-RJ (informação do instrutor)'),
+    'dirmab': ([-43.24005, -22.83261], 'DIRMAB (OpenStreetMap)'),
 }
 
 def main(geo_arq, ext_arq):

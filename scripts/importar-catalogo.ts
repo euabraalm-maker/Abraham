@@ -168,6 +168,19 @@ function main() {
     fontes: [{ titulo: 'Informação do instrutor (página institucional do CGTEC/PAME-RJ)' }],
     revisadoEm: hoje,
   });
+  // DIRMAB: órgão do COMGAP (Decreto 11.237/2022) sem ficha no catálogo; histórico enviado pelo instrutor
+  saida.set('dirmab', {
+    id: 'dirmab', sigla: 'DIRMAB', nome: 'Diretoria de Material Aeronáutico e Bélico', categoria: 'administracao',
+    tipoCatalogo: 'Diretoria', cidade: 'Rio de Janeiro', uf: 'RJ', pais: 'Brasil', coord: null, coordSituacao: 'aproximada',
+    subordinadaA: null, site: null, ficha: 'completa',
+    historico: 'Sua origem está na Diretoria de Material, criada em 1941 junto com o Ministério da Aeronáutica para organizar o apoio logístico à FAB durante a Segunda Guerra Mundial. Com o aumento da complexidade tecnológica, a função foi dividida entre a Diretoria de Material da Aeronáutica (DIRMA, 1978), voltada às aeronaves e seus sistemas, e a Diretoria de Material Bélico da Aeronáutica (DIRMAB, 1980), responsável por armamentos, munições e explosivos. As duas foram reunificadas pelo Decreto nº 4.549, de 2002, dando origem à atual Diretoria de Material Aeronáutico e Bélico, que comemora seu aniversário em 26 de novembro (marco de 1999). Hoje é o órgão central do Sistema de Material Aeronáutico e Bélico (SISMAB), responsável por todo o ciclo logístico do material aeronáutico e bélico, da definição de requisitos e aquisição até a manutenção, o armazenamento e o desfazimento. Integra a estrutura do Comando-Geral de Apoio (COMGAP).',
+    situacao: { nome: 'confirmado', localizacao: 'a-conferir', subordinacao: 'a-conferir' },
+    fontes: [
+      { titulo: 'Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica', url: 'https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm' },
+      { titulo: 'Histórico da DIRMAB (enviado pelo instrutor)' },
+    ],
+    revisadoEm: hoje,
+  });
   // esquadrões sem sede identificável: usar a primeira base existente da UF? Não: ficam sem sediadoEm e são listados.
   const semSede = [...saida.values()].filter((u) => u.categoria === 'esquadrao' && (!u.sediadoEm || !saida.has(u.sediadoEm)));
   if (semSede.length) console.warn('Esquadrões sem sede:', semSede.map((u) => `${u.sigla} (${u.cidade})`).join(', '));
