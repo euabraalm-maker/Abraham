@@ -85,6 +85,6 @@ export function renderizarFicha(u: Unidade, porId: Map<string, Unidade>, modo: '
     ),
     h('footer', { class: 'revisao' },
       `Revisado em ${dataBr(u.revisadoEm)}`,
-      u.fontes.length ? h('span', {}, ' · Fontes: ', u.fontes.flatMap((f, i) => [i ? ', ' : '', h('a', { href: f.url, target: '_blank', rel: 'noopener' }, f.titulo)])) : null),
+      u.fontes.length ? h('span', {}, ' · Fontes: ', u.fontes.flatMap((f, i) => [i ? ', ' : '', f.url ? h('a', { href: f.url, target: '_blank', rel: 'noopener' }, f.titulo) : f.titulo])) : null),
   );
 }

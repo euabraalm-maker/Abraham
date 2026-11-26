@@ -2,6 +2,9 @@
 Monta data/fontes/posicoes.json: posição real de cada unidade, com a fonte.
 Entradas: resultado do geocodificar.py (OSM/Nominatim), extração do catálogo (endereços) e âncoras de complexos.
 Uso: python3 -I scripts/curar-posicoes.py <geo.json> <extracao.json>
+ATENÇÃO: rodar logo após importar-catalogo.ts e coords-municipios.mjs, ANTES de aplicar-pesquisa.mjs
+(depois dele todas as posições já estão aplicadas e o arquivo sairia vazio). Na manutenção do dia a dia,
+basta editar data/fontes/posicoes.json e rodar aplicar-pesquisa.mjs.
 Regras: nome do lugar no OSM bate com a unidade → posição do lugar; endereço do catálogo num complexo
 conhecido → posição do complexo; resultado só no nível da rua ou rodovia → descartado (fica aproximada).
 """
@@ -20,6 +23,7 @@ MANUAL = {
     'crcea-se': (AER['SBSP'], 'Aeroporto de Congonhas, torre de controle (página do DECEA)'),
     'cindacta-iv': ([-60.05394, -3.02267], 'CINDACTA IV (OpenStreetMap)'),
     'dtcea-mdi': ([-49.47456, -28.12591], 'Cume do Morro da Igreja (OpenStreetMap)'),
+    'cgtec': ([-43.21471, -22.87466], 'Dentro do PAME-RJ (informação do instrutor)'),
 }
 
 def main(geo_arq, ext_arq):

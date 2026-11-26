@@ -337,6 +337,10 @@
    {
     "titulo": "OurAirports — coordenadas do aeródromo (SBCG)",
     "url": "https://ourairports.com/countries/BR/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/bacg/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2071,6 +2075,10 @@
    {
     "titulo": "Posição: Ministério da Defesa - Comando da Aeronáutica - FAB (OpenStreetMap)",
     "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www.fab.mil.br/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3373,18 +3381,21 @@
    -22.90702
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "pame-rj",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Informação do instrutor (página institucional do CGTEC/PAME-RJ)"
    },
    {
     "titulo": "Posição: Av. General Justo, 160 (DECEA) — endereço do catálogo",
@@ -10556,6 +10567,10 @@
    {
     "titulo": "Posição: Aeroporto de Congonhas, torre de controle (página do DECEA)",
     "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=crcea-se"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -10586,6 +10601,40 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cgtec",
+  "sigla": "CGTEC",
+  "nome": "Centro de Gerenciamento Técnico do SISCEAB",
+  "categoria": "decea",
+  "tipoCatalogo": "Centro",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.21471,
+   -22.87466
+  ],
+  "coordSituacao": "exata",
+  "subordinadaA": "pame-rj",
+  "site": null,
+  "ficha": "basica",
+  "historico": "Criado a partir da Diretriz para a Implantação do Centro de Gerenciamento Técnico do SISCEAB (DCA 21-2), aprovada pelo DECEA em julho de 2009, para otimizar o gerenciamento do estado técnico e operacional dos sistemas, equipamentos e redes do SISCEAB. Funciona no Parque de Material de Eletrônica da Aeronáutica do Rio de Janeiro (PAME-RJ), que abriga desde outubro de 2012 o seu núcleo (NuCGTEC), responsável pelo monitoramento contínuo das infraestruturas de suporte ao controle do espaço aéreo.",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Informação do instrutor (página institucional do CGTEC/PAME-RJ)"
+   },
+   {
+    "titulo": "Posição: Dentro do PAME-RJ (informação do instrutor)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"

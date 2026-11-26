@@ -4,7 +4,8 @@ export type CategoriaId =
   | 'base' | 'comando' | 'decea' | 'dtcea' | 'escola' | 'grupamento' | 'parque'
   | 'saude' | 'prefeitura' | 'ciencia' | 'administracao' | 'esquadrao' | 'exterior';
 export type Situacao = 'confirmado' | 'a-conferir';
-export interface Fonte { titulo: string; url: string }
+/** De onde veio a informação; `url` é opcional (ex.: informação dada pelo instrutor). */
+export interface Fonte { titulo: string; url?: string }
 export interface Imagem { arquivo: string; credito: string; licenca: string; origem: string }
 export interface Unidade {
   id: string;
@@ -58,6 +59,6 @@ export const esquemaUnidade: z.ZodType<Unidade> = z.object({
   brasao: imagem.optional(),
   foto: imagem.optional(),
   situacao: z.object({ nome: situacao, localizacao: situacao, subordinacao: situacao }),
-  fontes: z.array(z.object({ titulo: z.string(), url: z.string().url() })),
+  fontes: z.array(z.object({ titulo: z.string(), url: z.string().url().optional() })),
   revisadoEm: z.string(),
 }).strict();

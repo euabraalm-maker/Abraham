@@ -16,6 +16,7 @@ const F = {
   comar2: { titulo: 'II COMAR — Unidades Subordinadas', url: 'https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas' },
   bacg: { titulo: 'Base Aérea de Campo Grande (página oficial)', url: 'https://www2.fab.mil.br/bacg/' },
   aerodromo: { titulo: 'OurAirports — coordenadas do aeródromo', url: 'https://ourairports.com/countries/BR/' },
+  instrutor: { titulo: 'Informação do instrutor (página institucional do CGTEC/PAME-RJ)' },
 };
 
 const dt = (...xs) => xs.map((x) => `dtcea-${x}`);
@@ -37,6 +38,7 @@ const SUBORDINACAO = [
   ['dirad', ['cae'], F.decreto],
   ['1-gcc', ['1-1-gcc', '2-1-gcc', '3-1-gcc', '4-1-gcc', '5-1-gcc'], F.gcc],
   ['ii-comar', ['bant', 'barf', 'basv', 'bafz'], F.comar2],
+  ['pame-rj', ['dtceatm-rj', 'cgtec'], F.instrutor],
   ['iv-comar', ['bacg'], F.bacg],
   ['cindacta-i', dt('an', 'bq', 'br', 'bw', 'cc', 'cf', 'cy', 'ga', 'gi', 'ls', 'pco', 'sro', 'sta', 'tnb', 'trm', 'ys'), F.cindacta1],
   ['cindacta-ii', dt('bi', 'co', 'fi', 'ct', 'fl', 'sm', 'ug', 'mdi', 'cgu', 'sti', 'cdt', 'cg', 'cr'), F.cindacta2],
@@ -117,7 +119,7 @@ const icao = new Map(csv.slice(1).map((l) => [l[iIdent], [Number(Number(l[iLon])
 const unidades = JSON.parse(readFileSync('data/unidades.json', 'utf8'));
 const porId = new Map(unidades.map((u) => [u.id, u]));
 const faltam = [];
-const addFonte = (u, f) => { if (!u.fontes.some((x) => x.url === f.url)) u.fontes.push(f); };
+const addFonte = (u, f) => { if (!u.fontes.some((x) => x.url === f.url && x.titulo === f.titulo)) u.fontes.push(f); };
 
 for (const [sup, subs, fonte] of SUBORDINACAO) {
   if (!porId.has(sup)) { faltam.push(sup); continue; }
