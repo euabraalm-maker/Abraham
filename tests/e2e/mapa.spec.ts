@@ -15,14 +15,14 @@ test('clicar numa unidade isolada seleciona a unidade', async ({ page }) => {
   await abrirMapa(page);
   const p = await pontoDaUnidade(page, 'dtcea-oi');
   await page.mouse.click(p.x, p.y);
-  await expect(page.locator('#ficha')).toHaveAttribute('data-id', 'dtcea-oi');
+  await expect(page.locator('#painel-ficha .ficha')).toHaveAttribute('data-id', 'dtcea-oi');
 });
 
 test('bolha de unidades no mesmo ponto abre a lista do grupo', async ({ page }) => {
   await abrirMapa(page);
   const p = await pontoDaUnidade(page, 'bagl');
   await page.mouse.click(p.x, p.y);
-  const itens = page.locator('#lista-grupo li');
+  const itens = page.locator('#lista-grupo button');
   await expect(itens.first()).toBeVisible();
   expect(await itens.count()).toBeGreaterThan(3);
 });

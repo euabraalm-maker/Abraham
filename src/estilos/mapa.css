@@ -8,3 +8,4 @@
 }
 .maplibregl-ctrl-group { background: var(--vidro) !important; border: 1px solid var(--vidro-borda); backdrop-filter: blur(10px); }
 :root[data-tema="escuro"] .maplibregl-ctrl-group button .maplibregl-ctrl-icon { filter: invert(1); }
+.maplibregl-ctrl-bottom-right { margin-bottom: 26px; }

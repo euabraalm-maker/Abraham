@@ -40,6 +40,7 @@
   :root { font-size: 18px; }
 }
 html, body { height: 100%; margin: 0; }
+[hidden] { display: none !important; }
 body {
   background: radial-gradient(90% 80% at 30% 20%, var(--fundo-3) 0%, var(--fundo-2) 45%, var(--fundo) 100%) fixed;
   color: var(--texto);
