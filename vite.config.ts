@@ -20,7 +20,7 @@ export default defineConfig({
   plugins: [
     VitePWA({
       registerType: 'autoUpdate',
-      injectRegister: 'auto',
+      injectRegister: false, // registro feito em src/ui/atualizacao.ts
       manifest: {
         name: 'Mapa das OM da FAB',
         short_name: 'Mapa OM FAB',
@@ -35,6 +35,10 @@ export default defineConfig({
         // app, dados das unidades (no código), divisas e regiões
         globPatterns: ['**/*.{js,css,html,json,woff,woff2,svg,png,webp}'],
         maximumFileSizeToCacheInBytes: 3 * 1024 * 1024,
+        // a versão nova assume na hora (sem esperar fechar todas as abas)
+        skipWaiting: true,
+        clientsClaim: true,
+        cleanupOutdatedCaches: true,
         navigateFallbackDenylist: [new RegExp(`^${base}om\\.html`)],
         runtimeCaching: [
           {

@@ -1,4 +1,7 @@
 import '../estilos/fontes';
+import { manterAtualizado } from '../ui/atualizacao';
+
+manterAtualizado();
 import '../estilos/vidro.css';
 import '../estilos/pagina.css';
 import { carregar } from '../dados/carregar';

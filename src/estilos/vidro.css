@@ -131,3 +131,8 @@
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+.aviso-atualizacao {
+  position: fixed; z-index: 100; left: 50%; bottom: max(24px, env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+  background: var(--gradiente-acao); color: #fff; font: 600 0.9rem var(--f-texto);
+  padding: 10px 18px; border-radius: 999px; box-shadow: 0 12px 30px rgba(5, 10, 40, 0.4);
+}
