@@ -1,23 +1,8923 @@
 [
-  {
-    "id": "baan", "sigla": "BAAN", "nome": "Base Aérea de Anápolis", "categoria": "base", "tipoCatalogo": "Base",
-    "cidade": "Anápolis", "uf": "GO", "pais": "Brasil", "coord": [-48.97, -16.23], "coordSituacao": "aproximada",
-    "subordinadaA": null, "site": null, "ficha": "basica",
-    "situacao": { "nome": "confirmado", "localizacao": "a-conferir", "subordinacao": "a-conferir" },
-    "fontes": [{ "titulo": "Catálogo do COMAER (PDF)", "url": "https://www.fab.mil.br/" }], "revisadoEm": "2026-11-26"
+ {
+  "id": "afa",
+  "sigla": "AFA",
+  "nome": "Academia da Força Aérea",
+  "categoria": "escola",
+  "tipoCatalogo": "Academia",
+  "cidade": "Pirassununga",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -47.4257,
+   -21.996
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.afa.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
   },
-  {
-    "id": "1-gda", "sigla": "1º GDA", "nome": "Primeiro Grupo de Defesa Aérea", "categoria": "esquadrao", "tipoCatalogo": "Grupo",
-    "cidade": "Anápolis", "uf": "GO", "pais": "Brasil", "coord": null, "coordSituacao": "aproximada",
-    "subordinadaA": null, "sediadoEm": "baan", "site": null, "ficha": "basica",
-    "situacao": { "nome": "confirmado", "localizacao": "a-conferir", "subordinacao": "a-conferir" },
-    "fontes": [{ "titulo": "Catálogo do COMAER (PDF)", "url": "https://www.fab.mil.br/" }], "revisadoEm": "2026-11-26"
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "adidancia-indonesia",
+  "sigla": "ADIDÂNCIA INDONÉSIA",
+  "nome": "Adido de Defesa Naval e Aeronáutico do Brasil na Indonésia, na Tailândia e no Vietnã",
+  "categoria": "exterior",
+  "tipoCatalogo": "Adidância",
+  "cidade": "Jacarta",
+  "uf": null,
+  "pais": "Indonésia",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
   },
-  {
-    "id": "cabw", "sigla": "CABW", "nome": "Comissão Aeronáutica Brasileira em Washington", "categoria": "exterior", "tipoCatalogo": "Comissão / Missão",
-    "cidade": "Washington", "uf": null, "pais": "Estados Unidos", "coord": null, "coordSituacao": "aproximada",
-    "subordinadaA": null, "site": null, "ficha": "basica",
-    "situacao": { "nome": "confirmado", "localizacao": "a-conferir", "subordinacao": "a-conferir" },
-    "fontes": [{ "titulo": "Catálogo do COMAER (PDF)", "url": "https://www.fab.mil.br/" }], "revisadoEm": "2026-11-26"
-  }
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "adidancia-suecia",
+  "sigla": "ADIDÂNCIA SUÉCIA",
+  "nome": "Adido de Defesa, Naval, do Exército e Aeronáutica na Suécia",
+  "categoria": "exterior",
+  "tipoCatalogo": "Adidância",
+  "cidade": "Estocolmo",
+  "uf": null,
+  "pais": "Suécia",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "asocea",
+  "sigla": "ASOCEA",
+  "nome": "Assessoria de Segurança Operacional do Controle do Espaço Aéreo",
+  "categoria": "decea",
+  "tipoCatalogo": "Assessoria",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.asocea.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "aspaer",
+  "sigla": "ASPAER",
+  "nome": "Assessoria Parlamentar e de Relações Institucionais do Comando da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Assessoria",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "baan",
+  "sigla": "BAAN",
+  "nome": "Base Aérea de Anápolis",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Anápolis",
+  "uf": "GO",
+  "pais": "Brasil",
+  "coord": [
+   -48.953,
+   -16.3281
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "babe",
+  "sigla": "BABE",
+  "nome": "Base Aérea de Belém",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Belém",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -48.4898,
+   -1.4554
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "babv",
+  "sigla": "BABV",
+  "nome": "Base Aérea de Boa Vista",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Boa Vista",
+  "uf": "RR",
+  "pais": "Brasil",
+  "coord": [
+   -60.6753,
+   2.8238
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "babr",
+  "sigla": "BABR",
+  "nome": "Base Aérea de Brasília",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "bacg",
+  "sigla": "BACG",
+  "nome": "Base Aérea de Campo Grande",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Campo Grande",
+  "uf": "MS",
+  "pais": "Brasil",
+  "coord": [
+   -54.6295,
+   -20.4486
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "baco",
+  "sigla": "BACO",
+  "nome": "Base Aérea de Canoas",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Canoas",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -51.1857,
+   -29.9128
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "bafl",
+  "sigla": "BAFL",
+  "nome": "Base Aérea de Florianópolis",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Florianópolis",
+  "uf": "SC",
+  "pais": "Brasil",
+  "coord": [
+   -48.5477,
+   -27.5945
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/bafl",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "bafz",
+  "sigla": "BAFZ",
+  "nome": "Base Aérea de Fortaleza",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Fortaleza",
+  "uf": "CE",
+  "pais": "Brasil",
+  "coord": [
+   -38.5423,
+   -3.7166
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "bamn",
+  "sigla": "BAMN",
+  "nome": "Base Aérea de Manaus",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -60.0212,
+   -3.1187
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "bant",
+  "sigla": "BANT",
+  "nome": "Base Aérea de Natal",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Parnamirim",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": [
+   -35.271,
+   -5.9112
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "bapv",
+  "sigla": "BAPV",
+  "nome": "Base Aérea de Porto Velho",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Porto Velho",
+  "uf": "RO",
+  "pais": "Brasil",
+  "coord": [
+   -63.8999,
+   -8.7608
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "barf",
+  "sigla": "BARF",
+  "nome": "Base Aérea de Recife",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Recife",
+  "uf": "PE",
+  "pais": "Brasil",
+  "coord": [
+   -34.8771,
+   -8.0467
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "basv",
+  "sigla": "BASV",
+  "nome": "Base Aérea de Salvador",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Salvador",
+  "uf": "BA",
+  "pais": "Brasil",
+  "coord": [
+   -38.5011,
+   -12.9718
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "basc",
+  "sigla": "BASC",
+  "nome": "Base Aérea de Santa Cruz",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "basm",
+  "sigla": "BASM",
+  "nome": "Base Áerea de Santa Maria",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Santa Maria",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -53.8149,
+   -29.6868
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "bast",
+  "sigla": "BAST",
+  "nome": "Base Aérea de Santos",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Guarujá",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.258,
+   -23.9888
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "basp",
+  "sigla": "BASP",
+  "nome": "Base Aérea de São Paulo",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Guarulhos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.5333,
+   -23.4538
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "bagl",
+  "sigla": "BAGL",
+  "nome": "Base Aérea do Galeão",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "baaf",
+  "sigla": "BAAF",
+  "nome": "Base Aérea dos Afonsos",
+  "categoria": "base",
+  "tipoCatalogo": "Base",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "brevet",
+  "sigla": "BREVET",
+  "nome": "Base de Recepção de Veteranos",
+  "categoria": "administracao",
+  "tipoCatalogo": "Base",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/brevet",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cfiae",
+  "sigla": "CFIAE",
+  "nome": "Caixa de Financiamento Imobiliário da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Caixa",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.cfiae.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cpbv",
+  "sigla": "CPBV",
+  "nome": "Campo de Provas Brigadeiro Velloso",
+  "categoria": "ciencia",
+  "tipoCatalogo": "Campo",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/cpbv",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ceap",
+  "sigla": "CEAP",
+  "nome": "Centro de Apoio Administrativo da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cae",
+  "sigla": "CAE",
+  "nome": "Centro de Aquisições Específicas",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cecat",
+  "sigla": "CECAT",
+  "nome": "Centro de Catalogação da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/cecat",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cca-br",
+  "sigla": "CCA-BR",
+  "nome": "Centro de Computação da Aeronáutica de Brasília",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cca-sj",
+  "sigla": "CCA-SJ",
+  "nome": "Centro de Computação da Aeronáutica de São José dos Campos",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cca-rj",
+  "sigla": "CCA-RJ",
+  "nome": "Centro de Computação de Aeronáutica do Rio de Janeiro",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/sti",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cecomsaer",
+  "sigla": "CECOMSAER",
+  "nome": "Centro de Comunicação Social da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cenciar",
+  "sigla": "CENCIAR",
+  "nome": "Centro de Controle Interno da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.cenciar.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cdcaer",
+  "sigla": "CDCAER",
+  "nome": "Centro de Defesa Cibernética da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cendoc",
+  "sigla": "CENDOC",
+  "nome": "Centro de Documentação Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cepe",
+  "sigla": "CEPE",
+  "nome": "Centro de Estudos e Projetos de Engenharia",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cgna",
+  "sigla": "CGNA",
+  "nome": "Centro de Gerenciamento da Navegação Aérea",
+  "categoria": "decea",
+  "tipoCatalogo": "Centro",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ciaar",
+  "sigla": "CIAAR",
+  "nome": "Centro de Instrução e Adaptação da Aeronáutica",
+  "categoria": "escola",
+  "tipoCatalogo": "Centro",
+  "cidade": "Lagoa Santa",
+  "uf": "MG",
+  "pais": "Brasil",
+  "coord": [
+   -43.8932,
+   -19.6397
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.fab.mil.br/ciaar",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ciaer",
+  "sigla": "CIAER",
+  "nome": "Centro de Inteligência da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cenipa",
+  "sigla": "CENIPA",
+  "nome": "Centro de Investigação e Prevenção de Acidentes Aeronáuticos",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.cenipa.fab.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "clbi",
+  "sigla": "CLBI",
+  "nome": "Centro de Lançamento da Barreira do Inferno",
+  "categoria": "ciencia",
+  "tipoCatalogo": "Centro",
+  "cidade": "Parnamirim",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": [
+   -35.271,
+   -5.9112
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/clbi",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cla",
+  "sigla": "CLA",
+  "nome": "Centro de Lançamento de Alcântara",
+  "categoria": "ciencia",
+  "tipoCatalogo": "Centro",
+  "cidade": "São Luís",
+  "uf": "MA",
+  "pais": "Brasil",
+  "coord": [
+   -44.2825,
+   -2.5387
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cemal",
+  "sigla": "CEMAL",
+  "nome": "Centro de Medicina Aeroespacial",
+  "categoria": "saude",
+  "tipoCatalogo": "Centro",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cporaer-sj",
+  "sigla": "CPORAER-SJ",
+  "nome": "Centro de Preparação de Oficiais da Reserva da Aeronáutica de São José dos Campos",
+  "categoria": "escola",
+  "tipoCatalogo": "Centro",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://cporaersj.dcta.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ctla",
+  "sigla": "CTLA",
+  "nome": "Centro de Transporte Logístico da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cgabeg",
+  "sigla": "CGABEG",
+  "nome": "Centro Gerontológica de Aeronáutica Eduardo Gomes",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.cgabeg.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cimaer",
+  "sigla": "CIMAER",
+  "nome": "Centro Integrado de Meteorologia Aeronáutica",
+  "categoria": "decea",
+  "tipoCatalogo": "Centro",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/cimaer",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "celog",
+  "sigla": "CELOG",
+  "nome": "Centro Logístico da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Centro",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/celog",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cindacta-i",
+  "sigla": "CINDACTA I",
+  "nome": "Primeiro Centro Integrado de Defesa Aérea e Controle de Tráfego Aéreo",
+  "categoria": "decea",
+  "tipoCatalogo": "Centro",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cindacta-iv",
+  "sigla": "CINDACTA IV",
+  "nome": "Quarto Centro Integrado de Defesa Aérea e Controle de Tráfego Aéreo",
+  "categoria": "decea",
+  "tipoCatalogo": "Centro",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -60.0212,
+   -3.1187
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.cindacta4.decea.gov.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cindacta-ii",
+  "sigla": "CINDACTA II",
+  "nome": "Segundo Centro Integrado de Defesa Aérea e Controle de Tráfego Aéreo",
+  "categoria": "decea",
+  "tipoCatalogo": "Centro",
+  "cidade": "Curitiba",
+  "uf": "PR",
+  "pais": "Brasil",
+  "coord": [
+   -49.2646,
+   -25.4195
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cindacta-iii",
+  "sigla": "CINDACTA III",
+  "nome": "Terceiro Centro Integrado de Defesa Aérea e Controle de Tráfego Aéreo",
+  "categoria": "decea",
+  "tipoCatalogo": "Centro",
+  "cidade": "Recife",
+  "uf": "PE",
+  "pais": "Brasil",
+  "coord": [
+   -34.8771,
+   -8.0467
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cbnb",
+  "sigla": "CBNB",
+  "nome": "Colégio Brigadeiro Newton Braga",
+  "categoria": "escola",
+  "tipoCatalogo": "Colegio",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.cbnb.gov.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "vii-comar",
+  "sigla": "VII COMAR",
+  "nome": "Sétimo Comando Aéreo Regional",
+  "categoria": "comando",
+  "tipoCatalogo": "Comando",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -60.0212,
+   -3.1187
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "comaer",
+  "sigla": "COMAER",
+  "nome": "Comando da Aeronáutica",
+  "categoria": "comando",
+  "tipoCatalogo": "Comando",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "comae",
+  "sigla": "COMAE",
+  "nome": "Comando de Operações Aeroespaciais",
+  "categoria": "comando",
+  "tipoCatalogo": "Comando",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "comprep",
+  "sigla": "COMPREP",
+  "nome": "Comando de Preparo",
+  "categoria": "comando",
+  "tipoCatalogo": "Comando",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "comgep",
+  "sigla": "COMGEP",
+  "nome": "Comando-geral do Pessoal",
+  "categoria": "comando",
+  "tipoCatalogo": "Comando",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ii-comar",
+  "sigla": "II COMAR",
+  "nome": "Segundo Comando Aéreo Regional",
+  "categoria": "comando",
+  "tipoCatalogo": "Comando",
+  "cidade": "Recife",
+  "uf": "PE",
+  "pais": "Brasil",
+  "coord": [
+   -34.8771,
+   -8.0467
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "iii-comar",
+  "sigla": "III COMAR",
+  "nome": "Terceiro Comando Aéreo Regional",
+  "categoria": "comando",
+  "tipoCatalogo": "Comando",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/comar3",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "iv-comar",
+  "sigla": "IV COMAR",
+  "nome": "Quarto Comando Aéreo Regional",
+  "categoria": "comando",
+  "tipoCatalogo": "Comando",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "v-comar",
+  "sigla": "V COMAR",
+  "nome": "Quinto Comando Aéreo Regional",
+  "categoria": "comando",
+  "tipoCatalogo": "Comando",
+  "cidade": "Canoas",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -51.1857,
+   -29.9128
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "vi-comar",
+  "sigla": "VI COMAR",
+  "nome": "Sexto Comando Aéreo Regional",
+  "categoria": "comando",
+  "tipoCatalogo": "Comando",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cabw",
+  "sigla": "CABW",
+  "nome": "Comissão Aeronáutica Brasileira em Washington",
+  "categoria": "exterior",
+  "tipoCatalogo": "Comissão / Missão",
+  "cidade": "Washington",
+  "uf": null,
+  "pais": "Estados Unidos",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cabe",
+  "sigla": "CABE",
+  "nome": "Comissão Aeronáutica Brasileira na Europa",
+  "categoria": "exterior",
+  "tipoCatalogo": "Comissão / Missão",
+  "cidade": "Londres",
+  "uf": null,
+  "pais": "Reino Unido",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "copac",
+  "sigla": "COPAC",
+  "nome": "Comissão Coordenadora do Programa Aeronave de Combate",
+  "categoria": "administracao",
+  "tipoCatalogo": "Comissão / Missão",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "comara",
+  "sigla": "COMARA",
+  "nome": "Comissão de Aeroportos da Região Amazônica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Comissão / Missão",
+  "cidade": "Belém",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -48.4898,
+   -1.4554
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.comara.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ccise",
+  "sigla": "CCISE",
+  "nome": "Comissão de Coordenação e Implantação de Sistemas Espaciais",
+  "categoria": "administracao",
+  "tipoCatalogo": "Comissão / Missão",
+  "cidade": "Brasilia",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/ccise",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cda",
+  "sigla": "CDA",
+  "nome": "Comissão de Desportos da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Comissão / Missão",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ciscea",
+  "sigla": "CISCEA",
+  "nome": "Comissão de Implantação do Sistema de Controle do Espaço Aéreo",
+  "categoria": "decea",
+  "tipoCatalogo": "Comissão / Missão",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.ciscea.gov.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "cojaer",
+  "sigla": "COJAER",
+  "nome": "Consultoria Jurídica Adjunta do Comando da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Consultoria",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dcta",
+  "sigla": "DCTA",
+  "nome": "Departamento de Ciência e Tecnologia Aeroespacial",
+  "categoria": "ciencia",
+  "tipoCatalogo": "Departamento",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "decea",
+  "sigla": "DECEA",
+  "nome": "Departamento de Controle do Espaço Aéreo",
+  "categoria": "decea",
+  "tipoCatalogo": "Departamento",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.decea.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "destae-cv",
+  "sigla": "DESTAE-CV",
+  "nome": "Destacamento de Aeronáutica de Caravelas",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Caravelas",
+  "uf": "BA",
+  "pais": "Brasil",
+  "coord": [
+   -39.2597,
+   -17.7268
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "destae-fn",
+  "sigla": "DESTAE-FN",
+  "nome": "Destacamento de Aeronáutica de Fernando de Noronha",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Fernando de Noronha",
+  "uf": "PE",
+  "pais": "Brasil",
+  "coord": [
+   -32.4107,
+   -3.8396
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "destae-mq",
+  "sigla": "DESTAE-MQ",
+  "nome": "Destacamento de Aeronáutica de Macapá",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Macapá",
+  "uf": "AP",
+  "pais": "Brasil",
+  "coord": [
+   -51.0694,
+   0.0349
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "destae-ms",
+  "sigla": "DESTAE-MS",
+  "nome": "Destacamento de Aeronáutica de Mossoró",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Mossoró",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": [
+   -37.3474,
+   -5.1837
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dasg",
+  "sigla": "DASG",
+  "nome": "Destacamento de Aeronáutica de São Gabriel da Cachoeira",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "São Gabriel da Cachoeira",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -67.084,
+   -0.1191
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-bq",
+  "sigla": "DTCEA-BQ",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Barbacena",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Barbacena",
+  "uf": "MG",
+  "pais": "Brasil",
+  "coord": [
+   -43.7703,
+   -21.2214
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-bi",
+  "sigla": "DTCEA-BI",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Bacacheri",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Curitiba",
+  "uf": "PR",
+  "pais": "Brasil",
+  "coord": [
+   -49.2646,
+   -25.4195
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-gw",
+  "sigla": "DTCEA-GW",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Guaratinguetá",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Guaratinguetá",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.1938,
+   -22.8075
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-mt",
+  "sigla": "DTCEA-MT",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Marte",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-sc",
+  "sigla": "DTCEA-SC",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Santa Cruz",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-sm",
+  "sigla": "DTCEA-SM",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Santa Maria",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Santa Maria",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -53.8149,
+   -29.6868
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-st",
+  "sigla": "DTCEA-ST",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Santos",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Guarujá",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.258,
+   -23.9888
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-fa",
+  "sigla": "DTCEA-FA",
+  "nome": "Destacamento de Controle do Espaço Aéreo de São Félix do Araguaia",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "São Felix do Araguaia",
+  "uf": "MT",
+  "pais": "Brasil",
+  "coord": [
+   -50.6706,
+   -11.615
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-sp",
+  "sigla": "DTCEA-SP",
+  "nome": "Destacamento de Controle do Espaço Aéreo de São Paulo",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-si",
+  "sigla": "DTCEA-SI",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Sinop",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Sinop",
+  "uf": "MT",
+  "pais": "Brasil",
+  "coord": [
+   -55.5091,
+   -11.8604
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-gl",
+  "sigla": "DTCEA-GL",
+  "nome": "Destacamento de Controle do Espaço Aéreo do Galeão",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-af",
+  "sigla": "DTCEA-AF",
+  "nome": "Destacamento de Controle do Espaço Aéreo dos Afonsos",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtceatm-rj",
+  "sigla": "DTCEATM-RJ",
+  "nome": "Destacamento de Controle do Espaço Aéreo e Telemática do Rio de Janeiro",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-bv",
+  "sigla": "DTCEA-BV",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Boa Vista",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Boa Vista",
+  "uf": "RR",
+  "pais": "Brasil",
+  "coord": [
+   -60.6753,
+   2.8238
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-ek",
+  "sigla": "DTCEA-EK",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Jacareacanga",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Jacareacanga",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -57.7544,
+   -6.2147
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-an",
+  "sigla": "DTCEA-AN",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Anápolis",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Anápolis",
+  "uf": "GO",
+  "pais": "Brasil",
+  "coord": [
+   -48.953,
+   -16.3281
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-ar",
+  "sigla": "DTCEA-AR",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Aracaju",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Aracaju",
+  "uf": "SE",
+  "pais": "Brasil",
+  "coord": [
+   -37.0677,
+   -10.9091
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-bw",
+  "sigla": "DTCEA-BW",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Barra do Garças",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Barra do Garças",
+  "uf": "MT",
+  "pais": "Brasil",
+  "coord": [
+   -52.264,
+   -15.8804
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-be",
+  "sigla": "DTCEA-BE",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Belém",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Belém",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -48.4898,
+   -1.4554
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-lp",
+  "sigla": "DTCEA-LP",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Bom Jesus da Lapa",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Bom Jesus da Lapa",
+  "uf": "BA",
+  "pais": "Brasil",
+  "coord": [
+   -43.4108,
+   -13.2506
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-br",
+  "sigla": "DTCEA-BR",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Brasília",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-cc",
+  "sigla": "DTCEA-CC",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Cachimbo",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Cachimbo",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -55.3786,
+   -7.1435
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-cg",
+  "sigla": "DTCEA-CG",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Campo Grande",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Campo Grande",
+  "uf": "MS",
+  "pais": "Brasil",
+  "coord": [
+   -54.6295,
+   -20.4486
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-cgu",
+  "sigla": "DTCEA-CGU",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Canguçu",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Canguçu",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -52.6783,
+   -31.396
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-co",
+  "sigla": "DTCEA-CO",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Canoas",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Canoas",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -51.1857,
+   -29.9128
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-cdt",
+  "sigla": "DTCEA-CDT",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Catanduvas",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Catanduvas",
+  "uf": "PR",
+  "pais": "Brasil",
+  "coord": [
+   -53.1548,
+   -25.2044
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-gi",
+  "sigla": "DTCEA-GI",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Chapada dos Guimarães",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Chapada dos Guimarães",
+  "uf": "MT",
+  "pais": "Brasil",
+  "coord": [
+   -55.7499,
+   -15.4643
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-aa",
+  "sigla": "DTCEA-AA",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Conceição do Araguia",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Conceição do Araguaia",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -49.2689,
+   -8.2614
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-cf",
+  "sigla": "DTCEA-CF",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Confins",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Confins",
+  "uf": "MG",
+  "pais": "Brasil",
+  "coord": [
+   -43.9931,
+   -19.6282
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-cr",
+  "sigla": "DTCEA-CR",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Corumbá",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Corumbá",
+  "uf": "MS",
+  "pais": "Brasil",
+  "coord": [
+   -57.651,
+   -19.0077
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-cz",
+  "sigla": "DTCEA-CZ",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Cruzeiro do Sul",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Cruzeiro do Sul",
+  "uf": "AC",
+  "pais": "Brasil",
+  "coord": [
+   -72.6756,
+   -7.6276
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-cy",
+  "sigla": "DTCEA-CY",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Cuiabá",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Várzea Grande",
+  "uf": "MT",
+  "pais": "Brasil",
+  "coord": [
+   -56.1322,
+   -15.6458
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-ct",
+  "sigla": "DTCEA-CT",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Curitiba",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "São José dos Pinhais",
+  "uf": "PR",
+  "pais": "Brasil",
+  "coord": [
+   -49.2031,
+   -25.5313
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-eg",
+  "sigla": "DTCEA-EG",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Eduardo Gomes",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -60.0212,
+   -3.1187
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-ei",
+  "sigla": "DTCEA-EI",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Eirunepé",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Eirunepé",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -69.8662,
+   -6.6568
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-fn",
+  "sigla": "DTCEA-FN",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Fernando de Noronha",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Fernando de Noronha",
+  "uf": "PE",
+  "pais": "Brasil",
+  "coord": [
+   -32.4107,
+   -3.8396
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-fl",
+  "sigla": "DTCEA-FL",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Florianópolis",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Florianópolis",
+  "uf": "SC",
+  "pais": "Brasil",
+  "coord": [
+   -48.5477,
+   -27.5945
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-fz",
+  "sigla": "DTCEA-FZ",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Fortaleza",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Fortaleza",
+  "uf": "CE",
+  "pais": "Brasil",
+  "coord": [
+   -38.5423,
+   -3.7166
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-fi",
+  "sigla": "DTCEA-FI",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Foz do Iguaçu",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Foz do Iguaçu",
+  "uf": "PR",
+  "pais": "Brasil",
+  "coord": [
+   -54.5827,
+   -25.5427
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-ga",
+  "sigla": "DTCEA-GA",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Gama",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Gama",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-gm",
+  "sigla": "DTCEA-GM",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Guajará-mirim",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Guajará-Mirim",
+  "uf": "RO",
+  "pais": "Brasil",
+  "coord": [
+   -65.3296,
+   -10.7889
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-iz",
+  "sigla": "DTCEA-IZ",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Imperatriz",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Imperatriz",
+  "uf": "MA",
+  "pais": "Brasil",
+  "coord": [
+   -47.4777,
+   -5.5185
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-ls",
+  "sigla": "DTCEA-LS",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Lagoa Santa",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Lagoa Santa",
+  "uf": "MG",
+  "pais": "Brasil",
+  "coord": [
+   -43.8932,
+   -19.6397
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-mq",
+  "sigla": "DTCEA-MQ",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Macapá",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Macapá",
+  "uf": "AP",
+  "pais": "Brasil",
+  "coord": [
+   -51.0694,
+   0.0349
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-mo",
+  "sigla": "DTCEA-MO",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Maceió",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Rio Largo",
+  "uf": "AL",
+  "pais": "Brasil",
+  "coord": [
+   -35.8394,
+   -9.4778
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-mn",
+  "sigla": "DTCEA-MN",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Manaus",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -60.0212,
+   -3.1187
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-my",
+  "sigla": "DTCEA-MY",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Manicoré",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Manicoré",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -61.2895,
+   -5.8046
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-mdi",
+  "sigla": "DTCEA-MDI",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Morro da Igreja",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Urubici",
+  "uf": "SC",
+  "pais": "Brasil",
+  "coord": [
+   -49.5925,
+   -28.0157
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-nt",
+  "sigla": "DTCEA-NT",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Natal",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Parnamirim",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": [
+   -35.271,
+   -5.9112
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-oi",
+  "sigla": "DTCEA-OI",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Oiapoque",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Oiapoque",
+  "uf": "AP",
+  "pais": "Brasil",
+  "coord": [
+   -51.8331,
+   3.8407
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-pl",
+  "sigla": "DTCEA-PL",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Petrolina",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Petrolina",
+  "uf": "PE",
+  "pais": "Brasil",
+  "coord": [
+   -40.5027,
+   -9.3887
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-pco",
+  "sigla": "DTCEA-PCO",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Pico do Couto",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Petrópolis",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.1926,
+   -22.52
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-ys",
+  "sigla": "DTCEA-YS",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Pirassununga",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Pirassununga",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -47.4257,
+   -21.996
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-ep",
+  "sigla": "DTCEA-EP",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Porto Esperidião",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Porto Esperidião",
+  "uf": "MT",
+  "pais": "Brasil",
+  "coord": [
+   -58.4619,
+   -15.857
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-pv",
+  "sigla": "DTCEA-PV",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Porto Velho",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Porto Velho",
+  "uf": "RO",
+  "pais": "Brasil",
+  "coord": [
+   -63.8999,
+   -8.7608
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-rf",
+  "sigla": "DTCEA-RF",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Recife",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Recife",
+  "uf": "PE",
+  "pais": "Brasil",
+  "coord": [
+   -34.8771,
+   -8.0467
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-rb",
+  "sigla": "DTCEA-RB",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Rio Branco",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Rio Branco",
+  "uf": "AC",
+  "pais": "Brasil",
+  "coord": [
+   -67.8243,
+   -9.975
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-sv",
+  "sigla": "DTCEA-SV",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Salvador",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Salvador",
+  "uf": "BA",
+  "pais": "Brasil",
+  "coord": [
+   -38.5011,
+   -12.9718
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-sta",
+  "sigla": "DTCEA-STA",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Santa Teresa",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Santa Teresa",
+  "uf": "ES",
+  "pais": "Brasil",
+  "coord": [
+   -40.5979,
+   -19.9363
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-sn",
+  "sigla": "DTCEA-SN",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Santarém",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Santarém",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -54.6996,
+   -2.4385
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-sti",
+  "sigla": "DTCEA-STI",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Santiago",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Santiago",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -54.8666,
+   -29.1897
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-fx",
+  "sigla": "DTCEA-FX",
+  "nome": "Destacamento de Controle do Espaço Aéreo de São Félix do Xingu",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "São Félix do Xingu",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -51.9904,
+   -6.6425
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-ua",
+  "sigla": "DTCEA-UA",
+  "nome": "Destacamento de Controle do Espaço Aéreo de São Gabriel da Cachoeira",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "São Gabriel da Cachoeira",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -67.084,
+   -0.1191
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-sj",
+  "sigla": "DTCEA-SJ",
+  "nome": "Destacamento de Controle do Espaço Aéreo de São José dos Campos",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-sl",
+  "sigla": "DTCEA-SL",
+  "nome": "Destacamento de Controle do Espaço Aéreo de São Luís",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "São Luís",
+  "uf": "MA",
+  "pais": "Brasil",
+  "coord": [
+   -44.2825,
+   -2.5387
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-sro",
+  "sigla": "DTCEA-SRO",
+  "nome": "Destacamento de Controle do Espaço Aéreo de São Roque",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "São Roque",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -47.1357,
+   -23.5226
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-tt",
+  "sigla": "DTCEA-TT",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Tabatinga",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Tabatinga",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -69.9383,
+   -4.2416
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-tnb",
+  "sigla": "DTCEA-TNB",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Tanabi",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Tanabi",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -49.6563,
+   -20.6228
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-tf",
+  "sigla": "DTCEA-TF",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Tefé",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Tefé",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -64.7193,
+   -3.3682
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-trm",
+  "sigla": "DTCEA-TRM",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Três Marias",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Três Marias",
+  "uf": "MG",
+  "pais": "Brasil",
+  "coord": [
+   -45.2473,
+   -18.2048
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-ug",
+  "sigla": "DTCEA-UG",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Uruguaiana",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Uruguaiana",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -57.0853,
+   -29.7614
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dtcea-vh",
+  "sigla": "DTCEA-VH",
+  "nome": "Destacamento de Controle do Espaço Aéreo de Vilhena",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Vilhena",
+  "uf": "RO",
+  "pais": "Brasil",
+  "coord": [
+   -60.1488,
+   -12.7502
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dsm-mn",
+  "sigla": "DSM-MN",
+  "nome": "Destacamento de Suprimento e Manutenção de Manaus",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -60.0212,
+   -3.1187
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dts-br",
+  "sigla": "DTS-BR",
+  "nome": "Destacamento de Telecomunicações por Satélite de Brasília",
+  "categoria": "dtcea",
+  "tipoCatalogo": "Destacamento",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dirad",
+  "sigla": "DIRAD",
+  "nome": "Diretoria de Administração da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Diretoria",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dirap",
+  "sigla": "DIRAP",
+  "nome": "Diretoria de Administração do Pessoal",
+  "categoria": "administracao",
+  "tipoCatalogo": "Diretoria",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "diref",
+  "sigla": "DIREF",
+  "nome": "Diretoria de Economia e Finanças da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Diretoria",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "direns",
+  "sigla": "DIRENS",
+  "nome": "Diretoria de Ensino",
+  "categoria": "administracao",
+  "tipoCatalogo": "Diretoria",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dirsa",
+  "sigla": "DIRSA",
+  "nome": "Diretoria de Saúde da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Diretoria",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/dirsa",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dti",
+  "sigla": "DTI",
+  "nome": "Diretoria de Tecnologia da Informação da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Diretoria",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "eaoar",
+  "sigla": "EAOAR",
+  "nome": "Escola de Aperfeiçoamento de Oficiais da Aeronáutica",
+  "categoria": "escola",
+  "tipoCatalogo": "Escola",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ecemar",
+  "sigla": "ECEMAR",
+  "nome": "Escola de Comando e Estado Maior da Aeronaútica",
+  "categoria": "escola",
+  "tipoCatalogo": "Escola",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/ecemar",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "eear",
+  "sigla": "EEAR",
+  "nome": "Escola de Especialistas de Aeronáutica",
+  "categoria": "escola",
+  "tipoCatalogo": "Escola",
+  "cidade": "Guaratinguetá",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.1938,
+   -22.8075
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "epcar",
+  "sigla": "EPCAR",
+  "nome": "Escola Preparatória de Cadetes do Ar",
+  "categoria": "escola",
+  "tipoCatalogo": "Escola",
+  "cidade": "Barbacena",
+  "uf": "MG",
+  "pais": "Brasil",
+  "coord": [
+   -43.7703,
+   -21.2214
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.epcar.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "esg-rio",
+  "sigla": "ESG RIO",
+  "nome": "Escola Superior de Guerra",
+  "categoria": "escola",
+  "tipoCatalogo": "Escola",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "eas",
+  "sigla": "EAS",
+  "nome": "Esquadrão Aeroterrestre de Salvamento — PARA-SAR",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Campo Grande",
+  "uf": "MS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bacg"
+ },
+ {
+  "id": "eda",
+  "sigla": "EDA",
+  "nome": "Esquadrão de Demonstração Aérea",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Pirassununga",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/eda",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "afa"
+ },
+ {
+  "id": "1-eta",
+  "sigla": "1º ETA",
+  "nome": "Primeiro Esquadrão de Transporte Aéreo — Esquadrão Tracajá",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Belém",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "babe"
+ },
+ {
+  "id": "2-eta",
+  "sigla": "2º ETA",
+  "nome": "Segundo Esquadrão de Transporte Aéreo — Esquadrão Pastor",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "NATAL",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bant"
+ },
+ {
+  "id": "3-eta",
+  "sigla": "3º ETA",
+  "nome": "Terceiro Esquadrão de Transporte Aéreo — Esquadrão Pioneiro",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bagl"
+ },
+ {
+  "id": "5-eta",
+  "sigla": "5º ETA",
+  "nome": "Quinto Esquadrão de Transporte Aéreo — Esquadrão Pégaso",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Canoas",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "baco"
+ },
+ {
+  "id": "6-eta",
+  "sigla": "6º ETA",
+  "nome": "Sexto Esquadrão de Transporte Aéreo — Esquadrão Guará",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "babr"
+ },
+ {
+  "id": "7-eta",
+  "sigla": "7º ETA",
+  "nome": "Sétimo Esquadrão de Transporte Aéreo — Esquadrão Cobra",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bamn"
+ },
+ {
+  "id": "1-10-gav",
+  "sigla": "1º/10º GAV",
+  "nome": "Primeiro Esquadrão do Décimo Grupo de Aviação — Esquadrão Poker",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Santa Maria",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "basm"
+ },
+ {
+  "id": "1-11-gav",
+  "sigla": "1º/11º GAV",
+  "nome": "Primeiro Esquadrão do Décimo Primeiro Grupo de Aviação — Esquadrão Gavião",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Parnamirim",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bant"
+ },
+ {
+  "id": "1-14-gav",
+  "sigla": "1º/14º GAV",
+  "nome": "Primeiro Esquadrão do Décimo Quarto Grupo de Aviação — Esquadrão Pampa",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Canoas",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "baco"
+ },
+ {
+  "id": "1-15-gav",
+  "sigla": "1º/15º GAV",
+  "nome": "Primeiro Esquadrão do Décimo Quinto Grupo de Aviação — Esquadrão Onça",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Campo Grande",
+  "uf": "MS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bacg"
+ },
+ {
+  "id": "1-12-gav",
+  "sigla": "1º/12º GAV",
+  "nome": "Primeiro Esquadrão do Décimo Segundo Grupo de Aviação — Esquadrão Hórus",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Santa Maria",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "basm"
+ },
+ {
+  "id": "1-16-gav",
+  "sigla": "1º/16º GAV",
+  "nome": "Primeiro Esquadrão do Décimo Sexto Grupo de Aviação — Esquadrão Adelphi",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "basc"
+ },
+ {
+  "id": "1-9-gav",
+  "sigla": "1º/9º GAV",
+  "nome": "Primeiro Esquadrão do Nono Grupo de Aviação — Esquadrão Arara",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bamn"
+ },
+ {
+  "id": "1-8-gav",
+  "sigla": "1º/8º GAV",
+  "nome": "Primeiro Esquadrão do Oitavo Grupo de Aviação — Esquadrão Falcão",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Parnamirim",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bant"
+ },
+ {
+  "id": "1-1-gcc",
+  "sigla": "1º/1º GCC",
+  "nome": "Primeiro Esquadrão do Primeiro Grupo de Comunicações e Controle",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "basc"
+ },
+ {
+  "id": "1-1-gt",
+  "sigla": "1º/1º GT",
+  "nome": "Primeiro Esquadrão do Primeiro Grupo de Transporte — Esquadrão Gordo",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bagl"
+ },
+ {
+  "id": "1-5-gav",
+  "sigla": "1º/5º GAV",
+  "nome": "Primeiro Esquadrão do Quinto Grupo de Aviação — Esquadrão Rumba",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Parnamirim",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bant"
+ },
+ {
+  "id": "1-2-gt",
+  "sigla": "1º/2º GT",
+  "nome": "Primeiro Esquadrão do Segundo Grupo de Transporte — Esquadrão Condor",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bagl"
+ },
+ {
+  "id": "1-7-gav",
+  "sigla": "1º/7º GAV",
+  "nome": "Primeiro Esquadrão do Sétimo Grupo de Aviação — Esquadrão Orungan",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Salvador",
+  "uf": "BA",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "basv"
+ },
+ {
+  "id": "1-3-gav",
+  "sigla": "1º/3º GAV",
+  "nome": "Primeiro Esquadrão do Terceiro Grupo de Aviação — Esquadrão Escorpião",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Boa Vista",
+  "uf": "RR",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "babv"
+ },
+ {
+  "id": "4-1-gcc",
+  "sigla": "4º/1º GCC",
+  "nome": "Quarto Esquadrão do Primeiro Grupo de Comunicações e Controle",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Santa Maria",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "basm"
+ },
+ {
+  "id": "5-8-gav",
+  "sigla": "5º/8º GAV",
+  "nome": "Quinto Esquadrão do Oitavo Grupo de Aviação — Esquadrão Pantera",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Santa Maria",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "basm"
+ },
+ {
+  "id": "5-1-gcc",
+  "sigla": "5º/1º GCC",
+  "nome": "Quinto Esquadrão do Primeiro Grupo de Comunicações e Controle",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Porto Velho",
+  "uf": "RO",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bapv"
+ },
+ {
+  "id": "2-10-gav",
+  "sigla": "2º/10º GAV",
+  "nome": "Segundo Esquadrão do Décimo Grupo de Aviação — Esquadrão Pelicano",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Campo Grande",
+  "uf": "MS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bacg"
+ },
+ {
+  "id": "2-8-gav",
+  "sigla": "2º/8º GAV",
+  "nome": "Segundo Esquadrão do Oitavo Grupo de Aviação — Esquadrão Poti",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Porto Velho",
+  "uf": "RO",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bapv"
+ },
+ {
+  "id": "2-1-gcc",
+  "sigla": "2º/1º GCC",
+  "nome": "Segundo Esquadrão do Primeiro Grupo de Comunicações e Controle",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Canoas",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "baco"
+ },
+ {
+  "id": "2-5-gav",
+  "sigla": "2º/5º GAV",
+  "nome": "Segundo Esquadrão do Quinto Grupo de Aviação — Esquadrão Joker",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Parnamirim",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bant"
+ },
+ {
+  "id": "2-2-gt",
+  "sigla": "2º/2º GT",
+  "nome": "Segundo Esquadrão do Segundo Grupo de Transporte — Esquadrão Corsário",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bagl"
+ },
+ {
+  "id": "2-7-gav",
+  "sigla": "2º/7º GAV",
+  "nome": "Segundo Esquadrão do Sétimo Grupo de Aviação — Esquadrão Phoenix",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Canoas",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "baco"
+ },
+ {
+  "id": "2-6-gav",
+  "sigla": "2º/6º GAV",
+  "nome": "Segundo Esquadrão do Sexto Grupo de Aviação — Esquadrão Guardião",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Anápolis",
+  "uf": "GO",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "baan"
+ },
+ {
+  "id": "2-3-gav",
+  "sigla": "2º/3º GAV",
+  "nome": "Segundo Esquadrão do Terceiro Grupo de Aviação — Esquadrão Grifo",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Porto Velho",
+  "uf": "RO",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bapv"
+ },
+ {
+  "id": "7-8-gav",
+  "sigla": "7º/8º GAV",
+  "nome": "Sétimo Esquadrão do Oitavo Grupo de Aviação — Esquadrão Harpia",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bamn"
+ },
+ {
+  "id": "3-10-gav",
+  "sigla": "3º/10º GAV",
+  "nome": "Terceiro Esquadrão do Décimo Grupo de Aviação — Esquadrão Centauro",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Santa Maria",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "basm"
+ },
+ {
+  "id": "3-8-gav",
+  "sigla": "3º/8º GAV",
+  "nome": "Terceiro Esquadrão do Oitavo Grupo de Aviação — Esquadrão Puma",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "basc"
+ },
+ {
+  "id": "3-1-gcc",
+  "sigla": "3º/1º GCC",
+  "nome": "Terceiro Esquadrão do Primeiro Grupo de Comunicações e Controle",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Parnamirim",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bant"
+ },
+ {
+  "id": "3-7-gav",
+  "sigla": "3º/7º GAV",
+  "nome": "Terceiro Esquadrão do Sétimo Grupo de Aviação — Esquadrão Netuno",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Belém",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "babe"
+ },
+ {
+  "id": "3-3-gav",
+  "sigla": "3º/3º GAV",
+  "nome": "Terceiro Esquadrão do Terceiro Grupo de Aviação — Esquadrão Flecha",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Esquadrão",
+  "cidade": "Campo Grande",
+  "uf": "MS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bacg"
+ },
+ {
+  "id": "emaer",
+  "sigla": "EMAER",
+  "nome": "Estado-maior da Aeronáutica",
+  "categoria": "comando",
+  "tipoCatalogo": "Estado-maior",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "fays",
+  "sigla": "FAYS",
+  "nome": "Fazenda da Aeronáutica de Pirassununga",
+  "categoria": "administracao",
+  "tipoCatalogo": "FAYS",
+  "cidade": "Pirassununga",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -47.4257,
+   -21.996
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gabaer",
+  "sigla": "GABAER",
+  "nome": "Gabinete do Comandante da Aeronáutica",
+  "categoria": "comando",
+  "tipoCatalogo": "Gabinete",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gap-be",
+  "sigla": "GAP-BE",
+  "nome": "Grupamento de Apoio de Belém",
+  "categoria": "grupamento",
+  "tipoCatalogo": "Grupamento",
+  "cidade": "Belém",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -48.4898,
+   -1.4554
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gap-br",
+  "sigla": "GAP-BR",
+  "nome": "Grupamento de Apoio de Brasília",
+  "categoria": "grupamento",
+  "tipoCatalogo": "Grupamento",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gap-ls",
+  "sigla": "GAP-LS",
+  "nome": "Grupamento de Apoio de Lagoa Santa",
+  "categoria": "grupamento",
+  "tipoCatalogo": "Grupamento",
+  "cidade": "Lagoa Santa",
+  "uf": "MG",
+  "pais": "Brasil",
+  "coord": [
+   -43.8932,
+   -19.6397
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gap-mn",
+  "sigla": "GAP-MN",
+  "nome": "Grupamento de Apoio de Manaus",
+  "categoria": "grupamento",
+  "tipoCatalogo": "Grupamento",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -60.0212,
+   -3.1187
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gap-rf",
+  "sigla": "GAP-RF",
+  "nome": "Grupamento de Apoio de Recife",
+  "categoria": "grupamento",
+  "tipoCatalogo": "Grupamento",
+  "cidade": "Recife",
+  "uf": "PE",
+  "pais": "Brasil",
+  "coord": [
+   -34.8771,
+   -8.0467
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gap-sj",
+  "sigla": "GAP-SJ",
+  "nome": "Grupamento de Apoio de São José dos Campos",
+  "categoria": "grupamento",
+  "tipoCatalogo": "Grupamento",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gap-sp",
+  "sigla": "GAP-SP",
+  "nome": "Grupamento de Apoio de São Paulo",
+  "categoria": "grupamento",
+  "tipoCatalogo": "Grupamento",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gap-df",
+  "sigla": "GAP-DF",
+  "nome": "Grupamento de Apoio do Distrito Federal",
+  "categoria": "grupamento",
+  "tipoCatalogo": "Grupamento",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gap-rj",
+  "sigla": "GAP-RJ",
+  "nome": "Grupamento de Apoio do Rio de Janeiro",
+  "categoria": "grupamento",
+  "tipoCatalogo": "Grupamento",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gap-af",
+  "sigla": "GAP-AF",
+  "nome": "Grupamento de Apoio dos Afonsos",
+  "categoria": "grupamento",
+  "tipoCatalogo": "Grupamento",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gal",
+  "sigla": "GAL",
+  "nome": "Grupamento de Apoio Logístico",
+  "categoria": "grupamento",
+  "tipoCatalogo": "Grupamento",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "galc",
+  "sigla": "GALC",
+  "nome": "Grupamento de Apoio Logístico de Campanha",
+  "categoria": "grupamento",
+  "tipoCatalogo": "Grupamento",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gite",
+  "sigla": "GITE",
+  "nome": "Grupo de Instrução Tática e Especializada",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Grupo",
+  "cidade": "Parnamirim",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://10.68.28.10/gite",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bant"
+ },
+ {
+  "id": "gte",
+  "sigla": "GTE",
+  "nome": "Grupo de Transporte Especial",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Grupo",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "babr"
+ },
+ {
+  "id": "geiv",
+  "sigla": "GEIV",
+  "nome": "Grupo Especial de Inspeção em Vôo",
+  "categoria": "decea",
+  "tipoCatalogo": "Grupo",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "1-gavca",
+  "sigla": "1º GAVCA",
+  "nome": "Primeiro Grupo de Aviação de Caça — Senta a Púa",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Grupo",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "basc"
+ },
+ {
+  "id": "1-gcc",
+  "sigla": "1º GCC",
+  "nome": "Primeiro Grupo de Comunicações e Controle",
+  "categoria": "decea",
+  "tipoCatalogo": "Grupo",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "1-gda",
+  "sigla": "1° GDA",
+  "nome": "Primeiro Grupo de Defesa Aérea",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Grupo",
+  "cidade": "Anápolis",
+  "uf": "GO",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "baan"
+ },
+ {
+  "id": "1-gdaae",
+  "sigla": "1º GDAAE",
+  "nome": "Primeiro Grupo de Defesa Antiaérea",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Grupo",
+  "cidade": "Canoas",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "baco"
+ },
+ {
+  "id": "1-gtt",
+  "sigla": "1º GTT",
+  "nome": "Primeiro Grupo de Transporte de Tropa — Esquadrão Zeus",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Grupo",
+  "cidade": "Anápolis",
+  "uf": "GO",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "baan"
+ },
+ {
+  "id": "2-gdaae",
+  "sigla": "2º GDAAE",
+  "nome": "Segundo Grupo de Defesa Antiaérea",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Grupo",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "bamn"
+ },
+ {
+  "id": "3-gdaae",
+  "sigla": "3º GDAAE",
+  "nome": "Terceiro Grupo de Defesa Antiaérea",
+  "categoria": "esquadrao",
+  "tipoCatalogo": "Grupo",
+  "cidade": "Anápolis",
+  "uf": "GO",
+  "pais": "Brasil",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26",
+  "sediadoEm": "baan"
+ },
+ {
+  "id": "hca",
+  "sigla": "HCA",
+  "nome": "Hospital Central da Aeronáutica",
+  "categoria": "saude",
+  "tipoCatalogo": "Hospital",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.hca.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "habe",
+  "sigla": "HABE",
+  "nome": "Hospital de Aeronáutica de Belém",
+  "categoria": "saude",
+  "tipoCatalogo": "Hospital",
+  "cidade": "Belém",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -48.4898,
+   -1.4554
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "haco",
+  "sigla": "HACO",
+  "nome": "Hospital de Aeronáutica de Canoas",
+  "categoria": "saude",
+  "tipoCatalogo": "Hospital",
+  "cidade": "Canoas",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -51.1857,
+   -29.9128
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "hamn",
+  "sigla": "HAMN",
+  "nome": "Hospital de Aeronáutica de Manaus",
+  "categoria": "saude",
+  "tipoCatalogo": "Hospital",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -60.0212,
+   -3.1187
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "harf",
+  "sigla": "HARF",
+  "nome": "Hospital de Aeronáutica de Recife",
+  "categoria": "saude",
+  "tipoCatalogo": "Hospital",
+  "cidade": "Jaboatão dos Guararapes",
+  "uf": "PE",
+  "pais": "Brasil",
+  "coord": [
+   -35.015,
+   -8.113
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.harf.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "haaf",
+  "sigla": "HAAF",
+  "nome": "Hospital de Aeronáutica dos Afonsos",
+  "categoria": "saude",
+  "tipoCatalogo": "Hospital",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.haaf.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "hfab",
+  "sigla": "HFAB",
+  "nome": "Hospital de Força Aérea de Brasília",
+  "categoria": "saude",
+  "tipoCatalogo": "Hospital",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/hfab",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "hfasp",
+  "sigla": "HFASP",
+  "nome": "Hospital de Força Aérea de São Paulo",
+  "categoria": "saude",
+  "tipoCatalogo": "Hospital",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.hasp.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "hfag",
+  "sigla": "HFAG",
+  "nome": "Hospital de Força Aérea do Galeão",
+  "categoria": "saude",
+  "tipoCatalogo": "Hospital",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.hfag.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "iae",
+  "sigla": "IAE",
+  "nome": "Instituto de Aeronáutica e Espaço",
+  "categoria": "ciencia",
+  "tipoCatalogo": "Instituto",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.iae.cta.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "iaop",
+  "sigla": "IAOP",
+  "nome": "Instituto de Aplicações Operacionais",
+  "categoria": "ciencia",
+  "tipoCatalogo": "Instituto",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ica",
+  "sigla": "ICA",
+  "nome": "Instituto de Cartografia Aeronáutica",
+  "categoria": "ciencia",
+  "tipoCatalogo": "Instituto",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.fab.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "icea",
+  "sigla": "ICEA",
+  "nome": "Instituto de Controle do Espaço Aéreo",
+  "categoria": "decea",
+  "tipoCatalogo": "Instituto",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.icea.gov.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ieav",
+  "sigla": "IEAV",
+  "nome": "Instituto de Estudos Avançados",
+  "categoria": "ciencia",
+  "tipoCatalogo": "Instituto",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.ieav.cta.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ifi",
+  "sigla": "IFI",
+  "nome": "Instituto de Fomento e Coordenação Industrial",
+  "categoria": "ciencia",
+  "tipoCatalogo": "Instituto",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.ifi.cta.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ila",
+  "sigla": "ILA",
+  "nome": "Instituto de Logística da Aeronáutica",
+  "categoria": "ciencia",
+  "tipoCatalogo": "Instituto",
+  "cidade": "Guarulhos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.5333,
+   -23.4538
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.ila.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ipev",
+  "sigla": "IPEV",
+  "nome": "Instituto de Pesquisas e Ensaios em Voo",
+  "categoria": "ciencia",
+  "tipoCatalogo": "Instituto",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.ipev.cta.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ipa",
+  "sigla": "IPA",
+  "nome": "Instituto de Psicologia da Aeronáutica",
+  "categoria": "ciencia",
+  "tipoCatalogo": "Instituto",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.fab.mil.br/ipa",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "incaer",
+  "sigla": "INCAER",
+  "nome": "Instituto Histórico-cultural da Aeronáutica",
+  "categoria": "ciencia",
+  "tipoCatalogo": "Instituto",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.incaer.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "imae",
+  "sigla": "IMAE",
+  "nome": "Instituto Medicina Aeroespacial Brigadeiro Médico Roberto Teixeira",
+  "categoria": "saude",
+  "tipoCatalogo": "Instituto",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "ita",
+  "sigla": "ITA",
+  "nome": "Instituto Tecnológico de Aeronáutica",
+  "categoria": "escola",
+  "tipoCatalogo": "Instituto",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.ita.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "laqfa",
+  "sigla": "LAQFA",
+  "nome": "Laboratório Químico-Farmacêutico da Aeronáutica",
+  "categoria": "saude",
+  "tipoCatalogo": "LAQFA",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "mtab",
+  "sigla": "MTAB",
+  "nome": "Missão Técnica Aeronáutica Brasileira em Assunção",
+  "categoria": "exterior",
+  "tipoCatalogo": "Missão",
+  "cidade": "Assunção",
+  "uf": null,
+  "pais": "Paraguai",
+  "coord": null,
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "musal",
+  "sigla": "MUSAL",
+  "nome": "Museu Aeroespacial",
+  "categoria": "administracao",
+  "tipoCatalogo": "Museu",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/musal",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "oabr",
+  "sigla": "OABR",
+  "nome": "Odontoclínica de Aeronáutica de Brasília",
+  "categoria": "saude",
+  "tipoCatalogo": "Odontoclinica",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/oabr",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "oarf",
+  "sigla": "OARF",
+  "nome": "Odontoclínica de Aeronáutica de Recife",
+  "categoria": "saude",
+  "tipoCatalogo": "Odontoclinica",
+  "cidade": "Jaboatão dos Guararapes",
+  "uf": "PE",
+  "pais": "Brasil",
+  "coord": [
+   -35.015,
+   -8.113
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "oasd",
+  "sigla": "OASD",
+  "nome": "Odontoclínica de Aeronáutica Santos-dumont",
+  "categoria": "saude",
+  "tipoCatalogo": "Odontoclinica",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pama-ls",
+  "sigla": "PAMA-LS",
+  "nome": "Parque de Material Aeronáutico de Lagoa Santa",
+  "categoria": "parque",
+  "tipoCatalogo": "Parque",
+  "cidade": "Lagoa Santa",
+  "uf": "MG",
+  "pais": "Brasil",
+  "coord": [
+   -43.8932,
+   -19.6397
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.pamals.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pama-sp",
+  "sigla": "PAMA-SP",
+  "nome": "Parque de Material Aeronáutico de São Paulo",
+  "categoria": "parque",
+  "tipoCatalogo": "Parque",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pama-gl",
+  "sigla": "PAMA-GL",
+  "nome": "Parque de Material Aeronáutico do Galeão",
+  "categoria": "parque",
+  "tipoCatalogo": "Parque",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pama-af",
+  "sigla": "PAMA-AF",
+  "nome": "Parque de Material Aeronáutico dos Afonsos",
+  "categoria": "parque",
+  "tipoCatalogo": "Parque",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pamb-rj",
+  "sigla": "PAMB-RJ",
+  "nome": "Parque de Material Bélico de Aeronáutica do Rio de Janeiro",
+  "categoria": "parque",
+  "tipoCatalogo": "Parque",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pame-rj",
+  "sigla": "PAME-RJ",
+  "nome": "Parque de Material de Eletrônica da Aeronáutica do Rio de Janeiro",
+  "categoria": "parque",
+  "tipoCatalogo": "Parque",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "paan",
+  "sigla": "PAAN",
+  "nome": "Prefeitura de Aeronáutica de Anápolis",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Anápolis",
+  "uf": "GO",
+  "pais": "Brasil",
+  "coord": [
+   -48.953,
+   -16.3281
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pabe",
+  "sigla": "PABE",
+  "nome": "Prefeitura de Aeronáutica de Belém",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Belém",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -48.4898,
+   -1.4554
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pabv",
+  "sigla": "PABV",
+  "nome": "Prefeitura de Aeronáutica de Boa Vista",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Boa Vista",
+  "uf": "RR",
+  "pais": "Brasil",
+  "coord": [
+   -60.6753,
+   2.8238
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pabr",
+  "sigla": "PABR",
+  "nome": "Prefeitura de Aeronáutica de Brasília",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "paco",
+  "sigla": "PACO",
+  "nome": "Prefeitura de Aeronáutica de Canoas",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "CANOAS",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -51.1857,
+   -29.9128
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pagw",
+  "sigla": "PAGW",
+  "nome": "Prefeitura de Aeronáutica de Guaratinguetá",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Guaratinguetá",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.1938,
+   -22.8075
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pals",
+  "sigla": "PALS",
+  "nome": "Prefeitura de Aeronáutica de Lagoa Santa",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Lagoa Santa",
+  "uf": "MG",
+  "pais": "Brasil",
+  "coord": [
+   -43.8932,
+   -19.6397
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pamn",
+  "sigla": "PAMN",
+  "nome": "Prefeitura de Aeronáutica de Manaus",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -60.0212,
+   -3.1187
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pant",
+  "sigla": "PANT",
+  "nome": "Prefeitura de Aeronáutica de Natal",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Parnamirim",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": [
+   -35.271,
+   -5.9112
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pays",
+  "sigla": "PAYS",
+  "nome": "Prefeitura de Aeronáutica de Pirassununga",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Pirassununga",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -47.4257,
+   -21.996
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "papv",
+  "sigla": "PAPV",
+  "nome": "Prefeitura de Aeronáutica de Porto Velho",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Porto Velho",
+  "uf": "RO",
+  "pais": "Brasil",
+  "coord": [
+   -63.8999,
+   -8.7608
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "parf",
+  "sigla": "PARF",
+  "nome": "Prefeitura de Aeronáutica de Recife",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Recife",
+  "uf": "PE",
+  "pais": "Brasil",
+  "coord": [
+   -34.8771,
+   -8.0467
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pasc",
+  "sigla": "PASC",
+  "nome": "Prefeitura de Aeronáutica de Santa Cruz",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://10.44.16.97/uae/pasc",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pasm",
+  "sigla": "PASM",
+  "nome": "Prefeitura de Aeronáutica de Santa Maria",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Santa Maria",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -53.8149,
+   -29.6868
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "past",
+  "sigla": "PAST",
+  "nome": "Prefeitura de Aeronáutica de Santos",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Guarujá",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.258,
+   -23.9888
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pasj",
+  "sigla": "PASJ",
+  "nome": "Prefeitura de Aeronáutica de São José dos Campos",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pasp",
+  "sigla": "PASP",
+  "nome": "Prefeitura de Aeronáutica de São Paulo",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "pagl",
+  "sigla": "PAGL",
+  "nome": "Prefeitura de Aeronáutica do Galeão",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "paaf",
+  "sigla": "PAAF",
+  "nome": "Prefeitura de Aeronáutica dos Afonsos",
+  "categoria": "prefeitura",
+  "tipoCatalogo": "Prefeitura",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "secprom",
+  "sigla": "SECPROM",
+  "nome": "Secretaria de Avaliação e Promoções",
+  "categoria": "administracao",
+  "tipoCatalogo": "Secretaria",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "sefa",
+  "sigla": "SEFA",
+  "nome": "Secretaria de Economia, Finanças e Administração da Aeronáutica",
+  "categoria": "comando",
+  "tipoCatalogo": "Secretaria",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "seripa-ii",
+  "sigla": "SERIPA II",
+  "nome": "Segundo Serviço Regional de Investigação e Prevenção de Acidentes Aeronáuticos",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "Recife",
+  "uf": "PE",
+  "pais": "Brasil",
+  "coord": [
+   -34.8771,
+   -8.0467
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "seripa-iii",
+  "sigla": "SERIPA III",
+  "nome": "Terceiro Serviço Regional de Investigação e Prevenção de Acidentes Aeronáuticos",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "seripa-iv",
+  "sigla": "SERIPA IV",
+  "nome": "Quarto Serviço Regional de Investigação e Prevenção de Acidentes Aeronáuticos",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "seripa-v",
+  "sigla": "SERIPA V",
+  "nome": "Quinto Serviço Regional de Investigação e Prevenção de Acidentes Aeronáuticos",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "Canoas",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -51.1857,
+   -29.9128
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "seripa-vi",
+  "sigla": "SERIPA VI",
+  "nome": "Sexto Serviço Regional de Investigação e Prevenção de Acidentes Aeronáuticos",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www2.fab.mil.br/seripa6",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "seripa-i",
+  "sigla": "SERIPA I",
+  "nome": "Primeiro Serviço Regional de Investigação e Prevenção de Acidentes Aeronáuticos",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "Belém",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -48.4898,
+   -1.4554
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serep-be",
+  "sigla": "SEREP-BE",
+  "nome": "Serviço de Recrutamento e Preparo de Pessoal da Aeronáutica de Belém",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "Belém",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -48.4898,
+   -1.4554
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serep-br",
+  "sigla": "SEREP-BR",
+  "nome": "Serviço de Recrutamento e Preparo de Pessoal da Aeronáutica de Brasília",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serep-co",
+  "sigla": "SEREP-CO",
+  "nome": "Serviço de Recrutamento e Preparo de Pessoal da Aeronáutica de Canoas",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "Canoas",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -51.1857,
+   -29.9128
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serep-mn",
+  "sigla": "SEREP-MN",
+  "nome": "Serviço de Recrutamento e Preparo de Pessoal da Aeronáutica de Manaus",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -60.0212,
+   -3.1187
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serep-rf",
+  "sigla": "SEREP-RF",
+  "nome": "Serviço de Recrutamento e Preparo de Pessoal da Aeronáutica de Recife",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "Recife",
+  "uf": "PE",
+  "pais": "Brasil",
+  "coord": [
+   -34.8771,
+   -8.0467
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serep-sp",
+  "sigla": "SEREP-SP",
+  "nome": "Serviço de Recrutamento e Preparo de Pessoal da Aeronáutica de São Paulo",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serep-rj",
+  "sigla": "SEREP-RJ",
+  "nome": "Serviço de Recrutamento e Preparo de Pessoal da Aeronáutica do Rio de Janeiro",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "segecae",
+  "sigla": "SEGECAE",
+  "nome": "Serviço Geral de Correspondência e Arquivo da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "srpv-sp",
+  "sigla": "SRPV-SP",
+  "nome": "Serviço Regional de Proteção ao Voo",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.srpvsp.gov.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "seripa-vii",
+  "sigla": "SERIPA VII",
+  "nome": "Sétimo Serviço Regional de Investigação e Prevenção de Acidentes Aeronáuticos",
+  "categoria": "administracao",
+  "tipoCatalogo": "Servico",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -60.0212,
+   -3.1187
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "unifa",
+  "sigla": "UNIFA",
+  "nome": "Universidade da Força Aérea",
+  "categoria": "escola",
+  "tipoCatalogo": "Universidade",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.2003,
+   -22.9129
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.unifa.aer.mil.br",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "Catálogo do COMAER (PDF)",
+    "url": "https://www.fab.mil.br/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "crcea-se",
+  "sigla": "CRCEA-SE",
+  "nome": "Centro Regional de Controle do Espaço Aéreo Sudeste",
+  "categoria": "decea",
+  "tipoCatalogo": "Centro",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.6395,
+   -23.5329
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": null,
+  "site": "https://www.decea.mil.br/",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "a-conferir"
+  },
+  "fontes": [
+   {
+    "titulo": "DECEA — CRCEA-SE",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=crcea-se"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ }
 ]

@@ -27,7 +27,7 @@ export const CATEGORIAS: Record<CategoriaId, Categoria> = {
   exterior: { rotulo: 'FAB no exterior', forma: 'circulo', cor: { escuro: '#d6e0ff', claro: '#4a5578' }, noMapa: false },
 };
 
-const DECEA = new Set(['CGNA', 'DECEA', 'GEIV', '1º GCC', '1° GCC', 'ICEA', 'CISCEA', 'ASOCEA']);
+const DECEA = new Set(['CGNA', 'DECEA', 'GEIV', '1º GCC', '1° GCC', 'ICEA', 'CISCEA', 'ASOCEA', 'CIMAER']);
 const COMANDO = new Set(['COMAER', 'COMAE', 'COMPREP', 'COMGEP', 'COMGAP', 'EMAER', 'GABAER', 'SEFA']);
 const CIENCIA = new Set(['DCTA', 'IAE', 'IEAV', 'IFI', 'IPEV', 'IAOP', 'CLA', 'CLBI', 'CPBV']);
 const SAUDE = new Set(['CEMAL', 'IMAE', 'LAQFA']);

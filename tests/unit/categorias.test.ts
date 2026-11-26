@@ -13,6 +13,7 @@ describe('categoriaDoCatalogo', () => {
     ['Odontoclinica', 'OABR', 'saude'],
     ['Instituto', 'ITA', 'escola'],
     ['Instituto', 'ICEA', 'decea'],
+    ['Centro', 'CIMAER', 'decea'],
     ['Instituto', 'IAE', 'ciencia'],
     ['Base', 'BAAN', 'base'],
     ['Servico', 'SERIPA I', 'administracao'],
