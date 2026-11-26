@@ -12,10 +12,14 @@ import { criarFiltros } from '../ui/filtros';
 import { criarCaixaBusca } from '../ui/caixaBusca';
 import { criarExterior } from '../ui/exterior';
 import { criarOrganograma } from '../ui/organograma';
+import { iniciarTema } from '../ui/tema';
+import { monitorarDesempenho } from '../ui/desempenho';
 
 const params = new URLSearchParams(location.search);
 const estilo = params.get('estilo');
-const tema: Tema = estilo === 'teste' ? 'teste' : estilo === 'claro' ? 'claro' : 'escuro';
+let mapaRef: { definirTema(t: 'escuro' | 'claro'): void } | null = null;
+const temaVisual = iniciarTema((t) => mapaRef?.definirTema(t));
+const tema: Tema = estilo === 'teste' ? 'teste' : estilo === 'claro' || estilo === 'escuro' ? estilo : temaVisual.atual();
 const { lista, porId } = carregar();
 const palco = document.getElementById('palco')!;
 document.querySelector('header.topo')?.remove();
@@ -23,16 +27,20 @@ document.querySelector('header.topo')?.remove();
 const elMapa = h('div', { id: 'mapa' });
 palco.appendChild(elMapa);
 const mapa = criarMapa(elMapa, lista, { tema });
+mapaRef = mapa;
+monitorarDesempenho(() => document.documentElement.classList.add('fx-leve'));
 
 // Barra superior
 const busca = h('div', { class: 'busca' });
 const btFiltros = h('button', { type: 'button', class: 'botao', 'aria-expanded': 'false', 'aria-controls': 'painel-filtros' }, 'Filtros');
+const btTema = h('button', { type: 'button', class: 'botao', 'aria-label': 'Alternar tema', title: 'Alternar tema claro/escuro' }, '◐');
+btTema.addEventListener('click', () => temaVisual.alternar());
 const btVerMapa = h('button', { type: 'button', class: 'botao', 'aria-pressed': 'true' }, 'Mapa');
 const btVerOrg = h('button', { type: 'button', class: 'botao', 'aria-pressed': 'false' }, 'Organograma');
 const barra = h('header', { class: 'barra vidro' },
   h('span', { class: 'marca' }, 'Mapa das OM da FAB', h('small', {}, 'Força Aérea Brasileira')),
   busca,
-  h('div', { class: 'acoes-barra' }, h('div', { class: 'alternancia', role: 'group', 'aria-label': 'Visualização' }, btVerMapa, btVerOrg), btFiltros));
+  h('div', { class: 'acoes-barra' }, h('div', { class: 'alternancia', role: 'group', 'aria-label': 'Visualização' }, btVerMapa, btVerOrg), btFiltros, btTema));
 palco.appendChild(barra);
 
 // Painéis

@@ -4,6 +4,7 @@ import { CATEGORIAS } from '../dados/categorias';
 import type { CategoriaId, Unidade } from '../dados/tipos';
 import { criarEstilo, FONTE_NEGRITO, type Tema } from './estilo';
 import { desenharIcone } from './icones';
+import { animarAviao } from './aviao';
 
 export interface MapaApi {
   voarPara(id: string): void;
@@ -42,6 +43,8 @@ function colecao(us: Unidade[], ids: Set<string> | null): GeoJSON.FeatureCollect
 
 export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): MapaApi {
   let tema: Tema = o.tema;
+  const semRede = o.tema === 'teste';
+  const intro = !movimentoReduzido();
   let filtroAtual: Set<string> | null = null;
   const porId = new Map(us.map((u) => [u.id, u]));
   const cbSelecionar: ((id: string) => void)[] = [];
@@ -52,7 +55,7 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
     style: criarEstilo(tema),
     center: CENTRO_BRASIL,
     zoom: ZOOM_INICIAL,
-    pitch: 30,
+    pitch: intro ? 45 : 30,
     maxPitch: 70,
     attributionControl: { compact: true },
     fadeDuration: movimentoReduzido() ? 0 : 300,
@@ -152,6 +155,13 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
   map.on('style.load', () => {
     instalarCamadas();
   });
+  // Abertura: o mapa "assenta" de 45° para 30° enquanto o aviãozinho cruza a tela.
+  map.once('load', () => {
+    if (!intro) return;
+    map.easeTo({ pitch: 30, duration: 1500 });
+    const { clientWidth: w, clientHeight: hgt } = el;
+    animarAviao(el, [-40, hgt * 0.7], [w + 40, hgt * 0.35], 2200);
+  });
   const pronto = () => el.setAttribute('data-pronto', '1');
   map.once('load', pronto);
   map.once('idle', pronto);
@@ -194,6 +204,10 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
       let u = porId.get(id);
       if (u?.categoria === 'esquadrao' && u.sediadoEm) u = porId.get(u.sediadoEm);
       if (!u?.coord) return;
+      const { clientWidth: w, clientHeight: hgt } = el;
+      const destino = map.project(u.coord);
+      const limitar = (v: number, max: number) => Math.min(max * 0.9, Math.max(max * 0.1, v));
+      animarAviao(el, [w / 2, hgt / 2], [limitar(destino.x, w), limitar(destino.y, hgt)], 2000);
       map.flyTo({ center: u.coord, zoom: 12, pitch: 50, duration: movimentoReduzido() ? 0 : 2200, essential: true });
     },
     filtrar(ids) {
@@ -202,7 +216,7 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
     },
     definirTema(t) {
       tema = t;
-      map.setStyle(criarEstilo(t, undefined, soLocal), { diff: false });
+      map.setStyle(criarEstilo(t, undefined, soLocal || semRede), { diff: false });
     },
     aoSelecionar(cb) { cbSelecionar.push(cb); },
     aoSelecionarGrupo(cb) { cbGrupo.push(cb); },
