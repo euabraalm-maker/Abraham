@@ -83,15 +83,17 @@ const seletorCamera = h('div', { class: 'alternancia vidro seletor-camera', role
   h('span', { class: 'rotulo-camera' }, 'Câmera'), botoesCamera);
 palco.append(painelFiltros, painelFicha, painelGrupo, rodape);
 
-const fecharFiltros = () => {
-  painelFiltros.hidden = true;
-  btFiltros.setAttribute('aria-expanded', 'false');
-};
+/** Abre ou fecha o painel de filtros; aberto, a barra de baixo some para não cobrir Aplicar/Cancelar. */
+function mostrarFiltros(abrir: boolean) {
+  painelFiltros.hidden = !abrir;
+  btFiltros.setAttribute('aria-expanded', String(abrir));
+  rodape.classList.toggle('sob-filtros', abrir);
+}
+const fecharFiltros = () => mostrarFiltros(false);
 const filtros = criarFiltros(painelFiltros, lista, (ids) => mapa.filtrar(ids), fecharFiltros);
 btFiltros.addEventListener('click', () => {
   if (!painelFiltros.hidden) filtros.descartar();
-  painelFiltros.hidden = !painelFiltros.hidden;
-  btFiltros.setAttribute('aria-expanded', String(!painelFiltros.hidden));
+  mostrarFiltros(painelFiltros.hidden);
 });
 
 function abrirUnidade(id: string, voar = true) {
@@ -107,8 +109,7 @@ function abrirUnidade(id: string, voar = true) {
 
 function mostrarSubordinados(id: string) {
   filtros.mostrarSubordinados(id);
-  painelFiltros.hidden = false;
-  btFiltros.setAttribute('aria-expanded', 'true');
+  mostrarFiltros(true);
   const coords = [...descendentes(id, lista)].map((x) => porId.get(x)?.coord).filter((c): c is [number, number] => !!c);
   if (coords.length > 1) {
     const lons = coords.map((c) => c[0]);
@@ -147,7 +148,7 @@ function mostrarOrganograma(destaque?: string) {
   organograma ??= criarOrganograma(telaOrg, lista, (id) => { mostrarMapa(); abrirUnidade(id); });
   telaOrg.hidden = false;
   painelFicha.hidden = true;
-  painelFiltros.hidden = true;
+  mostrarFiltros(false);
   painelGrupo.hidden = true;
   rodape.hidden = true;
   btVerMapa.setAttribute('aria-pressed', 'false');

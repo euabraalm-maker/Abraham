@@ -77,10 +77,17 @@ html.fx-leve .barra .marca, html.fx-leve .barra .busca input, html.fx-leve .barr
 .sug-motivo { grid-column: 2; font-size: 0.75rem; color: var(--texto-2); }
 
 /* Filtros */
-.painel-filtros { position: absolute; z-index: 15; top: calc(var(--altura-barra, 62px) + 22px); left: max(12px, env(safe-area-inset-left, 0px)); width: 300px; max-width: calc(100% - 24px); padding: 14px; max-height: calc(100% - 120px); overflow: auto; animation: surgir 0.25s ease-out; }
+.painel-filtros {
+  position: absolute; z-index: 22; top: calc(var(--altura-barra, 62px) + 22px);
+  left: max(12px, env(safe-area-inset-left, 0px)); width: 300px; max-width: calc(100% - 24px);
+  max-height: calc(100% - var(--altura-barra, 62px) - 34px - env(safe-area-inset-bottom, 0px));
+  padding: 14px; box-sizing: border-box; display: flex; flex-direction: column; animation: surgir 0.25s ease-out;
+}
+.painel-filtros .filtros-lista { overflow-y: auto; min-height: 0; flex: 1 1 auto; }
+.painel-filtros .filtros-rodape { flex: none; }
 .filtros-topo { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 10px; }
 .filtros-botoes { display: flex; gap: 6px; }
-.filtros-lista { display: grid; gap: 4px; }
+.filtros-lista { display: grid; gap: 4px; align-content: start; }
 .filtro { display: flex; align-items: center; gap: 10px; padding: 6px 8px; border-radius: 10px; cursor: pointer; font-size: 0.9rem; }
 .filtro:hover { background: var(--botao); }
 .filtro input { accent-color: var(--destaque); width: 16px; height: 16px; }
@@ -155,3 +162,5 @@ html.fx-leve .barra .marca, html.fx-leve .barra .busca input, html.fx-leve .barr
   background: var(--gradiente-acao); color: #fff; font: 600 0.9rem var(--f-texto);
   padding: 10px 18px; border-radius: 999px; box-shadow: 0 12px 30px rgba(5, 10, 40, 0.4);
 }
+/* com os filtros abertos, a barra de baixo (exterior e câmera) sai do caminho */
+.rodape-esquerdo.sob-filtros { display: none; }
