@@ -35,7 +35,16 @@ export function agruparPorLocal(us: Unidade[], visiveis: Set<string> | null): Gr
     // no centro fica quem não tem superior no grupo; o tipo só desempata
     const idsGrupo = new Set(grupo.map((u) => u.id));
     const nivel = new Map(grupo.map((u) => [u.id, superioresNoGrupo(u, idsGrupo)]));
-    grupo.sort((a, b) => nivel.get(a.id)! - nivel.get(b.id)! || DESTAQUE.indexOf(a.categoria) - DESTAQUE.indexOf(b.categoria) || porSigla(a, b));
+    // quantas unidades do ponto estão abaixo dela (quem chefia mais gente no local vem antes)
+    const abaixo = new Map(grupo.map((u) => [u.id, 0]));
+    for (const u of grupo) {
+      const vistos = new Set<string>();
+      for (let s = u.subordinadaA; s && !vistos.has(s); s = porId.get(s)?.subordinadaA ?? null) {
+        vistos.add(s);
+        if (abaixo.has(s)) abaixo.set(s, abaixo.get(s)! + 1);
+      }
+    }
+    grupo.sort((a, b) => nivel.get(a.id)! - nivel.get(b.id)! || abaixo.get(b.id)! - abaixo.get(a.id)! || DESTAQUE.indexOf(a.categoria) - DESTAQUE.indexOf(b.categoria) || porSigla(a, b));
     const ids = new Set(grupo.map((u) => u.id));
     const sediados = esquadroes.filter((e) => ids.has(e.sediadoEm!)).sort(porSigla);
     return { anfitriao: grupo[0], satelites: [...grupo.slice(1).sort(porSigla), ...sediados] };

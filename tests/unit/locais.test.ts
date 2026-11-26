@@ -53,3 +53,15 @@ describe('hierarquia manda no centro da órbita', () => {
     expect(g.anfitriao.id).toBe('avo');
   });
 });
+
+describe('desempate pelo número de subordinados no mesmo ponto', () => {
+  it('quem tem subordinado no ponto fica no centro, antes do tipo', () => {
+    const Q: [number, number] = [-46.63, -23.5];
+    const lista = [
+      unidade({ id: 'gap-sp', sigla: 'GAP-SP', categoria: 'grupamento', coord: Q }),
+      unidade({ id: 'dirmab', sigla: 'DIRMAB', categoria: 'administracao', coord: Q }),
+      unidade({ id: 'pama-sp', sigla: 'PAMA-SP', categoria: 'parque', coord: Q, subordinadaA: 'dirmab' }),
+    ];
+    expect(agruparPorLocal(lista, null)[0].anfitriao.id).toBe('dirmab');
+  });
+});

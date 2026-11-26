@@ -181,6 +181,31 @@ function main() {
     ],
     revisadoEm: hoje,
   });
+  // DIRINFRA e subordinadas: fora do catálogo; estrutura pelo organograma da DIRINFRA (enviado pelo instrutor),
+  // nomes conforme publicações oficiais (portarias, licitações) e site da DIRINFRA.
+  const ORG_DIRINFRA = { titulo: 'Organograma da DIRINFRA (enviado pelo instrutor)' };
+  const novas: [string, string, string, string, string, boolean][] = [
+    // id, sigla, nome, cidade, uf, nome confirmado
+    ['dirinfra', 'DIRINFRA', 'Diretoria de Infraestrutura da Aeronáutica', 'São Paulo', 'SP', true],
+    ['gac-infra-an', 'GAC INFRA-AN', 'GAC INFRA-AN (Diretoria de Infraestrutura da Aeronáutica em Anápolis)', 'Anápolis', 'GO', false],
+    ['co-fz', 'CO-FZ', 'Comissão de Obras de Fortaleza', 'Fortaleza', 'CE', true],
+    ['gecamp', 'GECAMP', 'Grupamento de Engenharia de Campanha da Aeronáutica', 'Guarulhos', 'SP', true],
+    ['serinfra-be', 'SERINFRA-BE', 'Serviço Regional de Infraestrutura da Aeronáutica de Belém', 'Belém', 'PA', true],
+    ['serinfra-nt', 'SERINFRA-NT', 'Serviço Regional de Infraestrutura da Aeronáutica de Natal', 'Natal', 'RN', true],
+    ['serinfra-rj', 'SERINFRA-RJ', 'Serviço Regional de Infraestrutura da Aeronáutica do Rio de Janeiro', 'Rio de Janeiro', 'RJ', true],
+    ['serinfra-sj', 'SERINFRA-SJ', 'Serviço Regional de Infraestrutura da Aeronáutica de São José dos Campos', 'São José dos Campos', 'SP', true],
+    ['serinfra-co', 'SERINFRA-CO', 'Serviço Regional de Infraestrutura da Aeronáutica de Canoas', 'Canoas', 'RS', true],
+    ['serinfra-br', 'SERINFRA-BR', 'Serviço Regional de Infraestrutura da Aeronáutica de Brasília', 'Brasília', 'DF', true],
+    ['serinfra-mn', 'SERINFRA-MN', 'Serviço Regional de Infraestrutura da Aeronáutica de Manaus', 'Manaus', 'AM', true],
+  ];
+  for (const [id, sigla, nome, cidade, uf, nomeOk] of novas) {
+    saida.set(id, {
+      id, sigla, nome, categoria: 'administracao', tipoCatalogo: id === 'dirinfra' ? 'Diretoria' : 'Serviço', cidade, uf, pais: 'Brasil',
+      coord: null, coordSituacao: 'aproximada', subordinadaA: null, site: null, ficha: 'basica',
+      situacao: { nome: nomeOk ? 'confirmado' : 'a-conferir', localizacao: 'a-conferir', subordinacao: 'a-conferir' },
+      fontes: [ORG_DIRINFRA], revisadoEm: hoje,
+    });
+  }
   // esquadrões sem sede identificável: usar a primeira base existente da UF? Não: ficam sem sediadoEm e são listados.
   const semSede = [...saida.values()].filter((u) => u.categoria === 'esquadrao' && (!u.sediadoEm || !saida.has(u.sediadoEm)));
   if (semSede.length) console.warn('Esquadrões sem sede:', semSede.map((u) => `${u.sigla} (${u.cidade})`).join(', '));

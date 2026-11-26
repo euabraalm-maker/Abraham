@@ -24,7 +24,9 @@ MANUAL = {
     'cindacta-iv': ([-60.05394, -3.02267], 'CINDACTA IV (OpenStreetMap)'),
     'dtcea-mdi': ([-49.47456, -28.12591], 'Cume do Morro da Igreja (OpenStreetMap)'),
     'cgtec': ([-43.21471, -22.87466], 'Dentro do PAME-RJ (informação do instrutor)'),
-    'dirmab': ([-43.24005, -22.83261], 'DIRMAB (OpenStreetMap)'),
+    'dirmab': ([-46.61192, -23.5658], 'Av. Dom Pedro I, 100 (Cambuci) — endereço informado pelo instrutor'),
+    'dirinfra': ([-46.61192, -23.5658], 'Av. Dom Pedro I, 100 (Cambuci) — página de contato da DIRINFRA'),
+    'serinfra-rj': ([-43.17034, -22.90854], 'Av. Marechal Câmara, 233 — endereço público do SERINFRA-RJ'),
 }
 
 def main(geo_arq, ext_arq):

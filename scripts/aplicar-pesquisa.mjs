@@ -18,6 +18,7 @@ const F = {
   aerodromo: { titulo: 'OurAirports — coordenadas do aeródromo', url: 'https://ourairports.com/countries/BR/' },
   comgap: { titulo: 'Organograma oficial do COMGAP (fab.mil.br)', url: 'https://www.fab.mil.br/a-forca-aerea/institucional/organograma/' },
   deceaOrg: { titulo: 'Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)' },
+  dirinfraOrg: { titulo: 'Organograma da DIRINFRA (enviado pelo instrutor)' },
   instrutor: { titulo: 'Informação do instrutor (página institucional do CGTEC/PAME-RJ)' },
 };
 
@@ -47,6 +48,9 @@ const SUBORDINACAO = [
   ['1-gcc', ['1-1-gcc', '2-1-gcc', '3-1-gcc', '4-1-gcc', '5-1-gcc'], F.deceaOrg],
   ['comgap', ['dirmab', 'mtab', 'ila', 'cecat', 'celog', 'dti'], F.comgap],
   ['dirmab', ['pama-ls', 'pama-gl', 'pama-sp', 'pamb-rj'], F.comgap],
+  ['comgap', ['dirinfra'], F.decreto],
+  ['dirinfra', ['comara', 'cepe', 'gac-infra-an', 'co-fz', 'gecamp', 'serinfra-be', 'serinfra-nt', 'serinfra-rj', 'serinfra-sj',
+    'serinfra-co', 'serinfra-br', 'serinfra-mn'], F.dirinfraOrg],
   ['celog', ['cabe', 'ctla'], F.comgap],
   ['dti', ['cca-rj', 'cca-br', 'cca-sj', 'cdcaer'], F.comgap],
   ['iv-comar', ['bacg'], F.bacg],
@@ -96,7 +100,7 @@ const SITES = {
   'serep-rj': W2('sereprj'), 'pama-ls': W2('pamals'), laqfa: W2('laqfa'), musal: W2('musal'), hfasp: W2('hfasp'),
   hca: W2('hca'), haaf: W2('haaf'), cpbv: W2('cpbv'), bacg: W2('bacg'), 'ii-comar': W2('comar2'), bafz: W2('bafz'),
   cimaer: W2('cimaer'), ila: W2('ila'), incaer: W2('incaer'), 'iii-comar': W2('comar3'), 'cca-sj': W2('ccasj'),
-  'gap-be': W2('gapbe'), dirmab: W2('dirmab'), dirap: W2('dirap'), 'cindacta-iv': W2('cindacta4'),
+  'gap-be': W2('gapbe'), dirmab: W2('dirmab'), dirinfra: W2('dirinfra'), dirap: W2('dirap'), 'cindacta-iv': W2('cindacta4'),
   bant: 'https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas/74-unidades-sobordinadas',
   barf: 'https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas/137-om',
   basv: 'https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas/134-teste-02',

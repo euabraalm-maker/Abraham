@@ -335,12 +335,19 @@
   ],
   "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
  },
+ "dirinfra": {
+  "coord": [
+   -46.61192,
+   -23.5658
+  ],
+  "fonte": "Av. Dom Pedro I, 100 (Cambuci) — página de contato da DIRINFRA"
+ },
  "dirmab": {
   "coord": [
-   -43.24005,
-   -22.83261
+   -46.61192,
+   -23.5658
   ],
-  "fonte": "DIRMAB (OpenStreetMap)"
+  "fonte": "Av. Dom Pedro I, 100 (Cambuci) — endereço informado pelo instrutor"
  },
  "dirsa": {
   "coord": [
@@ -796,6 +803,13 @@
    -23.43127
   ],
   "fonte": "Base Aérea de São Paulo (Cumbica) — endereço do catálogo"
+ },
+ "serinfra-rj": {
+  "coord": [
+   -43.17034,
+   -22.90854
+  ],
+  "fonte": "Av. Marechal Câmara, 233 — endereço público do SERINFRA-RJ"
  },
  "seripa-ii": {
   "coord": [

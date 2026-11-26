@@ -1364,18 +1364,21 @@
    -23.5091
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dirinfra",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Campo de Marte — endereço do catálogo",
@@ -2554,18 +2557,21 @@
    -1.40741
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "dirinfra",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Comissão de Aeroportos da Região Amazônica (COMARA) (OpenStreetMap)",
@@ -10769,8 +10775,8 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.24005,
-   -22.83261
+   -46.61192,
+   -23.5658
   ],
   "coordSituacao": "exata",
   "subordinadaA": "comgap",
@@ -10795,12 +10801,347 @@
     "url": "https://www.fab.mil.br/a-forca-aerea/institucional/organograma/"
    },
    {
-    "titulo": "Posição: DIRMAB (OpenStreetMap)",
+    "titulo": "Posição: Av. Dom Pedro I, 100 (Cambuci) — endereço informado pelo instrutor",
     "url": "https://www.openstreetmap.org/"
    },
    {
     "titulo": "Site oficial",
     "url": "https://www2.fab.mil.br/dirmab/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "dirinfra",
+  "sigla": "DIRINFRA",
+  "nome": "Diretoria de Infraestrutura da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Diretoria",
+  "cidade": "São Paulo",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.61192,
+   -23.5658
+  ],
+  "coordSituacao": "exata",
+  "subordinadaA": "comgap",
+  "site": "https://www2.fab.mil.br/dirinfra/",
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Av. Dom Pedro I, 100 (Cambuci) — página de contato da DIRINFRA",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/dirinfra/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gac-infra-an",
+  "sigla": "GAC INFRA-AN",
+  "nome": "GAC INFRA-AN (Diretoria de Infraestrutura da Aeronáutica em Anápolis)",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Anápolis",
+  "uf": "GO",
+  "pais": "Brasil",
+  "coord": [
+   -48.953,
+   -16.3281
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "a-conferir",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "co-fz",
+  "sigla": "CO-FZ",
+  "nome": "Comissão de Obras de Fortaleza",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Fortaleza",
+  "uf": "CE",
+  "pais": "Brasil",
+  "coord": [
+   -38.5423,
+   -3.7166
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "gecamp",
+  "sigla": "GECAMP",
+  "nome": "Grupamento de Engenharia de Campanha da Aeronáutica",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Guarulhos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -46.5333,
+   -23.4538
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-be",
+  "sigla": "SERINFRA-BE",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica de Belém",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Belém",
+  "uf": "PA",
+  "pais": "Brasil",
+  "coord": [
+   -48.4898,
+   -1.4554
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-nt",
+  "sigla": "SERINFRA-NT",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica de Natal",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Natal",
+  "uf": "RN",
+  "pais": "Brasil",
+  "coord": [
+   -35.1986,
+   -5.7936
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-rj",
+  "sigla": "SERINFRA-RJ",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica do Rio de Janeiro",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Rio de Janeiro",
+  "uf": "RJ",
+  "pais": "Brasil",
+  "coord": [
+   -43.17034,
+   -22.90854
+  ],
+  "coordSituacao": "exata",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "Posição: Av. Marechal Câmara, 233 — endereço público do SERINFRA-RJ",
+    "url": "https://www.openstreetmap.org/"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-sj",
+  "sigla": "SERINFRA-SJ",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica de São José dos Campos",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "São José dos Campos",
+  "uf": "SP",
+  "pais": "Brasil",
+  "coord": [
+   -45.8841,
+   -23.1896
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-co",
+  "sigla": "SERINFRA-CO",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica de Canoas",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Canoas",
+  "uf": "RS",
+  "pais": "Brasil",
+  "coord": [
+   -51.1857,
+   -29.9128
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-br",
+  "sigla": "SERINFRA-BR",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica de Brasília",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "serinfra-mn",
+  "sigla": "SERINFRA-MN",
+  "nome": "Serviço Regional de Infraestrutura da Aeronáutica de Manaus",
+  "categoria": "administracao",
+  "tipoCatalogo": "Serviço",
+  "cidade": "Manaus",
+  "uf": "AM",
+  "pais": "Brasil",
+  "coord": [
+   -60.0212,
+   -3.1187
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "dirinfra",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
    }
   ],
   "revisadoEm": "2026-11-26"
