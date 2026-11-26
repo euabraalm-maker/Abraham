@@ -92,8 +92,11 @@ function camadasVetoriais(p: Paleta): LayerSpecification[] {
   ];
 }
 
-/** Estilo do mapa no tema pedido. "teste" não usa rede (só fundo, regiões e UFs). */
-export function criarEstilo(tema: Tema, base: string = import.meta.env?.BASE_URL ?? '/'): StyleSpecification {
+/**
+ * Estilo do mapa no tema pedido. "teste" e `soLocal` não usam rede (só fundo, regiões e UFs);
+ * `soLocal` mantém as cores do tema e é usado quando o mapa base não responde.
+ */
+export function criarEstilo(tema: Tema, base: string = import.meta.env?.BASE_URL ?? '/', soLocal = false): StyleSpecification {
   const p = PALETAS[tema === 'claro' ? 'claro' : 'escuro'];
   const geo = (arq: string) => `${base}geo/${arq}`;
   const fontesLocais = {
@@ -101,7 +104,7 @@ export function criarEstilo(tema: Tema, base: string = import.meta.env?.BASE_URL
     regioes: { type: 'geojson' as const, data: geo('regioes.json') },
   };
   const fundo: LayerSpecification = { id: 'fundo', type: 'background', paint: { 'background-color': p.fundo } };
-  if (tema === 'teste') {
+  if (tema === 'teste' || soLocal) {
     return { version: 8, sources: fontesLocais, layers: [fundo, ...camadasLocais(p, false)] };
   }
   const vetoriais = camadasVetoriais(p);

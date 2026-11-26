@@ -1,0 +1,10 @@
+#palco { position: fixed; inset: 0; }
+#mapa { position: absolute; inset: 0; }
+.mapa-aviso {
+  position: absolute; left: 50%; top: max(72px, env(safe-area-inset-top, 0px)); transform: translateX(-50%);
+  background: var(--vidro); border: 1px solid var(--vidro-borda); color: var(--texto);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  padding: 8px 14px; border-radius: 999px; font-size: 0.85rem; z-index: 5; max-width: calc(100% - 32px); text-align: center;
+}
+.maplibregl-ctrl-group { background: var(--vidro) !important; border: 1px solid var(--vidro-borda); backdrop-filter: blur(10px); }
+:root[data-tema="escuro"] .maplibregl-ctrl-group button .maplibregl-ctrl-icon { filter: invert(1); }
