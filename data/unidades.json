@@ -1,0 +1,23 @@
+[
+  {
+    "id": "baan", "sigla": "BAAN", "nome": "Base Aérea de Anápolis", "categoria": "base", "tipoCatalogo": "Base",
+    "cidade": "Anápolis", "uf": "GO", "pais": "Brasil", "coord": [-48.97, -16.23], "coordSituacao": "aproximada",
+    "subordinadaA": null, "site": null, "ficha": "basica",
+    "situacao": { "nome": "confirmado", "localizacao": "a-conferir", "subordinacao": "a-conferir" },
+    "fontes": [{ "titulo": "Catálogo do COMAER (PDF)", "url": "https://www.fab.mil.br/" }], "revisadoEm": "2026-11-26"
+  },
+  {
+    "id": "1-gda", "sigla": "1º GDA", "nome": "Primeiro Grupo de Defesa Aérea", "categoria": "esquadrao", "tipoCatalogo": "Grupo",
+    "cidade": "Anápolis", "uf": "GO", "pais": "Brasil", "coord": null, "coordSituacao": "aproximada",
+    "subordinadaA": null, "sediadoEm": "baan", "site": null, "ficha": "basica",
+    "situacao": { "nome": "confirmado", "localizacao": "a-conferir", "subordinacao": "a-conferir" },
+    "fontes": [{ "titulo": "Catálogo do COMAER (PDF)", "url": "https://www.fab.mil.br/" }], "revisadoEm": "2026-11-26"
+  },
+  {
+    "id": "cabw", "sigla": "CABW", "nome": "Comissão Aeronáutica Brasileira em Washington", "categoria": "exterior", "tipoCatalogo": "Comissão / Missão",
+    "cidade": "Washington", "uf": null, "pais": "Estados Unidos", "coord": null, "coordSituacao": "aproximada",
+    "subordinadaA": null, "site": null, "ficha": "basica",
+    "situacao": { "nome": "confirmado", "localizacao": "a-conferir", "subordinacao": "a-conferir" },
+    "fontes": [{ "titulo": "Catálogo do COMAER (PDF)", "url": "https://www.fab.mil.br/" }], "revisadoEm": "2026-11-26"
+  }
+]
