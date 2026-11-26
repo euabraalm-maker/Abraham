@@ -17,6 +17,7 @@ const F = {
   bacg: { titulo: 'Base Aérea de Campo Grande (página oficial)', url: 'https://www2.fab.mil.br/bacg/' },
   aerodromo: { titulo: 'OurAirports — coordenadas do aeródromo', url: 'https://ourairports.com/countries/BR/' },
   comgap: { titulo: 'Organograma oficial do COMGAP (fab.mil.br)', url: 'https://www.fab.mil.br/a-forca-aerea/institucional/organograma/' },
+  deceaOrg: { titulo: 'Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)' },
   instrutor: { titulo: 'Informação do instrutor (página institucional do CGTEC/PAME-RJ)' },
 };
 
@@ -40,6 +41,10 @@ const SUBORDINACAO = [
   ['1-gcc', ['1-1-gcc', '2-1-gcc', '3-1-gcc', '4-1-gcc', '5-1-gcc'], F.gcc],
   ['ii-comar', ['bant', 'barf', 'basv', 'bafz'], F.comar2],
   ['pame-rj', ['dtceatm-rj', 'cgtec'], F.instrutor],
+  ['pame-rj', ['dtceatm-rj'], F.deceaOrg],
+  ['decea', ['ciscea', 'cindacta-i', 'cindacta-ii', 'cindacta-iii', 'cindacta-iv', 'cgna', 'crcea-se', 'pame-rj', 'icea', 'ica',
+    'cimaer', 'geiv', '1-gcc', 'asocea'], F.deceaOrg],
+  ['1-gcc', ['1-1-gcc', '2-1-gcc', '3-1-gcc', '4-1-gcc', '5-1-gcc'], F.deceaOrg],
   ['comgap', ['dirmab', 'mtab', 'ila', 'cecat', 'celog', 'dti'], F.comgap],
   ['dirmab', ['pama-ls', 'pama-gl', 'pama-sp', 'pamb-rj'], F.comgap],
   ['celog', ['cabe', 'ctla'], F.comgap],

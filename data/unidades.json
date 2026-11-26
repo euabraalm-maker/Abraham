@@ -109,18 +109,21 @@
    -22.90854
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Pagadoria dos Inativos e Pensionistas da Aeronáutica, 233, A (OpenStreetMap)",
@@ -1413,6 +1416,9 @@
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    },
    {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
+   },
+   {
     "titulo": "Posição: Av. General Justo, 160 (DECEA) — endereço do catálogo",
     "url": "https://www.openstreetmap.org/"
    }
@@ -1781,6 +1787,9 @@
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    },
    {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
+   },
+   {
     "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
     "url": "https://www.openstreetmap.org/"
    },
@@ -1865,6 +1874,9 @@
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    },
    {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
+   },
+   {
     "titulo": "Posição: Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo",
     "url": "https://www.openstreetmap.org/"
    },
@@ -1905,6 +1917,9 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: CINDACTA IV (OpenStreetMap)",
@@ -1949,6 +1964,9 @@
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    },
    {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
+   },
+   {
     "titulo": "Posição: Bacacheri — endereço do catálogo",
     "url": "https://www.openstreetmap.org/"
    },
@@ -1989,6 +2007,9 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Site oficial",
@@ -2655,6 +2676,9 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Comissão de Implantação do Sistema de Controle do Espaço Aéreo (OpenStreetMap)",
@@ -3428,6 +3452,9 @@
    },
    {
     "titulo": "Informação do instrutor (página institucional do CGTEC/PAME-RJ)"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Av. General Justo, 160 (DECEA) — endereço do catálogo",
@@ -6611,6 +6638,9 @@
    {
     "titulo": "DECEA — 1º GCC",
     "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -6783,6 +6813,9 @@
    {
     "titulo": "DECEA — 1º GCC",
     "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -6843,6 +6876,9 @@
    {
     "titulo": "DECEA — 1º GCC",
     "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -6931,6 +6967,9 @@
    {
     "titulo": "DECEA — 1º GCC",
     "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -7187,6 +7226,9 @@
    {
     "titulo": "DECEA — 1º GCC",
     "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -7858,6 +7900,9 @@
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    },
    {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
+   },
+   {
     "titulo": "Posição: Grupo Especial de Inspeção em Voo (OpenStreetMap)",
     "url": "https://www.openstreetmap.org/"
    }
@@ -7922,6 +7967,9 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
@@ -8516,6 +8564,9 @@
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    },
    {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
+   },
+   {
     "titulo": "Posição: Instituto de Cartografia Aeronáutica (OpenStreetMap)",
     "url": "https://www.openstreetmap.org/"
    }
@@ -8552,6 +8603,9 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Campus do DCTA — endereço do catálogo",
@@ -9285,6 +9339,9 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Parque de Material de Eletrônica da Aeronáutica (OpenStreetMap)",
@@ -10623,6 +10680,9 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Organograma do DECEA, atualizado em 28/10/2026 (enviado pelo instrutor)"
    },
    {
     "titulo": "Posição: Aeroporto de Congonhas, torre de controle (página do DECEA)",
