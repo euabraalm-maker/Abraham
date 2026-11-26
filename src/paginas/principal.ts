@@ -91,4 +91,12 @@ document.addEventListener('acao-ficha', (e) => {
   else if (acao === 'subordinados') mostrarSubordinados(id);
 });
 
+// Endereço com #id (vindo da página da unidade) abre a ficha
+const abrirDoEndereco = () => {
+  const alvo = decodeURIComponent(location.hash.slice(1));
+  if (alvo && porId.has(alvo)) abrirUnidade(alvo);
+};
+window.addEventListener('hashchange', abrirDoEndereco);
+abrirDoEndereco();
+
 if (tema === 'teste' || params.has('depurar')) (window as unknown as { __mapa: unknown }).__mapa = mapa;
