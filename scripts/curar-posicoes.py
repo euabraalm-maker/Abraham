@@ -26,6 +26,11 @@ MANUAL = {
     'cgtec': ([-43.21471, -22.87466], 'Dentro do PAME-RJ (informação do instrutor)'),
     'dirmab': ([-46.61192, -23.5658], 'Av. Dom Pedro I, 100 (Cambuci) — endereço informado pelo instrutor'),
     'dirinfra': ([-46.61192, -23.5658], 'Av. Dom Pedro I, 100 (Cambuci) — página de contato da DIRINFRA'),
+    'gecamp': ([-46.46995, -23.43127], 'Área da Base Aérea de São Paulo, Cumbica (endereço informado pelo instrutor)'),
+    'serinfra-be': ([-48.47621, -1.37928], 'Av. Júlio César, Souza — complexo de Val de Cans (endereço informado pelo instrutor)'),
+    'serinfra-sj': ([-45.86843, -23.2233], 'Campus do DCTA, Praça Mal. Eduardo Gomes, 50 (endereço informado pelo instrutor)'),
+    'serinfra-co': ([-51.14441, -29.94593], 'Av. Guilherme Schell, 3950 — Base Aérea de Canoas (endereço informado pelo instrutor)'),
+    'serinfra-mn': ([-59.9863, -3.14604], 'Av. Gen. Rodrigo Otávio, 430 — Base Aérea de Manaus (endereço informado pelo instrutor)'),
     'serinfra-rj': ([-43.17034, -22.90854], 'Av. Marechal Câmara, 233 — endereço público do SERINFRA-RJ'),
 }
 
