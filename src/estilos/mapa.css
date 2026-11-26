@@ -1,0 +1,21 @@
+#palco { position: fixed; inset: 0; }
+#mapa { position: absolute; inset: 0; }
+.mapa-aviso {
+  position: absolute; left: 50%; top: max(72px, env(safe-area-inset-top, 0px)); transform: translateX(-50%);
+  background: var(--vidro); border: 1px solid var(--vidro-borda); color: var(--texto);
+  backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  padding: 8px 14px; border-radius: 999px; font-size: 0.85rem; z-index: 5; max-width: calc(100% - 32px); text-align: center;
+}
+.maplibregl-ctrl-group { background: var(--vidro) !important; border: 1px solid var(--vidro-borda); backdrop-filter: blur(10px); }
+:root[data-tema="escuro"] .maplibregl-ctrl-group button .maplibregl-ctrl-icon { filter: invert(1); }
+.maplibregl-ctrl-bottom-right { margin-bottom: 26px; }
+.aviao {
+  position: absolute; left: -15px; top: -15px; z-index: 6; pointer-events: none; color: #e6ecff;
+  filter: drop-shadow(0 0 6px rgba(143, 176, 255, 0.9)) drop-shadow(0 6px 10px rgba(0, 0, 0, 0.4));
+  will-change: transform, opacity;
+}
+:root[data-tema="claro"] .aviao { color: #2f56d8; filter: drop-shadow(0 4px 6px rgba(20, 40, 120, 0.35)); }
+/* Modo de efeitos leves (ativado automaticamente se o computador engasgar) */
+html.fx-leve .vidro { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; background: var(--fundo-2); box-shadow: none; }
+html.fx-leve .no.destaque { box-shadow: 0 0 0 2px var(--destaque); }
+html.fx-leve .aviao { filter: none; }

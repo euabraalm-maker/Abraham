@@ -1,6 +1,6 @@
 # Mapa das Organizações Militares da FAB — Design
 
-Data: 2026-11-26 · Status: rascunho para aprovação
+Data: 2026-11-26 · Status: rascunho para aprovação (respostas da revisão incorporadas)
 
 ## 1. Intenção e porquê
 
@@ -71,7 +71,7 @@ Detalhe progressivo conforme o zoom, como o Google, mas no estilo holográfico p
 ### 5.3 Unidades no mapa
 - **Escopo:** todas as OMs da FAB no Brasil (~290), a partir de `docs/fontes/indice-catalogo-comaer.md`. Incluir hospitais, prefeituras, odontoclínicas, diretorias, institutos etc. (decidido: a EEAR forma especialidades que trabalham nesses lugares).
 - **Ícone:** um formato + cor por tipo de unidade, com legenda.
-- **Posição:** sobre a própria base/aeródromo/instalação, não no centro da cidade.
+- **Posição:** sobre a própria base/aeródromo/instalação, não no centro da cidade. *Decisão do autor:* sítios isolados (radares, ex.: Morro da Igreja, Pico do Couto) também ficam no ponto exato, desde que a coordenada seja pública. Sem coordenada confirmada → ícone na cidade, marcado "posição aproximada".
 - **Esquadrões e grupos sediados** (1º GDA, 2º/6º GAV, esquadrões do GCC etc., ~50 no catálogo) **não têm ícone próprio**: aparecem na ficha da unidade onde estão sediados, e a **busca os encontra** (buscar "Pampa" voa para Canoas e abre a ficha da BACO). *Decisão do Claude:* no modelo de dados, são registros próprios com vínculo "sediado em"; têm página própria (endereço compartilhável), nó próprio no organograma e entram no "tudo subordinado a X"; não entram nas contagens de ícones dos filtros. A nota do índice sugerindo ícone próprio para o 1º GDA não vale — prevalece a decisão do autor. Sede não confirmada → "a conferir". Com isso, são ~250 ícones no mapa + ~50 esquadrões/grupos.
 - **Bolhas com número** agrupam unidades próximas quando afastado; clicar na bolha voa até lá e as separa.
 - **Exterior** (adidâncias, CABW, CABE, MTAB…): lista à parte "FAB no exterior", fora do mapa do Brasil.
@@ -96,6 +96,7 @@ Cada unidade tem endereço próprio, compartilhável (o instrutor pode mandar o 
 Segunda tela, alternada com o mapa por `[ Mapa | Organograma ]`. Árvore expansível a partir do COMAER. Topo conforme o organograma oficial (https://www.fab.mil.br/a-forca-aerea/institucional/organograma/, Decreto nº 11.237/2022, atualizado pelo EMAER em nov/2026): COMANDO, SEFA, COMPREP, DCTA, DECEA, COMGAP, COMAE, COMGEP. Clicar numa caixa → volta ao mapa e voa até a unidade. Da ficha, é possível abrir o organograma já destacando a unidade.
 
 ### 5.9 Dados e fontes
+- Catálogo original do COMAER (PDF, 95 p.) fornecido pelo autor — fonte para corrigir nomes truncados, siglas e endereços. Contém telefones, ramais e links da intraer: **nada disso vai para o site**, e o PDF não é versionado no repositório (fica como referência local; pedir ao autor se necessário).
 - Lista base: `docs/fontes/indice-catalogo-comaer.md` (índice do catálogo do COMAER fornecido pelo autor, ~300 siglas). Problemas conhecidos que precisam ser tratados: nomes truncados na extração (ex.: DECEA como "DEPARTAMENTO AÉREO", vários "CENTRO AERONÁUTICA"), 12 localidades "a conferir", possíveis duplicatas (DESTAE-FN/DTCEA-FN, DESTAE-MQ/DTCEA-MQ), CRCEA-SE ausente do índice, e as observações "BCO" do arquivo **não** entram no site.
 - Subordinação: organograma oficial (imagens, a transcrever) + regimentos internos e páginas do DECEA/órgãos.
 - Fichas completas: páginas oficiais (fab.mil.br, decea.mil.br) e fontes públicas confiáveis.
@@ -103,7 +104,11 @@ Segunda tela, alternada com o mapa por `[ Mapa | Organograma ]`. Árvore expans�
 - *Decisão do Claude:* "confirmado" = ao menos uma fonte oficial (fab.mil.br, decea.mil.br, regimento interno, catálogo do COMAER) que sustente o dado.
 - Cada unidade registra fonte(s), situação (confirmado / a conferir) e data de revisão. O que não foi confirmado fica marcado "a conferir" e é exibido assim — nunca chutado.
 
-### 5.10 Manutenção
+### 5.10 Lançamento em duas etapas (decisão do autor)
+- **Etapa 1 (lançamento):** mapa completo com todas as unidades posicionadas, subordinação, filtros, busca, organograma, página por unidade, modos claro/escuro. Todas com ficha básica; **20–30 fichas completas** das unidades que o autor mais usa em aula (lista a ser pedida ao autor no início da construção).
+- **Etapa 2:** completar as demais fichas completas aos poucos.
+
+### 5.11 Manutenção
 Atualizações manuais, poucas vezes ao ano: o autor aponta a unidade desatualizada, o Claude pesquisa e edita o arquivo de dados. Os dados ficam separados do código e em formato legível por humanos.
 
 ## 6. Decisões do Claude (o autor pode corrigir)
@@ -111,7 +116,8 @@ Atualizações manuais, poucas vezes ao ano: o autor aponta a unidade desatualiz
 - Cache offline do que já foi visitado (site, fichas, áreas de mapa vistas).
 - Ícones distintos por tipo, com forma + cor (não só cor) por acessibilidade.
 - Escala de fonte pensada para 65" a ~5 m, testada também no celular.
-- Fluidez verificada no cenário real: notebook comum espelhado em TV.
+- Fluidez verificada no cenário real: **Samsung Galaxy Book2** (gráfico integrado Intel) espelhado em TV, em Chrome/Edge. Efeitos de vidro, brilho e inclinação dosados para manter animação fluida nessa máquina; reduzir efeitos automaticamente se a taxa de quadros cair.
+- Publicação: o Claude publica as atualizações e o autor aponta o que estiver errado (o autor disse que pedirá correções quando notar algo desatualizado).
 
 ## 7. Deixado para o construtor
 - Framework/ferramentas de build, estrutura do código, formato exato do JSON, roteamento das páginas por unidade.

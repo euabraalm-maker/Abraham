@@ -1,0 +1,14 @@
+.pagina-unidade {
+  max-width: 1100px; margin: 0 auto; padding-block: 12px 64px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 20px; align-items: start;
+}
+.pagina-unidade .voltar { grid-column: 1 / -1; justify-self: start; }
+.pagina-unidade .ficha-pagina { padding: 24px; }
+.pagina-unidade .mapa-pequeno { position: relative; min-height: 420px; border-radius: var(--raio); overflow: hidden; border: 1px solid var(--vidro-borda); }
+.pagina-unidade .mapa-pequeno > div { position: absolute; inset: 0; }
+.nao-encontrada { grid-column: 1 / -1; padding: 32px; text-align: center; display: grid; gap: 12px; justify-items: center; }
+@media (max-width: 820px) {
+  .pagina-unidade { grid-template-columns: 1fr; }
+  .pagina-unidade .mapa-pequeno { min-height: 300px; }
+}
