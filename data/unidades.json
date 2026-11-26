@@ -9,22 +9,30 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -47.4257,
-   -21.996
+   -47.34121,
+   -21.98469
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "direns",
   "site": "https://www.afa.aer.mil.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBYS)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -127,18 +135,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -153,22 +165,26 @@
   "uf": "GO",
   "pais": "Brasil",
   "coord": [
-   -48.953,
-   -16.3281
+   -48.9643,
+   -16.2292
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBAN)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -183,22 +199,26 @@
   "uf": "PA",
   "pais": "Brasil",
   "coord": [
-   -48.4898,
-   -1.4554
+   -48.47621,
+   -1.37928
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBBE)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -213,22 +233,26 @@
   "uf": "RR",
   "pais": "Brasil",
   "coord": [
-   -60.6753,
-   2.8238
+   -60.69065,
+   2.84615
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBBV)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -243,22 +267,26 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.92083,
+   -15.86917
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBBR)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -273,22 +301,26 @@
   "uf": "MS",
   "pais": "Brasil",
   "coord": [
-   -54.6295,
-   -20.4486
+   -54.67399,
+   -20.47
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBCG)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -303,22 +335,26 @@
   "uf": "RS",
   "pais": "Brasil",
   "coord": [
-   -51.1857,
-   -29.9128
+   -51.14441,
+   -29.94593
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBCO)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -333,22 +369,26 @@
   "uf": "SC",
   "pais": "Brasil",
   "coord": [
-   -48.5477,
-   -27.5945
+   -48.5525,
+   -27.67028
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": "https://www2.fab.mil.br/bafl",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBFL)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -363,22 +403,26 @@
   "uf": "CE",
   "pais": "Brasil",
   "coord": [
-   -38.5423,
-   -3.7166
+   -38.53222,
+   -3.77583
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBFZ)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -393,22 +437,26 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -60.0212,
-   -3.1187
+   -59.9863,
+   -3.14604
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBMN)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -423,22 +471,26 @@
   "uf": "RN",
   "pais": "Brasil",
   "coord": [
-   -35.271,
-   -5.9112
+   -35.2477,
+   -5.91142
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBNT)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -453,22 +505,26 @@
   "uf": "RO",
   "pais": "Brasil",
   "coord": [
-   -63.8999,
-   -8.7608
+   -63.90234,
+   -8.70849
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBPV)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -483,22 +539,26 @@
   "uf": "PE",
   "pais": "Brasil",
   "coord": [
-   -34.8771,
-   -8.0467
+   -34.92296,
+   -8.12747
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBRF)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -513,22 +573,26 @@
   "uf": "BA",
   "pais": "Brasil",
   "coord": [
-   -38.5011,
-   -12.9718
+   -38.3225,
+   -12.90861
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBSV)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -543,22 +607,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.7191,
+   -22.9324
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBSC)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -573,22 +641,26 @@
   "uf": "RS",
   "pais": "Brasil",
   "coord": [
-   -53.8149,
-   -29.6868
+   -53.6882,
+   -29.7114
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBSM)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -603,22 +675,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.258,
-   -23.9888
+   -46.3002,
+   -23.92819
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBST)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -633,22 +709,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.5333,
-   -23.4538
+   -46.46995,
+   -23.43127
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBGR)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -663,22 +743,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBGL)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -693,22 +777,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.3847,
+   -22.8751
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBAF)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -783,22 +871,26 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -54.9654,
+   -9.33394
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": "https://www2.fab.mil.br/cpbv",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBCC)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -847,18 +939,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "dirad",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -997,18 +1093,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1027,18 +1127,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": "https://www.cenciar.aer.mil.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1147,18 +1251,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — Nossas Unidades",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1177,18 +1285,22 @@
    -19.6397
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "direns",
   "site": "https://www.fab.mil.br/ciaar",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1207,18 +1319,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1237,18 +1353,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": "https://www.cenipa.fab.mil.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1293,22 +1413,26 @@
   "uf": "MA",
   "pais": "Brasil",
   "coord": [
-   -44.2825,
-   -2.5387
+   -44.3964,
+   -2.373
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SNCW)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1447,18 +1571,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": "https://www2.fab.mil.br/cimaer",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — Nossas Unidades",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1477,18 +1605,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comgap",
   "site": "https://www2.fab.mil.br/celog",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1507,18 +1639,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1537,18 +1673,22 @@
    -3.1187
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": "https://www.cindacta4.decea.gov.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1567,18 +1707,22 @@
    -25.4195
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — Nossas Unidades",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1597,18 +1741,22 @@
    -8.0467
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — Nossas Unidades",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1657,18 +1805,22 @@
    -3.1187
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comprep",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1717,18 +1869,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1747,18 +1903,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1777,18 +1937,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1807,18 +1971,22 @@
    -8.0467
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comprep",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1837,18 +2005,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comprep",
   "site": "https://www2.fab.mil.br/comar3",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1867,18 +2039,22 @@
    -23.5329
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comprep",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1897,18 +2073,22 @@
    -29.9128
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comprep",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1927,18 +2107,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comprep",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2011,18 +2195,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "dcta",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2101,18 +2289,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comgep",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2131,18 +2323,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": "https://www.ciscea.gov.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2191,18 +2387,22 @@
    -23.1896
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2221,18 +2421,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": "https://www.decea.mil.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2247,22 +2451,26 @@
   "uf": "BA",
   "pais": "Brasil",
   "coord": [
-   -39.2597,
-   -17.7268
+   -39.2531,
+   -17.6523
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBCV)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2277,22 +2485,26 @@
   "uf": "PE",
   "pais": "Brasil",
   "coord": [
-   -32.4107,
-   -3.8396
+   -32.42302,
+   -3.85453
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBFN)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2307,22 +2519,26 @@
   "uf": "AP",
   "pais": "Brasil",
   "coord": [
-   -51.0694,
-   0.0349
+   -51.0722,
+   0.05066
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBMQ)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2337,22 +2553,26 @@
   "uf": "RN",
   "pais": "Brasil",
   "coord": [
-   -37.3474,
-   -5.1837
+   -37.3643,
+   -5.20192
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBMS)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2367,22 +2587,26 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -67.084,
-   -0.1191
+   -66.9855,
+   -0.14835
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBUA)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2397,22 +2621,30 @@
   "uf": "MG",
   "pais": "Brasil",
   "coord": [
-   -43.7703,
-   -21.2214
+   -43.76101,
+   -21.2672
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBBQ)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2427,22 +2659,30 @@
   "uf": "PR",
   "pais": "Brasil",
   "coord": [
-   -49.2646,
-   -25.4195
+   -49.232,
+   -25.4051
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA II",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBBI)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2457,22 +2697,30 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.1938,
-   -22.8075
+   -45.2048,
+   -22.7916
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "crcea-se",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CRCEA-SE",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=crcea-se"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBGW)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2487,22 +2735,30 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.6395,
-   -23.5329
+   -46.6378,
+   -23.5091
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "crcea-se",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CRCEA-SE",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=crcea-se"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBMT)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2517,22 +2773,30 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.7191,
+   -22.9324
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "crcea-se",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CRCEA-SE",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=crcea-se"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBSC)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2547,22 +2811,30 @@
   "uf": "RS",
   "pais": "Brasil",
   "coord": [
-   -53.8149,
-   -29.6868
+   -53.6882,
+   -29.7114
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA II",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBSM)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2577,22 +2849,30 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.258,
-   -23.9888
+   -46.3002,
+   -23.92819
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "crcea-se",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CRCEA-SE",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=crcea-se"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBST)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2607,22 +2887,30 @@
   "uf": "MT",
   "pais": "Brasil",
   "coord": [
-   -50.6706,
-   -11.615
+   -50.6896,
+   -11.6324
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SWFX)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2667,22 +2955,30 @@
   "uf": "MT",
   "pais": "Brasil",
   "coord": [
-   -55.5091,
-   -11.8604
+   -55.58611,
+   -11.885
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBSI)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2697,22 +2993,30 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "crcea-se",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CRCEA-SE",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=crcea-se"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBGL)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2727,22 +3031,30 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.3847,
+   -22.8751
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "crcea-se",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CRCEA-SE",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=crcea-se"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBAF)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2787,22 +3099,30 @@
   "uf": "RR",
   "pais": "Brasil",
   "coord": [
-   -60.6753,
-   2.8238
+   -60.69065,
+   2.84615
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBBV)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2817,22 +3137,30 @@
   "uf": "PA",
   "pais": "Brasil",
   "coord": [
-   -57.7544,
-   -6.2147
+   -57.7769,
+   -6.23316
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBEK)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2847,22 +3175,30 @@
   "uf": "GO",
   "pais": "Brasil",
   "coord": [
-   -48.953,
-   -16.3281
+   -48.9643,
+   -16.2292
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBAN)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2877,22 +3213,30 @@
   "uf": "SE",
   "pais": "Brasil",
   "coord": [
-   -37.0677,
-   -10.9091
+   -37.07287,
+   -10.98394
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA III",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBAR)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2907,22 +3251,30 @@
   "uf": "MT",
   "pais": "Brasil",
   "coord": [
-   -52.264,
-   -15.8804
+   -52.38901,
+   -15.86142
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBBW)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2937,22 +3289,30 @@
   "uf": "PA",
   "pais": "Brasil",
   "coord": [
-   -48.4898,
-   -1.4554
+   -48.47621,
+   -1.37928
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBBE)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2967,22 +3327,30 @@
   "uf": "BA",
   "pais": "Brasil",
   "coord": [
-   -43.4108,
-   -13.2506
+   -43.4081,
+   -13.2621
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA III",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBLP)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2997,22 +3365,30 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.92083,
+   -15.86917
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBBR)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3027,22 +3403,30 @@
   "uf": "PA",
   "pais": "Brasil",
   "coord": [
-   -55.3786,
-   -7.1435
+   -54.9654,
+   -9.33394
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBCC)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3057,22 +3441,30 @@
   "uf": "MS",
   "pais": "Brasil",
   "coord": [
-   -54.6295,
-   -20.4486
+   -54.67399,
+   -20.47
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA II",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBCG)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3091,18 +3483,22 @@
    -31.396
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA II",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3117,22 +3513,30 @@
   "uf": "RS",
   "pais": "Brasil",
   "coord": [
-   -51.1857,
-   -29.9128
+   -51.14441,
+   -29.94593
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA II",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBCO)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3151,18 +3555,22 @@
    -25.2044
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA II",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3181,18 +3589,22 @@
    -15.4643
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3207,22 +3619,30 @@
   "uf": "PA",
   "pais": "Brasil",
   "coord": [
-   -49.2689,
-   -8.2614
+   -49.3015,
+   -8.34835
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBAA)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3237,22 +3657,30 @@
   "uf": "MG",
   "pais": "Brasil",
   "coord": [
-   -43.9931,
-   -19.6282
+   -43.96693,
+   -19.63571
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBCF)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3267,22 +3695,30 @@
   "uf": "MS",
   "pais": "Brasil",
   "coord": [
-   -57.651,
-   -19.0077
+   -57.67277,
+   -19.01193
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA II",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBCR)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3297,22 +3733,30 @@
   "uf": "AC",
   "pais": "Brasil",
   "coord": [
-   -72.6756,
-   -7.6276
+   -72.7695,
+   -7.59991
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBCZ)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3327,22 +3771,30 @@
   "uf": "MT",
   "pais": "Brasil",
   "coord": [
-   -56.1322,
-   -15.6458
+   -56.1167,
+   -15.6529
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBCY)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3357,22 +3809,30 @@
   "uf": "PR",
   "pais": "Brasil",
   "coord": [
-   -49.2031,
-   -25.5313
+   -49.1758,
+   -25.5285
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA II",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBCT)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3387,22 +3847,30 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -60.0212,
-   -3.1187
+   -60.0497,
+   -3.03861
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBEG)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3417,22 +3885,30 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -69.8662,
-   -6.6568
+   -69.87971,
+   -6.63953
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SWEI)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3447,22 +3923,30 @@
   "uf": "PE",
   "pais": "Brasil",
   "coord": [
-   -32.4107,
-   -3.8396
+   -32.42302,
+   -3.85453
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA III",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBFN)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3477,22 +3961,30 @@
   "uf": "SC",
   "pais": "Brasil",
   "coord": [
-   -48.5477,
-   -27.5945
+   -48.5525,
+   -27.67028
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA II",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBFL)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3507,22 +3999,30 @@
   "uf": "CE",
   "pais": "Brasil",
   "coord": [
-   -38.5423,
-   -3.7166
+   -38.53222,
+   -3.77583
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA III",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBFZ)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3537,22 +4037,30 @@
   "uf": "PR",
   "pais": "Brasil",
   "coord": [
-   -54.5827,
-   -25.5427
+   -54.48944,
+   -25.59417
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA II",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBFI)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3571,18 +4079,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3597,22 +4109,30 @@
   "uf": "RO",
   "pais": "Brasil",
   "coord": [
-   -65.3296,
-   -10.7889
+   -65.28486,
+   -10.78641
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBGM)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3627,22 +4147,30 @@
   "uf": "MA",
   "pais": "Brasil",
   "coord": [
-   -47.4777,
-   -5.5185
+   -47.46,
+   -5.53129
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA III",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBIZ)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3657,22 +4185,30 @@
   "uf": "MG",
   "pais": "Brasil",
   "coord": [
-   -43.8932,
-   -19.6397
+   -43.8974,
+   -19.66175
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBLS)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3687,22 +4223,30 @@
   "uf": "AP",
   "pais": "Brasil",
   "coord": [
-   -51.0694,
-   0.0349
+   -51.0722,
+   0.05066
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBMQ)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3717,22 +4261,30 @@
   "uf": "AL",
   "pais": "Brasil",
   "coord": [
-   -35.8394,
-   -9.4778
+   -35.79184,
+   -9.51256
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA III",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBMO)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3747,22 +4299,30 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -60.0212,
-   -3.1187
+   -59.9863,
+   -3.14604
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBMN)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3777,22 +4337,30 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -61.2895,
-   -5.8046
+   -61.2783,
+   -5.81138
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBMY)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3811,18 +4379,22 @@
    -28.0157
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA II",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3837,22 +4409,30 @@
   "uf": "RN",
   "pais": "Brasil",
   "coord": [
-   -35.271,
-   -5.9112
+   -35.2477,
+   -5.91142
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA III",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBNT)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3867,22 +4447,30 @@
   "uf": "AP",
   "pais": "Brasil",
   "coord": [
-   -51.8331,
-   3.8407
+   -51.79706,
+   3.85412
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBOI)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3897,22 +4485,30 @@
   "uf": "PE",
   "pais": "Brasil",
   "coord": [
-   -40.5027,
-   -9.3887
+   -40.5691,
+   -9.36242
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA III",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBPL)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3931,18 +4527,22 @@
    -22.52
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3957,22 +4557,30 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -47.4257,
-   -21.996
+   -47.34121,
+   -21.98469
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBYS)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3991,18 +4599,22 @@
    -15.857
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4017,22 +4629,30 @@
   "uf": "RO",
   "pais": "Brasil",
   "coord": [
-   -63.8999,
-   -8.7608
+   -63.90234,
+   -8.70849
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBPV)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4047,22 +4667,30 @@
   "uf": "PE",
   "pais": "Brasil",
   "coord": [
-   -34.8771,
-   -8.0467
+   -34.92296,
+   -8.12747
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA III",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBRF)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4077,22 +4705,30 @@
   "uf": "AC",
   "pais": "Brasil",
   "coord": [
-   -67.8243,
-   -9.975
+   -67.89398,
+   -9.86903
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBRB)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4107,22 +4743,30 @@
   "uf": "BA",
   "pais": "Brasil",
   "coord": [
-   -38.5011,
-   -12.9718
+   -38.3225,
+   -12.90861
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA III",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBSV)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4141,18 +4785,22 @@
    -19.9363
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4167,22 +4815,30 @@
   "uf": "PA",
   "pais": "Brasil",
   "coord": [
-   -54.6996,
-   -2.4385
+   -54.79306,
+   -2.42242
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBSN)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4201,18 +4857,22 @@
    -29.1897
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA II",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4227,22 +4887,30 @@
   "uf": "PA",
   "pais": "Brasil",
   "coord": [
-   -51.9904,
-   -6.6425
+   -51.9523,
+   -6.6413
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SNFX)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4257,22 +4925,30 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -67.084,
-   -0.1191
+   -66.9855,
+   -0.14835
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBUA)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4287,22 +4963,30 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.8615,
+   -23.2292
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "crcea-se",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CRCEA-SE",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=crcea-se"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBSJ)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4317,22 +5001,30 @@
   "uf": "MA",
   "pais": "Brasil",
   "coord": [
-   -44.2825,
-   -2.5387
+   -44.23501,
+   -2.58639
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA III",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBSL)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4351,18 +5043,22 @@
    -23.5226
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4377,22 +5073,30 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -69.9383,
-   -4.2416
+   -69.9358,
+   -4.25567
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBTT)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4411,18 +5115,22 @@
    -20.6228
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4437,22 +5145,30 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -64.7193,
-   -3.3682
+   -64.7241,
+   -3.38294
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBTF)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4471,18 +5187,22 @@
    -18.2048
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "cindacta-i",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA I",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4497,22 +5217,30 @@
   "uf": "RS",
   "pais": "Brasil",
   "coord": [
-   -57.0853,
-   -29.7614
+   -57.0382,
+   -29.7822
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA II",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBUG)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4527,22 +5255,30 @@
   "uf": "RO",
   "pais": "Brasil",
   "coord": [
-   -60.1488,
-   -12.7502
+   -60.0983,
+   -12.6944
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "cindacta-iv",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — CINDACTA IV",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBVH)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4621,18 +5357,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "sefa",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4651,18 +5391,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comgep",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4681,18 +5425,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "sefa",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4711,18 +5459,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comgep",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4741,18 +5493,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comgep",
   "site": "https://www2.fab.mil.br/dirsa",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4771,18 +5527,22 @@
    -23.5329
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comgap",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4831,18 +5591,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "unifa",
   "site": "https://www2.fab.mil.br/ecemar",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4857,22 +5621,30 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.1938,
-   -22.8075
+   -45.2048,
+   -22.7916
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "direns",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBGW)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4887,22 +5659,30 @@
   "uf": "MG",
   "pais": "Brasil",
   "coord": [
-   -43.7703,
-   -21.2214
+   -43.76101,
+   -21.2672
   ],
-  "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "coordSituacao": "exata",
+  "subordinadaA": "direns",
   "site": "https://www.epcar.aer.mil.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "localizacao": "confirmado",
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBBQ)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5396,18 +6176,22 @@
   "pais": "Brasil",
   "coord": null,
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "1-gcc",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — 1º GCC",
+    "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -5564,18 +6348,22 @@
   "pais": "Brasil",
   "coord": null,
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "1-gcc",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — 1º GCC",
+    "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -5620,18 +6408,22 @@
   "pais": "Brasil",
   "coord": null,
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "1-gcc",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — 1º GCC",
+    "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -5704,18 +6496,22 @@
   "pais": "Brasil",
   "coord": null,
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "1-gcc",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — 1º GCC",
+    "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -5956,18 +6752,22 @@
   "pais": "Brasil",
   "coord": null,
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "1-gcc",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — 1º GCC",
+    "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -6043,18 +6843,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -6103,18 +6907,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -6549,18 +7357,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — Nossas Unidades",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -6607,18 +7419,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — Nossas Unidades",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -6777,18 +7593,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "dirsa",
   "site": "https://www.hca.aer.mil.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -6957,18 +7777,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "dirsa",
   "site": "https://www2.fab.mil.br/hfab",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -6987,18 +7811,22 @@
    -23.5329
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "dirsa",
   "site": "https://www.hasp.aer.mil.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7017,18 +7845,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "dirsa",
   "site": "https://www.hfag.aer.mil.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7047,18 +7879,22 @@
    -23.1896
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "dcta",
   "site": "https://www.iae.cta.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7107,18 +7943,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": "https://www.fab.mil.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — Nossas Unidades",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7137,18 +7977,22 @@
    -23.1896
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": "https://www.icea.gov.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — Nossas Unidades",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7317,18 +8161,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": "https://www.incaer.aer.mil.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7464,18 +8312,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "incaer",
   "site": "https://www2.fab.mil.br/musal",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7580,22 +8432,26 @@
   "uf": "MG",
   "pais": "Brasil",
   "coord": [
-   -43.8932,
-   -19.6397
+   -43.8974,
+   -19.66175
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": "https://www.pamals.aer.mil.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBLS)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7610,22 +8466,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.6395,
-   -23.5329
+   -46.6378,
+   -23.5091
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBMT)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7640,22 +8500,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBGL)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7670,22 +8534,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.3847,
+   -22.8751
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBAF)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7734,18 +8602,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "DECEA — Nossas Unidades",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7760,22 +8632,26 @@
   "uf": "GO",
   "pais": "Brasil",
   "coord": [
-   -48.953,
-   -16.3281
+   -48.9643,
+   -16.2292
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBAN)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7790,22 +8666,26 @@
   "uf": "PA",
   "pais": "Brasil",
   "coord": [
-   -48.4898,
-   -1.4554
+   -48.47621,
+   -1.37928
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBBE)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7820,22 +8700,26 @@
   "uf": "RR",
   "pais": "Brasil",
   "coord": [
-   -60.6753,
-   2.8238
+   -60.69065,
+   2.84615
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBBV)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7850,22 +8734,26 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.92083,
+   -15.86917
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBBR)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7880,22 +8768,26 @@
   "uf": "RS",
   "pais": "Brasil",
   "coord": [
-   -51.1857,
-   -29.9128
+   -51.14441,
+   -29.94593
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBCO)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7910,22 +8802,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.1938,
-   -22.8075
+   -45.2048,
+   -22.7916
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBGW)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7940,22 +8836,26 @@
   "uf": "MG",
   "pais": "Brasil",
   "coord": [
-   -43.8932,
-   -19.6397
+   -43.8974,
+   -19.66175
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBLS)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7970,22 +8870,26 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -60.0212,
-   -3.1187
+   -59.9863,
+   -3.14604
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBMN)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8000,22 +8904,26 @@
   "uf": "RN",
   "pais": "Brasil",
   "coord": [
-   -35.271,
-   -5.9112
+   -35.2477,
+   -5.91142
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBNT)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8030,22 +8938,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -47.4257,
-   -21.996
+   -47.34121,
+   -21.98469
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBYS)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8060,22 +8972,26 @@
   "uf": "RO",
   "pais": "Brasil",
   "coord": [
-   -63.8999,
-   -8.7608
+   -63.90234,
+   -8.70849
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBPV)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8090,22 +9006,26 @@
   "uf": "PE",
   "pais": "Brasil",
   "coord": [
-   -34.8771,
-   -8.0467
+   -34.92296,
+   -8.12747
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBRF)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8120,22 +9040,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.7191,
+   -22.9324
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": "https://10.44.16.97/uae/pasc",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBSC)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8150,22 +9074,26 @@
   "uf": "RS",
   "pais": "Brasil",
   "coord": [
-   -53.8149,
-   -29.6868
+   -53.6882,
+   -29.7114
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBSM)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8180,22 +9108,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.258,
-   -23.9888
+   -46.3002,
+   -23.92819
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBST)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8210,22 +9142,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.8615,
+   -23.2292
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBSJ)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8270,22 +9206,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBGL)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8300,22 +9240,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.3847,
+   -22.8751
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "OurAirports — coordenadas do aeródromo (SBAF)",
+    "url": "https://ourairports.com/countries/BR/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8334,18 +9278,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8364,18 +9312,22 @@
    -15.7795
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8874,18 +9826,22 @@
    -22.9129
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "direns",
   "site": "https://www.unifa.aer.mil.br",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8904,18 +9860,52 @@
    -23.5329
   ],
   "coordSituacao": "aproximada",
-  "subordinadaA": null,
+  "subordinadaA": "decea",
   "site": "https://www.decea.mil.br/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "a-conferir",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "DECEA — CRCEA-SE",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=crcea-se"
+   },
+   {
+    "titulo": "DECEA — Nossas Unidades",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   }
+  ],
+  "revisadoEm": "2026-11-26"
+ },
+ {
+  "id": "comgap",
+  "sigla": "COMGAP",
+  "nome": "Comando-Geral de Apoio",
+  "categoria": "comando",
+  "tipoCatalogo": "Comando",
+  "cidade": "Brasília",
+  "uf": "DF",
+  "pais": "Brasil",
+  "coord": [
+   -47.9297,
+   -15.7795
+  ],
+  "coordSituacao": "aproximada",
+  "subordinadaA": "comaer",
+  "site": null,
+  "ficha": "basica",
+  "situacao": {
+   "nome": "confirmado",
+   "localizacao": "a-conferir",
+   "subordinacao": "confirmado"
+  },
+  "fontes": [
+   {
+    "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
+    "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
    }
   ],
   "revisadoEm": "2026-11-26"

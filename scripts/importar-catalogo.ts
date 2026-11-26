@@ -149,6 +149,15 @@ function main() {
     fontes: [{ titulo: 'DECEA — CRCEA-SE', url: 'https://www.decea.mil.br/index.cfm?i=unidades&p=crcea-se' }],
     revisadoEm: hoje,
   });
+  // COMGAP (órgão de direção setorial no Decreto 11.237/2022) não tem ficha no catálogo
+  saida.set('comgap', {
+    id: 'comgap', sigla: 'COMGAP', nome: 'Comando-Geral de Apoio', categoria: 'comando',
+    tipoCatalogo: 'Comando', cidade: 'Brasília', uf: 'DF', pais: 'Brasil', coord: null, coordSituacao: 'aproximada',
+    subordinadaA: null, site: null, ficha: 'basica',
+    situacao: { nome: 'confirmado', localizacao: 'a-conferir', subordinacao: 'a-conferir' },
+    fontes: [{ titulo: 'Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica', url: 'https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm' }],
+    revisadoEm: hoje,
+  });
   // esquadrões sem sede identificável: usar a primeira base existente da UF? Não: ficam sem sediadoEm e são listados.
   const semSede = [...saida.values()].filter((u) => u.categoria === 'esquadrao' && (!u.sediadoEm || !saida.has(u.sediadoEm)));
   if (semSede.length) console.warn('Esquadrões sem sede:', semSede.map((u) => `${u.sigla} (${u.cidade})`).join(', '));
