@@ -64,3 +64,11 @@ describe('vazamento de telefone em outros formatos', () => {
     expect(validarConjunto(us)).toEqual([]);
   });
 });
+
+describe('links de rede interna', () => {
+  it.each(['https://10.68.28.10', 'http://10.44.16.97/x', 'https://192.168.0.1', 'https://172.16.5.4'])('rejeita %s', (url) => {
+    const us = amostraValida();
+    us[1].site = url;
+    expect(validarConjunto(us).some((e) => e.includes('baan') && e.includes('rede interna'))).toBe(true);
+  });
+});

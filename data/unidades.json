@@ -14,7 +14,7 @@
   ],
   "coordSituacao": "exata",
   "subordinadaA": "direns",
-  "site": "https://www.afa.aer.mil.br",
+  "site": "https://www2.fab.mil.br/afa/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
@@ -33,6 +33,10 @@
    {
     "titulo": "OurAirports — coordenadas do aeródromo (SBYS)",
     "url": "https://ourairports.com/countries/BR/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/afa/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -101,22 +105,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.17034,
+   -22.90854
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.asocea.aer.mil.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Pagadoria dos Inativos e Pensionistas da Aeronáutica, 233, A (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -131,16 +139,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -151,6 +159,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -305,18 +317,22 @@
    -20.47
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
-  "site": null,
+  "subordinadaA": "iv-comar",
+  "site": "https://www2.fab.mil.br/bacg/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Base Aérea de Campo Grande (página oficial)",
+    "url": "https://www2.fab.mil.br/bacg/"
    },
    {
     "titulo": "OurAirports — coordenadas do aeródromo (SBCG)",
@@ -374,7 +390,7 @@
   ],
   "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www2.fab.mil.br/bafl",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
@@ -407,13 +423,13 @@
    -3.77583
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
-  "site": null,
+  "subordinadaA": "ii-comar",
+  "site": "https://www2.fab.mil.br/bafz/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
@@ -421,8 +437,16 @@
     "url": "https://www.fab.mil.br/"
    },
    {
+    "titulo": "II COMAR — Unidades Subordinadas",
+    "url": "https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas"
+   },
+   {
     "titulo": "OurAirports — coordenadas do aeródromo (SBFZ)",
     "url": "https://ourairports.com/countries/BR/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/bafz/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -475,13 +499,13 @@
    -5.91142
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
-  "site": null,
+  "subordinadaA": "ii-comar",
+  "site": "https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas/74-unidades-sobordinadas",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
@@ -489,8 +513,16 @@
     "url": "https://www.fab.mil.br/"
    },
    {
+    "titulo": "II COMAR — Unidades Subordinadas",
+    "url": "https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas"
+   },
+   {
     "titulo": "OurAirports — coordenadas do aeródromo (SBNT)",
     "url": "https://ourairports.com/countries/BR/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas/74-unidades-sobordinadas"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -543,13 +575,13 @@
    -8.12747
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
-  "site": null,
+  "subordinadaA": "ii-comar",
+  "site": "https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas/137-om",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
@@ -557,8 +589,16 @@
     "url": "https://www.fab.mil.br/"
    },
    {
+    "titulo": "II COMAR — Unidades Subordinadas",
+    "url": "https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas"
+   },
+   {
     "titulo": "OurAirports — coordenadas do aeródromo (SBRF)",
     "url": "https://ourairports.com/countries/BR/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas/137-om"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -577,13 +617,13 @@
    -12.90861
   ],
   "coordSituacao": "exata",
-  "subordinadaA": null,
-  "site": null,
+  "subordinadaA": "ii-comar",
+  "site": "https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas/134-teste-02",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
    "localizacao": "confirmado",
-   "subordinacao": "a-conferir"
+   "subordinacao": "confirmado"
   },
   "fontes": [
    {
@@ -591,8 +631,16 @@
     "url": "https://www.fab.mil.br/"
    },
    {
+    "titulo": "II COMAR — Unidades Subordinadas",
+    "url": "https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas"
+   },
+   {
     "titulo": "OurAirports — coordenadas do aeródromo (SBSV)",
     "url": "https://ourairports.com/countries/BR/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas/134-teste-02"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -811,22 +859,30 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.38241,
+   -22.88125
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www2.fab.mil.br/brevet",
+  "site": "https://www2.fab.mil.br/brevet/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Base de Recepção de Veteranos (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/brevet/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -841,22 +897,30 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.17034,
+   -22.90854
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.cfiae.aer.mil.br",
+  "site": "https://www2.fab.mil.br/cfiae/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Pagadoria dos Inativos e Pensionistas da Aeronáutica, 233, A (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/cfiae/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -876,7 +940,7 @@
   ],
   "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www2.fab.mil.br/cpbv",
+  "site": "https://www2.fab.mil.br/cpbv/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
@@ -891,6 +955,10 @@
    {
     "titulo": "OurAirports — coordenadas do aeródromo (SBCC)",
     "url": "https://ourairports.com/countries/BR/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/cpbv/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -905,22 +973,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.3847,
+   -22.8751
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campo dos Afonsos — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -935,16 +1007,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "dirad",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -955,6 +1027,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -969,22 +1045,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.6395,
-   -23.5329
+   -46.61192,
+   -23.5658
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www2.fab.mil.br/cecat",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Av. Dom Pedro I, 100 (Cambuci) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -999,22 +1079,26 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1029,22 +1113,30 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.86843,
+   -23.2233
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": null,
+  "site": "https://www2.fab.mil.br/ccasj/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campus do DCTA — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/ccasj/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1059,22 +1151,30 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www2.fab.mil.br/sti",
+  "site": "https://www2.fab.mil.br/sti/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/sti/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1089,16 +1189,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1109,6 +1209,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1123,16 +1227,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
-  "site": "https://www.cenciar.aer.mil.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1143,6 +1247,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1187,22 +1295,30 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.3847,
+   -22.8751
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": null,
+  "site": "https://www2.fab.mil.br/cendoc/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campo dos Afonsos — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/cendoc/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1217,22 +1333,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.6395,
-   -23.5329
+   -46.6378,
+   -23.5091
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campo de Marte — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1247,16 +1367,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.16811,
+   -22.90702
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "decea",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1267,6 +1387,10 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Posição: Av. General Justo, 160 (DECEA) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1281,16 +1405,16 @@
   "uf": "MG",
   "pais": "Brasil",
   "coord": [
-   -43.8932,
-   -19.6397
+   -43.8974,
+   -19.66175
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "direns",
-  "site": "https://www.fab.mil.br/ciaar",
+  "site": "https://www2.fab.mil.br/ciaar/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1301,6 +1425,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Lagoa Santa — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/ciaar/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1315,16 +1447,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1335,6 +1467,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1349,16 +1485,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.89598,
+   -15.85714
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
-  "site": "https://www.cenipa.fab.mil.br",
+  "site": "https://www2.fab.mil.br/cenipa/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1369,6 +1505,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/cenipa/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1383,22 +1527,26 @@
   "uf": "RN",
   "pais": "Brasil",
   "coord": [
-   -35.271,
-   -5.9112
+   -35.16445,
+   -5.92399
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www2.fab.mil.br/clbi",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Centro de Lançamento da Barreira do Inferno (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1447,22 +1595,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.21412,
+   -22.80882
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Centro de Medicina Aeroespacial (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1477,22 +1629,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.86843,
+   -23.2233
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://cporaersj.dcta.mil.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campus do DCTA — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1507,22 +1663,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1537,22 +1697,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.cgabeg.aer.mil.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1567,16 +1731,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "decea",
-  "site": "https://www2.fab.mil.br/cimaer",
+  "site": "https://www2.fab.mil.br/cimaer/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1587,6 +1751,14 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/cimaer/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1597,20 +1769,20 @@
   "nome": "Centro Logístico da Aeronáutica",
   "categoria": "administracao",
   "tipoCatalogo": "Centro",
-  "cidade": "Rio de Janeiro",
-  "uf": "RJ",
+  "cidade": "São Paulo",
+  "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -46.61192,
+   -23.5658
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comgap",
-  "site": "https://www2.fab.mil.br/celog",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1621,6 +1793,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Av. Dom Pedro I, 100 (Cambuci) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1635,16 +1811,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.89598,
+   -15.85714
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "decea",
-  "site": null,
+  "site": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1655,6 +1831,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-i"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1669,16 +1853,16 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -60.0212,
-   -3.1187
+   -60.05394,
+   -3.02267
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "decea",
-  "site": "https://www.cindacta4.decea.gov.br",
+  "site": "https://www2.fab.mil.br/cindacta4/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1689,6 +1873,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: CINDACTA IV (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/cindacta4/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1703,16 +1895,16 @@
   "uf": "PR",
   "pais": "Brasil",
   "coord": [
-   -49.2646,
-   -25.4195
+   -49.232,
+   -25.4051
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "decea",
-  "site": null,
+  "site": "https://www2.fab.mil.br/cindacta2/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1723,6 +1915,14 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Posição: Bacacheri — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/cindacta2/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1742,7 +1942,7 @@
   ],
   "coordSituacao": "aproximada",
   "subordinadaA": "decea",
-  "site": null,
+  "site": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iii",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
@@ -1757,6 +1957,10 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iii"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1771,22 +1975,30 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.22221,
+   -22.81671
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.cbnb.gov.br",
+  "site": "https://www2.fab.mil.br/cbnb/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Colégio Brigadeiro Newton Braga (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/cbnb/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1801,16 +2013,16 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -60.0212,
-   -3.1187
+   -59.9863,
+   -3.14604
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comprep",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1821,6 +2033,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Base Aérea de Manaus (Ponta Pelada) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1835,22 +2051,26 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": null,
+  "site": "https://www.fab.mil.br/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Ministério da Defesa - Comando da Aeronáutica - FAB (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1865,16 +2085,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.89598,
+   -15.85714
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1885,6 +2105,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1899,16 +2123,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.89598,
+   -15.85714
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1919,6 +2143,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1933,16 +2161,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1953,6 +2181,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -1967,16 +2199,16 @@
   "uf": "PE",
   "pais": "Brasil",
   "coord": [
-   -34.8771,
-   -8.0467
+   -34.90954,
+   -8.14716
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comprep",
-  "site": null,
+  "site": "https://www2.fab.mil.br/comar2/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -1987,6 +2219,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Segundo Comando Aéreo Regional (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/comar2/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2001,16 +2241,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.16769,
+   -22.90661
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comprep",
-  "site": "https://www2.fab.mil.br/comar3",
+  "site": "https://www2.fab.mil.br/comar3/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -2021,6 +2261,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Auditório do Terceiro Comando Aéreo Regional (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/comar3/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2069,16 +2317,16 @@
   "uf": "RS",
   "pais": "Brasil",
   "coord": [
-   -51.1857,
-   -29.9128
+   -51.18479,
+   -29.93273
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comprep",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -2089,6 +2337,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Força Aérea Brasileira - Comando Aéreo Sul (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2103,16 +2355,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.89598,
+   -15.85714
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comprep",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -2123,6 +2375,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Sexto Comando Aéreo Regional (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2166,7 +2422,7 @@
   "coord": null,
   "coordSituacao": "aproximada",
   "subordinadaA": null,
-  "site": null,
+  "site": "https://www2.fab.mil.br/cabe/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
@@ -2177,6 +2433,10 @@
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/cabe/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2191,16 +2451,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "dcta",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -2211,6 +2471,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2225,22 +2489,26 @@
   "uf": "PA",
   "pais": "Brasil",
   "coord": [
-   -48.4898,
-   -1.4554
+   -48.45858,
+   -1.40741
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.comara.aer.mil.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Comissão de Aeroportos da Região Amazônica (COMARA) (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2255,22 +2523,26 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www2.fab.mil.br/ccise",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2285,16 +2557,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.3847,
+   -22.8751
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comgep",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -2305,6 +2577,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Campo dos Afonsos — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2319,16 +2595,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.16713,
+   -22.9081
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "decea",
-  "site": "https://www.ciscea.gov.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -2339,6 +2615,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Comissão de Implantação do Sistema de Controle do Espaço Aéreo (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2353,22 +2633,26 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2383,16 +2667,16 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.86843,
+   -23.2233
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -2403,6 +2687,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Departamento de Ciência e Tecnologia Aeroespacial (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2417,16 +2705,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.16811,
+   -22.90702
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
-  "site": "https://www.decea.mil.br",
+  "site": "https://www.decea.mil.br/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -2437,6 +2725,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Departamento de Controle do Espaço Aéreo (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www.decea.mil.br/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -2925,22 +3221,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.6395,
-   -23.5329
+   -46.6546,
+   -23.62766
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Aeroporto de Congonhas — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -3069,22 +3369,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.16811,
+   -22.90702
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Av. General Justo, 160 (DECEA) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4375,16 +4679,16 @@
   "uf": "SC",
   "pais": "Brasil",
   "coord": [
-   -49.5925,
-   -28.0157
+   -49.47456,
+   -28.12591
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -4395,6 +4699,10 @@
    {
     "titulo": "DECEA — CINDACTA II",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
+   },
+   {
+    "titulo": "Posição: Cume do Morro da Igreja (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -4853,16 +5161,16 @@
   "uf": "RS",
   "pais": "Brasil",
   "coord": [
-   -54.8666,
-   -29.1897
+   -54.92762,
+   -29.22102
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "cindacta-ii",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -4873,6 +5181,10 @@
    {
     "titulo": "DECEA — CINDACTA II",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-ii"
+   },
+   {
+    "titulo": "Posição: Destacamento de Controle do Espaço Aéreo de Santiago (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5293,22 +5605,26 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -60.0212,
-   -3.1187
+   -59.9863,
+   -3.14604
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Base Aérea de Manaus (Ponta Pelada) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5323,22 +5639,26 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.89598,
+   -15.85714
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5353,16 +5673,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.36954,
+   -22.86782
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "sefa",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -5373,6 +5693,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Diretoria de Administração da Aeronáutica (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5387,16 +5711,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comgep",
-  "site": null,
+  "site": "https://www2.fab.mil.br/dirap/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -5407,6 +5731,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/dirap/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5421,16 +5753,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "sefa",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -5441,6 +5773,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5455,16 +5791,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comgep",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -5475,6 +5811,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5489,16 +5829,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comgep",
-  "site": "https://www2.fab.mil.br/dirsa",
+  "site": "https://www2.fab.mil.br/dirsa/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -5509,6 +5849,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/dirsa/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5523,16 +5871,16 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.6395,
-   -23.5329
+   -46.61192,
+   -23.5658
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comgap",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -5543,6 +5891,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Av. Dom Pedro I, 100 (Cambuci) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5557,22 +5909,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.38536,
+   -22.88212
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Escola de Aperfeiçoamento de Oficiais da Aeronáutica (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5587,16 +5943,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.38476,
+   -22.88152
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "unifa",
-  "site": "https://www2.fab.mil.br/ecemar",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -5607,6 +5963,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Escola de Comando e Estado-Maior da Aeronáutica (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5626,7 +5986,7 @@
   ],
   "coordSituacao": "exata",
   "subordinadaA": "direns",
-  "site": null,
+  "site": "https://www2.fab.mil.br/eear/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
@@ -5645,6 +6005,10 @@
    {
     "titulo": "OurAirports — coordenadas do aeródromo (SBGW)",
     "url": "https://ourairports.com/countries/BR/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/eear/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5664,7 +6028,7 @@
   ],
   "coordSituacao": "exata",
   "subordinadaA": "direns",
-  "site": "https://www.epcar.aer.mil.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
@@ -5697,22 +6061,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.15837,
+   -22.94401
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Escola Superior de Guerra (ESG) (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -5757,7 +6125,7 @@
   "coord": null,
   "coordSituacao": "aproximada",
   "subordinadaA": null,
-  "site": "https://www2.fab.mil.br/eda",
+  "site": "https://www2.fab.mil.br/eda/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
@@ -5768,6 +6136,10 @@
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/eda/"
    }
   ],
   "revisadoEm": "2026-11-26",
@@ -6839,16 +7211,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -6859,6 +7231,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -6873,22 +7249,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -47.4257,
-   -21.996
+   -47.35152,
+   -21.92984
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Fazenda da Aeronáutica (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -6903,16 +7283,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -6923,6 +7303,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -6937,22 +7321,30 @@
   "uf": "PA",
   "pais": "Brasil",
   "coord": [
-   -48.4898,
-   -1.4554
+   -48.47621,
+   -1.37928
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": null,
+  "site": "https://www2.fab.mil.br/gapbe/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Base Aérea de Belém (Val de Cans) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/gapbe/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -6967,22 +7359,26 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -6997,22 +7393,26 @@
   "uf": "MG",
   "pais": "Brasil",
   "coord": [
-   -43.8932,
-   -19.6397
+   -43.8974,
+   -19.66175
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Lagoa Santa — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7027,22 +7427,26 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -60.0212,
-   -3.1187
+   -59.9863,
+   -3.14604
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Base Aérea de Manaus (Ponta Pelada) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7057,22 +7461,26 @@
   "uf": "PE",
   "pais": "Brasil",
   "coord": [
-   -34.8771,
-   -8.0467
+   -34.90954,
+   -8.14716
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Complexo do II COMAR (Boa Viagem) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7087,22 +7495,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.86992,
+   -23.20656
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: GAP-SJ - Grupamento de Apoio de São José dos Campos (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7117,22 +7529,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.6395,
-   -23.5329
+   -46.6378,
+   -23.5091
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campo de Marte — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7147,22 +7563,26 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.89598,
+   -15.85714
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7177,22 +7597,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.17034,
+   -22.90854
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Av. Marechal Câmara, 233 — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7207,22 +7631,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.3847,
+   -22.8751
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campo dos Afonsos — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7237,22 +7665,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7267,22 +7699,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.3847,
+   -22.8751
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campo dos Afonsos — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7299,7 +7735,7 @@
   "coord": null,
   "coordSituacao": "aproximada",
   "subordinadaA": null,
-  "site": "https://10.68.28.10/gite",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
@@ -7353,16 +7789,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.16741,
+   -22.90932
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "decea",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -7373,6 +7809,10 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Posição: Grupo Especial de Inspeção em Voo (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7415,16 +7855,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "decea",
-  "site": null,
+  "site": "https://www.decea.mil.br/?i=unidades&p=1o-gcc",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -7435,6 +7875,14 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www.decea.mil.br/?i=unidades&p=1o-gcc"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7589,16 +8037,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.21201,
+   -22.9213
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "dirsa",
-  "site": "https://www.hca.aer.mil.br",
+  "site": "https://www2.fab.mil.br/hca/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -7609,6 +8057,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Hospital Central da Aeronáutica (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/hca/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7623,22 +8079,26 @@
   "uf": "PA",
   "pais": "Brasil",
   "coord": [
-   -48.4898,
-   -1.4554
+   -48.4477,
+   -1.42257
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Hospital de Aeronáutica de Belém (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7653,22 +8113,26 @@
   "uf": "RS",
   "pais": "Brasil",
   "coord": [
-   -51.1857,
-   -29.9128
+   -51.18288,
+   -29.92994
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Hospital da Aeronáutica de Canoas - HACO (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7683,22 +8147,30 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -60.0212,
-   -3.1187
+   -59.98999,
+   -3.14398
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": null,
+  "site": "https://www2.fab.mil.br/hamn/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Hospital de Aeronáutica de Manaus - HAMN (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/hamn/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7713,22 +8185,26 @@
   "uf": "PE",
   "pais": "Brasil",
   "coord": [
-   -35.015,
-   -8.113
+   -34.91117,
+   -8.15713
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.harf.aer.mil.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Hospital de Aeronáutica de Recife (HARF) (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7743,22 +8219,30 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.38626,
+   -22.88423
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.haaf.aer.mil.br",
+  "site": "https://www2.fab.mil.br/haaf/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Hospital de Aeronáutica dos Afonsos (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/haaf/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7773,16 +8257,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.92083,
+   -15.86917
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "dirsa",
-  "site": "https://www2.fab.mil.br/hfab",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -7793,6 +8277,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Área militar do Aeroporto de Brasília — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7807,16 +8295,16 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.6395,
-   -23.5329
+   -46.6378,
+   -23.5091
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "dirsa",
-  "site": "https://www.hasp.aer.mil.br",
+  "site": "https://www2.fab.mil.br/hfasp/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -7827,6 +8315,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Campo de Marte — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/hfasp/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7841,16 +8337,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.21638,
+   -22.81262
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "dirsa",
-  "site": "https://www.hfag.aer.mil.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -7861,6 +8357,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Hospital de Força Aérea do Galeão (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7875,16 +8375,16 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.86843,
+   -23.2233
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "dcta",
-  "site": "https://www.iae.cta.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -7895,6 +8395,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Campus do DCTA — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7909,22 +8413,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.86843,
+   -23.2233
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campus do DCTA — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7939,16 +8447,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.16689,
+   -22.90808
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "decea",
-  "site": "https://www.fab.mil.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -7959,6 +8467,10 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Posição: Instituto de Cartografia Aeronáutica (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -7973,16 +8485,16 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.86843,
+   -23.2233
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "decea",
-  "site": "https://www.icea.gov.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -7993,6 +8505,10 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Posição: Campus do DCTA — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8007,22 +8523,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.85806,
+   -23.25194
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.ieav.cta.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Instituto de Estudos Avançados (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8037,22 +8557,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.86843,
+   -23.2233
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.ifi.cta.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campus do DCTA — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8067,22 +8591,30 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.5333,
-   -23.4538
+   -46.46995,
+   -23.43127
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.ila.aer.mil.br",
+  "site": "https://www2.fab.mil.br/ila/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Base Aérea de São Paulo (Cumbica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/ila/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8097,22 +8629,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.86843,
+   -23.2233
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.ipev.cta.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campus do DCTA — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8127,22 +8663,30 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.37904,
+   -22.87667
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.fab.mil.br/ipa",
+  "site": "https://www2.fab.mil.br/ipa/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Instituto de Psicologia da Aeronáutica (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/ipa/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8157,16 +8701,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.89598,
+   -15.85714
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
-  "site": "https://www.incaer.aer.mil.br",
+  "site": "https://www2.fab.mil.br/incaer/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -8177,6 +8721,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/incaer/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8191,22 +8743,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.3847,
+   -22.8751
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campo dos Afonsos — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8221,22 +8777,30 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -45.8841,
-   -23.1896
+   -45.87645,
+   -23.21021
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.ita.br",
+  "site": "https://www.ita.br/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Instituto Tecnológico de Aeronautica (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www.ita.br/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8251,22 +8815,30 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.21567,
+   -22.81093
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": null,
+  "site": "https://www2.fab.mil.br/laqfa/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Laboratório Químico e Farmacêutico da Aeronáutica (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/laqfa/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8308,16 +8880,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.38885,
+   -22.8822
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "incaer",
-  "site": "https://www2.fab.mil.br/musal",
+  "site": "https://www2.fab.mil.br/musal/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -8328,6 +8900,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Museu Aeroespacial (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/musal/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8342,22 +8922,26 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www2.fab.mil.br/oabr",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8402,22 +8986,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.17121,
+   -22.90337
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Praça Marechal Âncora, Castelo, Centro, Rio de Janeiro, Regi (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8437,7 +9025,7 @@
   ],
   "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.pamals.aer.mil.br",
+  "site": "https://www2.fab.mil.br/pamals/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
@@ -8452,6 +9040,10 @@
    {
     "titulo": "OurAirports — coordenadas do aeródromo (SBLS)",
     "url": "https://ourairports.com/countries/BR/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/pamals/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8568,22 +9160,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -8598,16 +9194,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.21471,
+   -22.87466
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "decea",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -8618,6 +9214,10 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Posição: Parque de Material de Eletrônica da Aeronáutica (OpenStreetMap)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9045,7 +9645,7 @@
   ],
   "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://10.44.16.97/uae/pasc",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
@@ -9176,22 +9776,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.6395,
-   -23.5329
+   -46.6378,
+   -23.5091
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campo de Marte — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9274,16 +9878,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -9294,6 +9898,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9308,16 +9916,16 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.87224,
+   -15.79543
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "comaer",
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -9328,6 +9936,10 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9342,22 +9954,26 @@
   "uf": "PE",
   "pais": "Brasil",
   "coord": [
-   -34.8771,
-   -8.0467
+   -34.90954,
+   -8.14716
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Complexo do II COMAR (Boa Viagem) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9372,22 +9988,26 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.25056,
+   -22.81
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Ilha do Governador (complexo do Galeão) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9402,22 +10022,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.6395,
-   -23.5329
+   -46.6378,
+   -23.5091
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campo de Marte — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9432,22 +10056,26 @@
   "uf": "RS",
   "pais": "Brasil",
   "coord": [
-   -51.1857,
-   -29.9128
+   -51.14441,
+   -29.94593
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Base Aérea de Canoas — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9462,22 +10090,26 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.89598,
+   -15.85714
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www2.fab.mil.br/seripa6",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9522,22 +10154,26 @@
   "uf": "PA",
   "pais": "Brasil",
   "coord": [
-   -48.4898,
-   -1.4554
+   -48.47621,
+   -1.37928
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Base Aérea de Belém (Val de Cans) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9552,22 +10188,30 @@
   "uf": "DF",
   "pais": "Brasil",
   "coord": [
-   -47.9297,
-   -15.7795
+   -47.89598,
+   -15.85714
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": null,
+  "site": "https://www2.fab.mil.br/serepbr/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/serepbr/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9582,22 +10226,26 @@
   "uf": "RS",
   "pais": "Brasil",
   "coord": [
-   -51.1857,
-   -29.9128
+   -51.14441,
+   -29.94593
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Base Aérea de Canoas — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9612,22 +10260,26 @@
   "uf": "AM",
   "pais": "Brasil",
   "coord": [
-   -60.0212,
-   -3.1187
+   -59.9863,
+   -3.14604
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Base Aérea de Manaus (Ponta Pelada) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9668,26 +10320,30 @@
   "nome": "Serviço de Recrutamento e Preparo de Pessoal da Aeronáutica de São Paulo",
   "categoria": "administracao",
   "tipoCatalogo": "Servico",
-  "cidade": "São Paulo",
+  "cidade": "Guarulhos",
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.6395,
-   -23.5329
+   -46.46995,
+   -23.43127
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
   "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Base Aérea de São Paulo (Cumbica) — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9702,22 +10358,30 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.3847,
+   -22.8751
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": null,
+  "site": "https://www2.fab.mil.br/sereprj/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Campo dos Afonsos — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/sereprj/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9762,22 +10426,26 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.6395,
-   -23.5329
+   -46.6546,
+   -23.62766
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": null,
-  "site": "https://www.srpvsp.gov.br",
+  "site": null,
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "a-conferir"
   },
   "fontes": [
    {
     "titulo": "Catálogo do COMAER (PDF)",
     "url": "https://www.fab.mil.br/"
+   },
+   {
+    "titulo": "Posição: Aeroporto de Congonhas — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9822,16 +10490,16 @@
   "uf": "RJ",
   "pais": "Brasil",
   "coord": [
-   -43.2003,
-   -22.9129
+   -43.3847,
+   -22.8751
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "direns",
-  "site": "https://www.unifa.aer.mil.br",
+  "site": "https://www2.fab.mil.br/unifa/",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -9842,6 +10510,14 @@
    {
     "titulo": "Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica",
     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm"
+   },
+   {
+    "titulo": "Posição: Campo dos Afonsos — endereço do catálogo",
+    "url": "https://www.openstreetmap.org/"
+   },
+   {
+    "titulo": "Site oficial",
+    "url": "https://www2.fab.mil.br/unifa/"
    }
   ],
   "revisadoEm": "2026-11-26"
@@ -9856,16 +10532,16 @@
   "uf": "SP",
   "pais": "Brasil",
   "coord": [
-   -46.6395,
-   -23.5329
+   -46.6546,
+   -23.62766
   ],
-  "coordSituacao": "aproximada",
+  "coordSituacao": "exata",
   "subordinadaA": "decea",
-  "site": "https://www.decea.mil.br/",
+  "site": "https://www.decea.mil.br/index.cfm?i=unidades&p=crcea-se",
   "ficha": "basica",
   "situacao": {
    "nome": "confirmado",
-   "localizacao": "a-conferir",
+   "localizacao": "confirmado",
    "subordinacao": "confirmado"
   },
   "fontes": [
@@ -9876,6 +10552,10 @@
    {
     "titulo": "DECEA — Nossas Unidades",
     "url": "https://www.decea.mil.br/index.cfm?i=unidades"
+   },
+   {
+    "titulo": "Posição: Aeroporto de Congonhas, torre de controle (página do DECEA)",
+    "url": "https://www.openstreetmap.org/"
    }
   ],
   "revisadoEm": "2026-11-26"

@@ -82,9 +82,9 @@ const CIDADE_CORRIGIDA: Record<string, [string, string]> = {
 
 const PADRAO_CIDADE: Record<string, [string, string]> = {
   // localidades "A conferir" no índice, completadas pelo endereço da ficha ou pela sede conhecida
-  COMAE: ['Brasília', 'DF'], 'IV COMAR': ['São Paulo', 'SP'], CELOG: ['Rio de Janeiro', 'RJ'],
+  COMAE: ['Brasília', 'DF'], 'IV COMAR': ['São Paulo', 'SP'], CELOG: ['São Paulo', 'SP'],
   CDCAER: ['Brasília', 'DF'], ASOCEA: ['Rio de Janeiro', 'RJ'], 'SRPV-SP': ['São Paulo', 'SP'],
-  'SEREP-BE': ['Belém', 'PA'], 'SEREP-RF': ['Recife', 'PE'], 'SEREP-SP': ['São Paulo', 'SP'],
+  'SEREP-BE': ['Belém', 'PA'], 'SEREP-RF': ['Recife', 'PE'], 'SEREP-SP': ['Guarulhos', 'SP'],
   'SEREP-RJ': ['Rio de Janeiro', 'RJ'], '1º/1º GT': ['Rio de Janeiro', 'RJ'],
 };
 

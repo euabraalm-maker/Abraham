@@ -88,7 +88,10 @@ function mostrarSubordinados(id: string) {
   } else mapa.voarPara(id);
 }
 
-criarCaixaBusca(busca, lista, (r) => abrirUnidade(r.alvo.id));
+criarCaixaBusca(busca, lista, (r) => {
+  abrirUnidade(r.alvo.id);
+  mapa.destacarSatelite(r.alvo.id !== r.unidade.id ? r.unidade.id : null);
+});
 criarExterior(rodape, lista, (id) => abrirUnidade(id, false));
 rodape.appendChild(btVistaCima);
 

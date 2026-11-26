@@ -22,6 +22,19 @@ function linkUnidade(u: Unidade, atual = false) {
   return a;
 }
 
+const PORTAL_FAB = 'https://www.fab.mil.br/';
+
+/** Site da unidade ou, se não houver, o do superior mais próximo que tenha (o botão nunca some). */
+function linhaSite(u: Unidade, elos: Unidade[]) {
+  if (u.site) return h('div', { class: 'linha-site' }, h('a', { class: 'botao site-oficial', href: u.site, target: '_blank', rel: 'noopener' }, 'Site oficial ↗'));
+  const sup = [...elos].reverse().find((e) => e.id !== u.id && e.site);
+  return h('div', { class: 'linha-site' },
+    h('span', { class: 'sem-site' }, 'Sem site próprio · '),
+    sup
+      ? h('a', { class: 'botao site-superior', href: sup.site!, target: '_blank', rel: 'noopener' }, `ver página do ${sup.sigla} ↗`)
+      : h('a', { class: 'botao site-superior', href: PORTAL_FAB, target: '_blank', rel: 'noopener' }, 'ver portal da FAB ↗'));
+}
+
 export function renderizarFicha(u: Unidade, porId: Map<string, Unidade>, modo: 'painel' | 'pagina'): HTMLElement {
   const todas = [...porId.values()];
   const cat = CATEGORIAS[u.categoria];
@@ -53,6 +66,7 @@ export function renderizarFicha(u: Unidade, porId: Map<string, Unidade>, modo: '
       h('figcaption', {}, u.foto.credito)),
     h('span', { class: 'tag' }, `${cat.rotulo} · ${u.sigla}`),
     h('h2', { class: 'titulo' }, u.nome),
+    linhaSite(u, elos),
     elos.length > 0 && h('nav', { class: 'caminho', 'aria-label': 'Subordinação' },
       elos.flatMap((e, i) => [i ? h('span', { class: 'sep', 'aria-hidden': 'true' }, '›') : null, linkUnidade(e, e.id === u.id)])),
     selos.length > 0 && h('div', { class: 'selos' }, selos.map((s) => h('span', { class: 'selo' }, s))),
@@ -65,7 +79,6 @@ export function renderizarFicha(u: Unidade, porId: Map<string, Unidade>, modo: '
     ),
     u.historico && h('p', { class: 'historico' }, u.historico),
     h('div', { class: 'acoes' },
-      u.site && h('a', { class: 'botao site-oficial', href: u.site, target: '_blank', rel: 'noopener' }, 'Site oficial ↗'),
       modo === 'painel' && h('a', { class: 'botao nova-aba', href: `om.html?id=${u.id}`, target: '_blank', rel: 'noopener' }, 'Abrir em nova aba'),
       u.pais === 'Brasil' && botao('subordinados', 'Mostrar subordinados no mapa'),
       botao('organograma', 'Ver no organograma'),

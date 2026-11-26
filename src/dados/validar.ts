@@ -4,6 +4,7 @@ import type { Unidade } from './tipos';
 const TELEFONE = /(\(?\d{2}\)?[\s.-]?)?\d{4,5}[\s.-]\d{4}\b|\(?\d{2}\)?\s?\d{8,9}\b|\bramal\b/gi;
 const INTERVALO_DE_ANOS = /^(19|20)\d{2}[\s.-](19|20)\d{2}$/;
 const temTelefone = (t: string) => [...t.matchAll(TELEFONE)].some((m) => !INTERVALO_DE_ANOS.test(m[0].trim()));
+const REDE_INTERNA = /^https?:\/\/(10\.|127\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.)/i;
 const BRASIL = { lon: [-74.5, -28.5], lat: [-34.5, 5.8] };
 
 function textos(v: unknown, saida: string[] = []): string[] {
@@ -39,6 +40,7 @@ export function validarConjunto(us: Unidade[]): string[] {
     for (const t of textos(u)) {
       if (temTelefone(t)) erros.push(`${u.id}: contém telefone ("${t.slice(0, 40)}")`);
       if (/intraer/i.test(t)) erros.push(`${u.id}: contém link intraer`);
+      if (REDE_INTERNA.test(t)) erros.push(`${u.id}: contém link de rede interna (${t})`);
       if (t.includes('@')) erros.push(`${u.id}: contém e-mail`);
     }
   }
