@@ -1,10 +1,13 @@
 import '../estilos/fontes';
+import { manterAtualizado } from '../ui/atualizacao';
+
+manterAtualizado();
 import '../estilos/mapa.css';
 import '../estilos/vidro.css';
 import '../estilos/organograma.css';
 import { carregar } from '../dados/carregar';
 import { descendentes } from '../dados/hierarquia';
-import { criarMapa } from '../mapa/mapa';
+import { criarMapa, type ModoCamera } from '../mapa/mapa';
 import type { Tema } from '../mapa/estilo';
 import { h } from '../ui/dom';
 import { renderizarFicha, type AcaoFicha } from '../ui/ficha';
@@ -26,7 +29,13 @@ document.querySelector('header.topo')?.remove();
 
 const elMapa = h('div', { id: 'mapa' });
 palco.appendChild(elMapa);
-const mapa = criarMapa(elMapa, lista, { tema });
+// Câmera escolhida (lembrada entre visitas, quando o navegador permite)
+const CHAVE_CAMERA = 'mapa-om-camera';
+const lerCamera = (): ModoCamera => {
+  try { const v = localStorage.getItem(CHAVE_CAMERA); return v === '3d' || v === 'cima' ? v : 'auto'; } catch { return 'auto'; }
+};
+let cameraAtual = lerCamera();
+const mapa = criarMapa(elMapa, lista, { tema, camera: cameraAtual });
 mapaRef = mapa;
 monitorarDesempenho(() => document.documentElement.classList.add('fx-leve'));
 
@@ -55,12 +64,32 @@ const painelGrupo = h('div', { class: 'vidro painel-grupo', hidden: true },
 btFecharGrupo.addEventListener('click', () => (painelGrupo.hidden = true));
 document.addEventListener('keydown', (e) => { if (e.key === 'Escape') painelGrupo.hidden = true; });
 const rodape = h('div', { class: 'rodape-esquerdo' });
-const btVistaCima = h('button', { type: 'button', class: 'botao vidro' }, 'Vista de cima');
-btVistaCima.addEventListener('click', () => mapa.vistaDeCima());
+const MODOS: [ModoCamera, string, string][] = [
+  ['auto', 'Automática', 'Inclina nos voos; você pode girar e inclinar à vontade'],
+  ['3d', '3D', 'Sempre inclinada (perspectiva 3D), inclusive nos voos'],
+  ['cima', 'De cima', 'Sempre plana, como um mapa de papel'],
+];
+const botoesCamera = MODOS.map(([modo, rotulo, dica]) => {
+  const b = h('button', { type: 'button', class: 'botao', 'aria-pressed': String(modo === cameraAtual), title: dica }, rotulo);
+  b.addEventListener('click', () => {
+    cameraAtual = modo;
+    botoesCamera.forEach((x, i) => x.setAttribute('aria-pressed', String(MODOS[i][0] === modo)));
+    try { localStorage.setItem(CHAVE_CAMERA, modo); } catch { /* sem armazenamento */ }
+    mapa.definirCamera(modo);
+  });
+  return b;
+});
+const seletorCamera = h('div', { class: 'alternancia vidro seletor-camera', role: 'group', 'aria-label': 'Ângulo da câmera' },
+  h('span', { class: 'rotulo-camera' }, 'Câmera'), botoesCamera);
 palco.append(painelFiltros, painelFicha, painelGrupo, rodape);
 
-const filtros = criarFiltros(painelFiltros, lista, (ids) => mapa.filtrar(ids));
+const fecharFiltros = () => {
+  painelFiltros.hidden = true;
+  btFiltros.setAttribute('aria-expanded', 'false');
+};
+const filtros = criarFiltros(painelFiltros, lista, (ids) => mapa.filtrar(ids), fecharFiltros);
 btFiltros.addEventListener('click', () => {
+  if (!painelFiltros.hidden) filtros.descartar();
   painelFiltros.hidden = !painelFiltros.hidden;
   btFiltros.setAttribute('aria-expanded', String(!painelFiltros.hidden));
 });
@@ -93,7 +122,7 @@ criarCaixaBusca(busca, lista, (r) => {
   mapa.destacarSatelite(r.alvo.id !== r.unidade.id ? r.unidade.id : null);
 });
 criarExterior(rodape, lista, (id) => abrirUnidade(id, false));
-rodape.appendChild(btVistaCima);
+rodape.appendChild(seletorCamera);
 
 mapa.aoSelecionar((id) => abrirUnidade(id, false));
 mapa.map.on('click', (e) => {

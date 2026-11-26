@@ -11,14 +11,30 @@ describe('criarFiltros', () => {
     expect(rotulos.some((t) => t.includes('Bases Aéreas (1)'))).toBe(true);
     expect(rotulos.some((t) => /Esquadr|exterior/i.test(t))).toBe(false);
   });
-  it('"Nenhum" emite conjunto vazio e "Todos" volta a mostrar tudo', () => {
+  it('escolhas só valem ao clicar em "Aplicar"', () => {
     const el = document.createElement('div');
     const emitidos: (Set<string> | null)[] = [];
-    criarFiltros(el, amostraValida(), (ids) => emitidos.push(ids));
+    let fechou = 0;
+    criarFiltros(el, amostraValida(), (ids) => emitidos.push(ids), () => fechou++);
     (el.querySelector('[data-acao="nenhum"]') as HTMLButtonElement).click();
+    expect(emitidos).toEqual([]);
+    (el.querySelector('[data-acao="aplicar"]') as HTMLButtonElement).click();
     expect(emitidos.at(-1)?.size).toBe(0);
+    expect(fechou).toBe(1);
     (el.querySelector('[data-acao="todos"]') as HTMLButtonElement).click();
+    (el.querySelector('[data-acao="aplicar"]') as HTMLButtonElement).click();
     expect(emitidos.at(-1)).toBeNull();
+  });
+  it('"Cancelar" fecha e desfaz as escolhas não aplicadas', () => {
+    const el = document.createElement('div');
+    const emitidos: (Set<string> | null)[] = [];
+    let fechou = 0;
+    criarFiltros(el, amostraValida(), (ids) => emitidos.push(ids), () => fechou++);
+    (el.querySelector('[data-acao="nenhum"]') as HTMLButtonElement).click();
+    (el.querySelector('[data-acao="cancelar"]') as HTMLButtonElement).click();
+    expect(emitidos).toEqual([]);
+    expect(fechou).toBe(1);
+    expect((el.querySelector('#filtro-base') as HTMLInputElement).checked).toBe(true);
   });
   it('mostrarSubordinados emite só a subárvore e mostra o chip', () => {
     const el = document.createElement('div');

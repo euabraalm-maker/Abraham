@@ -3,39 +3,46 @@ import { descendentes } from '../dados/hierarquia';
 import type { CategoriaId, Unidade } from '../dados/tipos';
 import { h } from './dom';
 
-/** Painel de filtros. `aoMudar` recebe os ids visíveis (null = todas). */
-export function criarFiltros(el: HTMLElement, us: Unidade[], aoMudar: (ids: Set<string> | null) => void) {
+/**
+ * Painel de filtros. As caixinhas só valem ao clicar em "Aplicar"; "Cancelar" desfaz.
+ * `aoMudar` recebe os ids visíveis (null = todas); `aoFechar` fecha o painel.
+ */
+export function criarFiltros(el: HTMLElement, us: Unidade[], aoMudar: (ids: Set<string> | null) => void, aoFechar: () => void = () => {}) {
   const doMapa = us.filter((u) => u.pais === 'Brasil' && CATEGORIAS[u.categoria].noMapa);
   const cats = (Object.keys(CATEGORIAS) as CategoriaId[]).filter((c) => CATEGORIAS[c].noMapa);
   const contagem = (c: CategoriaId) => doMapa.filter((u) => u.categoria === c).length;
-  const marcadas = new Set<CategoriaId>(cats);
+  let aplicadas = new Set<CategoriaId>(cats);
   let raiz: string | null = null;
 
   const emitir = () => {
     if (raiz) aoMudar(descendentes(raiz, us));
-    else if (marcadas.size === cats.length) aoMudar(null);
-    else aoMudar(new Set(doMapa.filter((u) => marcadas.has(u.categoria)).map((u) => u.id)));
+    else if (aplicadas.size === cats.length) aoMudar(null);
+    else aoMudar(new Set(doMapa.filter((u) => aplicadas.has(u.categoria)).map((u) => u.id)));
   };
 
   const caixas = cats.map((c) => {
     const input = h('input', { type: 'checkbox', id: `filtro-${c}`, checked: true });
-    input.addEventListener('change', () => {
-      if (input.checked) marcadas.add(c); else marcadas.delete(c);
-      raiz = null; chip.hidden = true;
-      emitir();
-    });
     const amostra = h('i', { class: `amostra forma-${CATEGORIAS[c].forma}`, style: `--cor:${CATEGORIAS[c].cor.escuro};--cor-claro:${CATEGORIAS[c].cor.claro}` });
     return { c, input, label: h('label', { for: `filtro-${c}`, class: 'filtro' }, input, amostra, `${CATEGORIAS[c].rotulo} (${contagem(c)})`) };
   });
-  const definirTodas = (sim: boolean) => {
-    caixas.forEach(({ c, input }) => { input.checked = sim; if (sim) marcadas.add(c); else marcadas.delete(c); });
+  const mostrarCaixas = (marcadas: Set<CategoriaId>) => caixas.forEach(({ c, input }) => (input.checked = marcadas.has(c)));
+  const escolhidas = () => new Set(caixas.filter((x) => x.input.checked).map((x) => x.c));
+
+  const botao = (acao: string, texto: string, classe = 'botao') => h('button', { type: 'button', class: classe, 'data-acao': acao }, texto);
+  const btTodos = botao('todos', 'Todos');
+  const btNenhum = botao('nenhum', 'Nenhum');
+  const btCancelar = botao('cancelar', 'Cancelar');
+  const btAplicar = botao('aplicar', 'Aplicar', 'botao botao-principal');
+  btTodos.addEventListener('click', () => mostrarCaixas(new Set(cats)));
+  btNenhum.addEventListener('click', () => mostrarCaixas(new Set()));
+  btCancelar.addEventListener('click', () => { mostrarCaixas(aplicadas); aoFechar(); });
+  btAplicar.addEventListener('click', () => {
+    aplicadas = escolhidas();
     raiz = null; chip.hidden = true;
     emitir();
-  };
-  const btTodos = h('button', { type: 'button', class: 'botao', 'data-acao': 'todos' }, 'Todos');
-  const btNenhum = h('button', { type: 'button', class: 'botao', 'data-acao': 'nenhum' }, 'Nenhum');
-  btTodos.addEventListener('click', () => definirTodas(true));
-  btNenhum.addEventListener('click', () => definirTodas(false));
+    aoFechar();
+  });
+
   const textoChip = h('span', {});
   const fecharChip = h('button', { type: 'button', class: 'chip-fechar', 'aria-label': 'Limpar' }, '✕');
   const chip = h('div', { class: 'chip', hidden: true }, textoChip, fecharChip);
@@ -45,9 +52,11 @@ export function criarFiltros(el: HTMLElement, us: Unidade[], aoMudar: (ids: Set<
     h('div', { class: 'filtros-topo' }, h('strong', {}, 'O que mostrar'), h('span', { class: 'filtros-botoes' }, btTodos, btNenhum)),
     chip,
     h('div', { class: 'filtros-lista' }, caixas.map((x) => x.label)),
+    h('div', { class: 'filtros-rodape' }, btCancelar, btAplicar),
   );
 
   const api = {
+    /** Mostra só a subárvore da unidade (vem da ficha; vale na hora). */
     mostrarSubordinados(id: string) {
       raiz = id;
       const u = us.find((x) => x.id === id);
@@ -55,8 +64,16 @@ export function criarFiltros(el: HTMLElement, us: Unidade[], aoMudar: (ids: Set<
       chip.hidden = false;
       emitir();
     },
+    /** Volta a mostrar tudo. */
     limpar() {
-      definirTodas(true);
+      aplicadas = new Set(cats);
+      mostrarCaixas(aplicadas);
+      raiz = null; chip.hidden = true;
+      emitir();
+    },
+    /** Desfaz o que não foi aplicado (ao fechar o painel por fora). */
+    descartar() {
+      mostrarCaixas(aplicadas);
     },
   };
   return api;

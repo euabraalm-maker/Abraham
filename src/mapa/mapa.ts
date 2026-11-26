@@ -8,6 +8,9 @@ import { animarAviao } from './aviao';
 import { agruparPorLocal, type Grupo } from '../dados/locais';
 import { criarOrbita, ZOOM_ORBITA } from './orbita';
 
+export type ModoCamera = 'auto' | '3d' | 'cima';
+const PITCH: Record<ModoCamera, number> = { auto: 50, '3d': 55, cima: 0 };
+
 export interface MapaApi {
   voarPara(id: string): void;
   filtrar(ids: Set<string> | null): void;
@@ -16,7 +19,8 @@ export interface MapaApi {
   aoSelecionarGrupo(cb: (ids: string[]) => void): void;
   /** Realça um satélite na órbita (ex.: esquadrão escolhido na busca); null limpa. */
   destacarSatelite(id: string | null): void;
-  vistaDeCima(): void;
+  /** Ângulo da câmera: automática (inclina nos voos), 3D fixa (55°) ou de cima (plana, sem girar). */
+  definirCamera(modo: ModoCamera): void;
   map: maplibregl.Map;
   unidades: Unidade[];
 }
@@ -40,10 +44,11 @@ function colecao(grupos: Grupo[]): GeoJSON.FeatureCollection<GeoJSON.Point> {
   };
 }
 
-export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): MapaApi {
+export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema; camera?: ModoCamera }): MapaApi {
   let tema: Tema = o.tema;
+  let camera: ModoCamera = o.camera ?? 'auto';
   const semRede = o.tema === 'teste';
-  const intro = !movimentoReduzido();
+  const intro = !movimentoReduzido() && camera === 'auto';
   let vooPedido = false;
   let filtroAtual: Set<string> | null = null;
   const porId = new Map(us.map((u) => [u.id, u]));
@@ -61,7 +66,7 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
     style: criarEstilo(tema),
     center: CENTRO_BRASIL,
     zoom: ZOOM_INICIAL,
-    pitch: intro ? 45 : 30,
+    pitch: camera === 'auto' ? (intro ? 45 : 30) : PITCH[camera],
     maxPitch: 70,
     attributionControl: { compact: true },
     fadeDuration: movimentoReduzido() ? 0 : 300,
@@ -217,6 +222,17 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
     map.on('mouseleave', camada, () => (map.getCanvas().style.cursor = ''));
   }
 
+  /** De cima: trava plano e sem giro. 3D: trava a inclinação em 55°. Automática: livre. */
+  function aplicarLimitesCamera() {
+    const fixo = camera === 'auto' ? null : PITCH[camera];
+    map.setMinPitch(0); // solta os limites antes, para nunca ficar mínimo > máximo
+    map.setMaxPitch(70);
+    if (fixo !== null) { map.setMaxPitch(fixo); map.setMinPitch(fixo); }
+    if (camera === 'cima') { map.dragRotate.disable(); map.touchZoomRotate.disableRotation(); map.keyboard.disableRotation(); }
+    else { map.dragRotate.enable(); map.touchZoomRotate.enableRotation(); map.keyboard.enableRotation(); }
+  }
+  aplicarLimitesCamera();
+
   const orbita = criarOrbita(map, el, () => grupos, (id) => cbSelecionar.forEach((cb) => cb(id)));
 
   const api: MapaApi = {
@@ -231,7 +247,7 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
       const destino = map.project(u.coord);
       const limitar = (v: number, max: number) => Math.min(max * 0.9, Math.max(max * 0.1, v));
       animarAviao(el, [w / 2, hgt / 2], [limitar(destino.x, w), limitar(destino.y, hgt)], 2000);
-      map.flyTo({ center: u.coord, zoom: 12, pitch: 50, duration: movimentoReduzido() ? 0 : 2200, essential: true });
+      map.flyTo({ center: u.coord, zoom: 12, pitch: PITCH[camera], duration: movimentoReduzido() ? 0 : 2200, essential: true });
     },
     filtrar(ids) {
       filtroAtual = ids;
@@ -245,8 +261,12 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
     aoSelecionar(cb) { cbSelecionar.push(cb); },
     aoSelecionarGrupo(cb) { cbGrupo.push(cb); },
     destacarSatelite(id) { orbita.destacar(id); },
-    vistaDeCima() {
-      map.easeTo({ pitch: 0, bearing: 0, duration: movimentoReduzido() ? 0 : 800 });
+    definirCamera(modo) {
+      camera = modo;
+      aplicarLimitesCamera();
+      const duracao = movimentoReduzido() ? 0 : 800;
+      if (modo === 'cima') map.easeTo({ pitch: 0, bearing: 0, duration: duracao });
+      else if (modo === '3d') map.easeTo({ pitch: PITCH['3d'], duration: duracao });
     },
   };
   return api;

@@ -15,6 +15,8 @@ test('filtrar só DTCEA deixa só destacamentos no mapa', async ({ page }) => {
   await page.getByRole('button', { name: 'Filtros' }).click();
   await page.locator('[data-acao="nenhum"]').click();
   await page.getByLabel(/Destacamentos \(DTCEA\)/).check();
+  await page.getByRole('button', { name: 'Aplicar' }).click();
+  await expect(page.locator('#painel-filtros')).toBeHidden();
   const cats = await page.evaluate(() => {
     const dados = (window as any).__mapa.map.getSource('unidades').serialize().data;
     return [...new Set(dados.features.map((f: any) => f.properties.categoria))];
