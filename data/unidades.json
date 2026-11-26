@@ -10855,31 +10855,36 @@
  {
   "id": "gac-infra-an",
   "sigla": "GAC INFRA-AN",
-  "nome": "GAC INFRA-AN (Diretoria de Infraestrutura da Aeronáutica em Anápolis)",
+  "nome": "Grupamento de Acompanhamento e Controle de Infraestrutura de Anápolis",
   "categoria": "administracao",
   "tipoCatalogo": "Serviço",
   "cidade": "Anápolis",
   "uf": "GO",
   "pais": "Brasil",
   "coord": [
-   -48.953,
-   -16.3281
+   -48.9643,
+   -16.2292
   ],
   "coordSituacao": "aproximada",
   "subordinadaA": "dirinfra",
   "site": null,
   "ficha": "basica",
   "situacao": {
-   "nome": "a-conferir",
+   "nome": "confirmado",
    "localizacao": "a-conferir",
    "subordinacao": "confirmado"
   },
   "fontes": [
    {
     "titulo": "Organograma da DIRINFRA (enviado pelo instrutor)"
+   },
+   {
+    "titulo": "ROCA 21-115 — Regulamento do GAC INFRA-AN (SISLAER)",
+    "url": "https://www.sislaer.fab.mil.br/TerminalWebCENDOC/Busca/Download?codigoArquivo=4068&tipoMidia=0"
    }
   ],
-  "revisadoEm": "2026-11-26"
+  "revisadoEm": "2026-11-26",
+  "historico": "Acompanha, controla e gerencia as obras e os projetos de infraestrutura ligados à Base Aérea de Anápolis (BAAN). Apoia a ampliação da base para receber novos vetores da FAB, como o caça F-39 Gripen e o cargueiro KC-390 Millennium, incluindo moradias (PNR) e instalações operacionais e administrativas. Segundo seu regulamento (ROCA 21-115), organiza-se em Chefia, Divisão Técnica e Divisão Administrativa."
  },
  {
   "id": "co-fz",

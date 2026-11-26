@@ -187,7 +187,7 @@ function main() {
   const novas: [string, string, string, string, string, boolean][] = [
     // id, sigla, nome, cidade, uf, nome confirmado
     ['dirinfra', 'DIRINFRA', 'Diretoria de Infraestrutura da Aeronáutica', 'São Paulo', 'SP', true],
-    ['gac-infra-an', 'GAC INFRA-AN', 'GAC INFRA-AN (Diretoria de Infraestrutura da Aeronáutica em Anápolis)', 'Anápolis', 'GO', false],
+    ['gac-infra-an', 'GAC INFRA-AN', 'Grupamento de Acompanhamento e Controle de Infraestrutura de Anápolis', 'Anápolis', 'GO', true],
     ['co-fz', 'CO-FZ', 'Comissão de Obras de Fortaleza', 'Fortaleza', 'CE', true],
     ['gecamp', 'GECAMP', 'Grupamento de Engenharia de Campanha da Aeronáutica', 'Guarulhos', 'SP', true],
     ['serinfra-be', 'SERINFRA-BE', 'Serviço Regional de Infraestrutura da Aeronáutica de Belém', 'Belém', 'PA', true],
@@ -206,6 +206,13 @@ function main() {
       fontes: [ORG_DIRINFRA], revisadoEm: hoje,
     });
   }
+  // GAC INFRA-AN: finalidade e estrutura (ROCA 21-115, informado pelo instrutor). Funciona para a BAAN;
+  // posição junto da base, ainda "aproximada" até confirmar o local exato.
+  Object.assign(saida.get('gac-infra-an')!, {
+    coord: [-48.9643, -16.2292] as [number, number],
+    historico: 'Acompanha, controla e gerencia as obras e os projetos de infraestrutura ligados à Base Aérea de Anápolis (BAAN). Apoia a ampliação da base para receber novos vetores da FAB, como o caça F-39 Gripen e o cargueiro KC-390 Millennium, incluindo moradias (PNR) e instalações operacionais e administrativas. Segundo seu regulamento (ROCA 21-115), organiza-se em Chefia, Divisão Técnica e Divisão Administrativa.',
+    fontes: [ORG_DIRINFRA, { titulo: 'ROCA 21-115 — Regulamento do GAC INFRA-AN (SISLAER)', url: 'https://www.sislaer.fab.mil.br/TerminalWebCENDOC/Busca/Download?codigoArquivo=4068&tipoMidia=0' }],
+  });
   // esquadrões sem sede identificável: usar a primeira base existente da UF? Não: ficam sem sediadoEm e são listados.
   const semSede = [...saida.values()].filter((u) => u.categoria === 'esquadrao' && (!u.sediadoEm || !saida.has(u.sediadoEm)));
   if (semSede.length) console.warn('Esquadrões sem sede:', semSede.map((u) => `${u.sigla} (${u.cidade})`).join(', '));
