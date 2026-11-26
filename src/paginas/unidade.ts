@@ -5,11 +5,13 @@ import { carregar } from '../dados/carregar';
 import { h } from '../ui/dom';
 import { renderizarFicha, type AcaoFicha } from '../ui/ficha';
 import type { Tema } from '../mapa/estilo';
+import { iniciarTema } from '../ui/tema';
 
 const params = new URLSearchParams(location.search);
 const id = params.get('id') ?? '';
 const estilo = params.get('estilo');
-const tema: Tema = estilo === 'teste' ? 'teste' : estilo === 'claro' ? 'claro' : 'escuro';
+const temaVisual = iniciarTema(() => {});
+const tema: Tema = estilo === 'teste' ? 'teste' : estilo === 'claro' || estilo === 'escuro' ? estilo : temaVisual.atual();
 const sufixoEstilo = estilo ? `?estilo=${encodeURIComponent(estilo)}` : '';
 const { porId } = carregar();
 const conteudo = document.getElementById('conteudo')!;
@@ -46,6 +48,6 @@ if (!u) {
   document.addEventListener('acao-ficha', (e) => {
     const { acao, id: alvo } = (e as CustomEvent<{ acao: AcaoFicha; id: string }>).detail;
     if (acao === 'abrir') location.href = `om.html?id=${encodeURIComponent(alvo)}${estilo ? `&estilo=${estilo}` : ''}`;
-    else location.href = `./${sufixoEstilo}#${alvo}`;
+    else location.href = `./${sufixoEstilo}#${alvo}${acao === 'fechar' ? '' : `/${acao}`}`;
   });
 }

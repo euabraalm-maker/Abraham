@@ -45,6 +45,7 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
   let tema: Tema = o.tema;
   const semRede = o.tema === 'teste';
   const intro = !movimentoReduzido();
+  let vooPedido = false;
   let filtroAtual: Set<string> | null = null;
   const porId = new Map(us.map((u) => [u.id, u]));
   const cbSelecionar: ((id: string) => void)[] = [];
@@ -157,7 +158,7 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
   });
   // Abertura: o mapa "assenta" de 45° para 30° enquanto o aviãozinho cruza a tela.
   map.once('load', () => {
-    if (!intro) return;
+    if (!intro || vooPedido) return; // não interrompe um voo já pedido (ex.: endereço com #unidade)
     map.easeTo({ pitch: 30, duration: 1500 });
     const { clientWidth: w, clientHeight: hgt } = el;
     animarAviao(el, [-40, hgt * 0.7], [w + 40, hgt * 0.35], 2200);
@@ -204,6 +205,7 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
       let u = porId.get(id);
       if (u?.categoria === 'esquadrao' && u.sediadoEm) u = porId.get(u.sediadoEm);
       if (!u?.coord) return;
+      vooPedido = true;
       const { clientWidth: w, clientHeight: hgt } = el;
       const destino = map.project(u.coord);
       const limitar = (v: number, max: number) => Math.min(max * 0.9, Math.max(max * 0.1, v));

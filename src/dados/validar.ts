@@ -1,6 +1,9 @@
 import type { Unidade } from './tipos';
 
-const TELEFONE = /\(?\d{2}\)?\s?\d{4,5}-?\d{4}/;
+// número com separador (2101-6000, (21) 2101 6000, 21 2101.6000) ou sequência longa de dígitos
+const TELEFONE = /(\(?\d{2}\)?[\s.-]?)?\d{4,5}[\s.-]\d{4}\b|\(?\d{2}\)?\s?\d{8,9}\b|\bramal\b/gi;
+const INTERVALO_DE_ANOS = /^(19|20)\d{2}[\s.-](19|20)\d{2}$/;
+const temTelefone = (t: string) => [...t.matchAll(TELEFONE)].some((m) => !INTERVALO_DE_ANOS.test(m[0].trim()));
 const BRASIL = { lon: [-74.5, -28.5], lat: [-34.5, 5.8] };
 
 function textos(v: unknown, saida: string[] = []): string[] {
@@ -34,7 +37,7 @@ export function validarConjunto(us: Unidade[]): string[] {
     if (u.ficha === 'completa' && !u.historico) erros.push(`${u.id}: ficha completa sem histórico`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(u.revisadoEm)) erros.push(`${u.id}: revisadoEm deve ser AAAA-MM-DD`);
     for (const t of textos(u)) {
-      if (TELEFONE.test(t)) erros.push(`${u.id}: contém telefone ("${t.slice(0, 40)}")`);
+      if (temTelefone(t)) erros.push(`${u.id}: contém telefone ("${t.slice(0, 40)}")`);
       if (/intraer/i.test(t)) erros.push(`${u.id}: contém link intraer`);
       if (t.includes('@')) erros.push(`${u.id}: contém e-mail`);
     }

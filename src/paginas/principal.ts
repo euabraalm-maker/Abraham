@@ -42,12 +42,18 @@ const barra = h('header', { class: 'barra vidro' },
   busca,
   h('div', { class: 'acoes-barra' }, h('div', { class: 'alternancia', role: 'group', 'aria-label': 'Visualização' }, btVerMapa, btVerOrg), btFiltros, btTema));
 palco.appendChild(barra);
+// Os painéis começam logo abaixo da barra, que pode quebrar em duas linhas no celular
+new ResizeObserver(() => palco.style.setProperty('--altura-barra', `${barra.offsetHeight}px`)).observe(barra);
 
 // Painéis
 const painelFiltros = h('aside', { id: 'painel-filtros', class: 'vidro painel-filtros', hidden: true, 'aria-label': 'Filtros' });
 const painelFicha = h('aside', { id: 'painel-ficha', class: 'vidro painel-ficha', hidden: true, 'aria-live': 'polite' });
 const listaGrupo = h('ul', { id: 'lista-grupo' });
-const painelGrupo = h('div', { class: 'vidro painel-grupo', hidden: true }, h('strong', {}, 'Unidades neste ponto'), listaGrupo);
+const btFecharGrupo = h('button', { type: 'button', class: 'botao fechar', 'aria-label': 'Fechar lista' }, '✕');
+const painelGrupo = h('div', { class: 'vidro painel-grupo', hidden: true },
+  h('div', { class: 'grupo-topo' }, h('strong', {}, 'Unidades neste ponto'), btFecharGrupo), listaGrupo);
+btFecharGrupo.addEventListener('click', () => (painelGrupo.hidden = true));
+document.addEventListener('keydown', (e) => { if (e.key === 'Escape') painelGrupo.hidden = true; });
 const rodape = h('div', { class: 'rodape-esquerdo' });
 const btVistaCima = h('button', { type: 'button', class: 'botao vidro' }, 'Vista de cima');
 btVistaCima.addEventListener('click', () => mapa.vistaDeCima());
@@ -82,11 +88,15 @@ function mostrarSubordinados(id: string) {
   } else mapa.voarPara(id);
 }
 
-criarCaixaBusca(busca, lista, (r) => abrirUnidade(r.unidade.id));
+criarCaixaBusca(busca, lista, (r) => abrirUnidade(r.alvo.id));
 criarExterior(rodape, lista, (id) => abrirUnidade(id, false));
 rodape.appendChild(btVistaCima);
 
 mapa.aoSelecionar((id) => abrirUnidade(id, false));
+mapa.map.on('click', (e) => {
+  const sob = mapa.map.queryRenderedFeatures(e.point, { layers: ['bolhas', 'unidades'].filter((l) => mapa.map.getLayer(l)) });
+  if (!sob.length) painelGrupo.hidden = true;
+});
 mapa.aoSelecionarGrupo((ids) => {
   const us = ids.map((id) => porId.get(id)!).filter(Boolean).sort((a, b) => a.sigla.localeCompare(b.sigla, 'pt-BR'));
   listaGrupo.replaceChildren(...us.map((u) => {
@@ -130,9 +140,13 @@ document.addEventListener('acao-ficha', (e) => {
 });
 
 // Endereço com #id (vindo da página da unidade) abre a ficha
+// Formatos: #id, #id/subordinados, #id/organograma
 const abrirDoEndereco = () => {
-  const alvo = decodeURIComponent(location.hash.slice(1));
-  if (alvo && porId.has(alvo)) abrirUnidade(alvo);
+  const [alvo, acao] = decodeURIComponent(location.hash.slice(1)).split('/');
+  if (!alvo || !porId.has(alvo)) return;
+  if (acao === 'organograma') mostrarOrganograma(alvo);
+  else if (acao === 'subordinados') { abrirUnidade(alvo, false); mostrarSubordinados(alvo); }
+  else abrirUnidade(alvo);
 };
 window.addEventListener('hashchange', abrirDoEndereco);
 abrirDoEndereco();

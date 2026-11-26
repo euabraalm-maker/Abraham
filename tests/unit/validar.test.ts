@@ -50,3 +50,17 @@ describe('validarConjunto', () => {
     expect(algumCom(erros((us) => (us[1].revisadoEm = '26/11/2026')), 'baan')).toBe(true);
   });
 });
+
+describe('vazamento de telefone em outros formatos', () => {
+  it.each(['2101-6000', '(21) 2101 6000', '21 2101.6000', 'Ramal 6000'])('rejeita "%s"', (tel) => {
+    const us = amostraValida();
+    us[1].historico = `Contato: ${tel}`;
+    expect(validarConjunto(us).some((e) => e.includes('baan'))).toBe(true);
+  });
+  it('não confunde anos e datas com telefone', () => {
+    const us = amostraValida();
+    us[1].historico = 'Criada em 1972, reformada entre 1990 e 2001 (período 2019-2022).';
+    us[1].fontes.push({ titulo: 'Decreto', url: 'https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm' });
+    expect(validarConjunto(us)).toEqual([]);
+  });
+});

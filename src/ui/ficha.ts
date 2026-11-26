@@ -32,6 +32,7 @@ export function renderizarFicha(u: Unidade, porId: Map<string, Unidade>, modo: '
 
   const selos: string[] = [];
   if (u.pais === 'Brasil' && u.categoria !== 'esquadrao' && u.coordSituacao === 'aproximada') selos.push('posição aproximada');
+  if (u.categoria === 'esquadrao' && u.situacao.localizacao === 'a-conferir') selos.push('sede a conferir');
   if (u.situacao.subordinacao === 'a-conferir') selos.push('subordinação a conferir');
   if (u.situacao.nome === 'a-conferir') selos.push('nome a conferir');
 
@@ -58,7 +59,8 @@ export function renderizarFicha(u: Unidade, porId: Map<string, Unidade>, modo: '
     h('dl', { class: 'dados' },
       linha('Local', local),
       linha('Sediado em', sede ? linkUnidade(sede) : null),
-      linha('Esquadrões', sediados.length ? h('span', {}, sediados.flatMap((s, i) => [i ? ', ' : '', linkUnidade(s)])) : null, 'esquadroes'),
+      linha('Esquadrões', sediados.length ? h('span', {}, sediados.flatMap((s, i) => [i ? ', ' : '', linkUnidade(s)]),
+        sediados.some((s) => s.situacao.localizacao === 'a-conferir') ? h('small', { class: 'nota' }, ' (sede a conferir)') : null) : null, 'esquadroes'),
       linha('Aeronaves', u.aeronaves?.length ? u.aeronaves.join(' · ') : null, 'aeronaves'),
     ),
     u.historico && h('p', { class: 'historico' }, u.historico),

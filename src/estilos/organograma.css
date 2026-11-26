@@ -1,5 +1,5 @@
 .tela-organograma {
-  position: absolute; z-index: 19; top: 84px; bottom: 16px;
+  position: absolute; z-index: 19; top: calc(var(--altura-barra, 62px) + 22px); bottom: 16px;
   left: max(12px, env(safe-area-inset-left, 0px)); right: max(12px, env(safe-area-inset-right, 0px));
   overflow: auto; padding: 20px 24px; animation: surgir 0.3s ease-out;
 }
@@ -29,4 +29,4 @@
 .alternancia { display: inline-flex; padding: 3px; border-radius: 999px; background: var(--botao); border: 1px solid var(--vidro-borda); }
 .alternancia .botao { border: 0; background: none; padding: 6px 12px; }
 .alternancia .botao[aria-pressed="true"] { background: var(--gradiente-acao); }
-@media (max-width: 720px) { .no-nome { display: none; } .tela-organograma { top: 124px; } }
+@media (max-width: 720px) { .no-nome { display: none; } }

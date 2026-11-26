@@ -52,3 +52,13 @@ describe('renderizarFicha', () => {
     expect(ficha('baan').textContent).toContain('Revisado em 26/11/2026');
   });
 });
+
+describe('sede de esquadrão não confirmada', () => {
+  it('ficha do esquadrão mostra "sede a conferir"', () => {
+    const el = ficha('1-gda');
+    expect([...el.querySelectorAll('.selo')].some((s) => s.textContent === 'sede a conferir')).toBe(true);
+  });
+  it('lista de esquadrões da base avisa que a sede está a conferir', () => {
+    expect(ficha('baan').querySelector('.esquadroes')?.textContent).toContain('sede a conferir');
+  });
+});

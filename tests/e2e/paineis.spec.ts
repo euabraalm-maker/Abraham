@@ -24,8 +24,10 @@ test('filtrar só DTCEA deixa só destacamentos no mapa', async ({ page }) => {
 
 test('elo do caminho abre a ficha daquela unidade', async ({ page }) => {
   await abrirMapa(page);
-  await page.getByRole('combobox', { name: 'Buscar unidade' }).fill('1º GDA');
-  await page.getByRole('option').first().click();
+  await page.getByRole('combobox', { name: 'Buscar unidade' }).fill('BAAN');
+  await page.keyboard.press('Enter');
+  await page.locator('#painel-ficha .esquadroes a', { hasText: '1° GDA' }).click();
+  await expect(page.locator('#painel-ficha .ficha')).toHaveAttribute('data-id', '1-gda');
   await page.locator('#painel-ficha .caminho a', { hasText: 'BAAN' }).click();
   await expect(page.locator('#painel-ficha .ficha')).toHaveAttribute('data-id', 'baan');
 });
