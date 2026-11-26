@@ -4,9 +4,11 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const raiz = dirname(fileURLToPath(import.meta.url));
+// GitHub Pages publica em /Abraham/; na Vercel (VERCEL=1 no build) o site fica na raiz.
+const base = process.env.VERCEL ? '/' : '/Abraham/';
 
 export default defineConfig({
-  base: '/Abraham/',
+  base,
   build: {
     rollupOptions: {
       input: {
@@ -33,7 +35,7 @@ export default defineConfig({
         // app, dados das unidades (no código), divisas e regiões
         globPatterns: ['**/*.{js,css,html,json,woff,woff2,svg,png,webp}'],
         maximumFileSizeToCacheInBytes: 3 * 1024 * 1024,
-        navigateFallbackDenylist: [/^\/Abraham\/om\.html/],
+        navigateFallbackDenylist: [new RegExp(`^${base}om\\.html`)],
         runtimeCaching: [
           {
             urlPattern: ({ url }) => url.hostname === 'tiles.openfreemap.org',
