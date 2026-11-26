@@ -27,14 +27,33 @@
 .botao[aria-pressed="true"] { background: var(--gradiente-acao); color: #fff; border-color: transparent; }
 
 /* Barra superior */
+/* Barra superior sem faixa: nome, busca e botões flutuam como ilhas de vidro */
 .barra {
+  background: transparent !important; border: 0 !important; box-shadow: none !important;
+  backdrop-filter: none !important; -webkit-backdrop-filter: none !important;
   position: absolute; z-index: 20;
   top: max(12px, env(safe-area-inset-top, 0px));
   left: max(12px, env(safe-area-inset-left, 0px));
   right: max(12px, env(safe-area-inset-right, 0px));
   display: flex; align-items: center; gap: 12px; padding: 8px 10px 8px 16px; flex-wrap: wrap;
 }
-.barra .marca { font: 700 1.05rem var(--f-titulo); white-space: nowrap; }
+.barra .marca {
+  font: 700 1.05rem var(--f-titulo); white-space: nowrap;
+  background: var(--vidro); border: 1px solid var(--vidro-borda); border-radius: 14px; padding: 6px 14px;
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); box-shadow: 0 10px 28px rgba(5, 10, 40, 0.3);
+}
+.barra .busca input, .barra .acoes-barra > .botao, .barra .alternancia {
+  backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); box-shadow: 0 10px 28px rgba(5, 10, 40, 0.3);
+}
+.barra .busca input, .barra .acoes-barra > .botao { background: var(--vidro); }
+.barra .alternancia { background: var(--vidro); }
+html.fx-leve .barra .marca, html.fx-leve .barra .busca input, html.fx-leve .barra .acoes-barra > .botao, html.fx-leve .barra .alternancia { backdrop-filter: none; background: var(--fundo-2); }
+.filtros-rodape { display: flex; justify-content: flex-end; gap: 8px; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--vidro-borda); }
+.botao-principal { background: var(--gradiente-acao); color: #fff; border-color: transparent; }
+.seletor-camera { align-items: center; border-radius: 999px; padding: 3px; }
+.seletor-camera .botao { border: 0; background: none; padding: 6px 12px; }
+.seletor-camera .botao[aria-pressed="true"] { background: var(--gradiente-acao); color: #fff; }
+.rotulo-camera { font-size: 0.72rem; color: var(--texto-2); padding: 0 6px 0 10px; text-transform: uppercase; letter-spacing: 0.08em; }
 .barra .marca small { display: block; font: 500 0.7rem var(--f-texto); color: var(--texto-2); letter-spacing: 0.08em; text-transform: uppercase; }
 .barra .acoes-barra { display: flex; flex-wrap: wrap; gap: 8px; margin-left: auto; }
 
