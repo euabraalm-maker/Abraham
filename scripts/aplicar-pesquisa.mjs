@@ -13,6 +13,8 @@ const F = {
   cindacta4: { titulo: 'DECEA — CINDACTA IV', url: 'https://www.decea.mil.br/index.cfm?i=unidades&p=cindacta-iv' },
   crceaSe: { titulo: 'DECEA — CRCEA-SE', url: 'https://www.decea.mil.br/index.cfm?i=unidades&p=crcea-se' },
   gcc: { titulo: 'DECEA — 1º GCC', url: 'https://www.decea.mil.br/?i=unidades&p=1o-gcc' },
+  comar2: { titulo: 'II COMAR — Unidades Subordinadas', url: 'https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas' },
+  bacg: { titulo: 'Base Aérea de Campo Grande (página oficial)', url: 'https://www2.fab.mil.br/bacg/' },
   aerodromo: { titulo: 'OurAirports — coordenadas do aeródromo', url: 'https://ourairports.com/countries/BR/' },
 };
 
@@ -34,6 +36,8 @@ const SUBORDINACAO = [
   ['sefa', ['dirad', 'diref'], F.decreto],
   ['dirad', ['cae'], F.decreto],
   ['1-gcc', ['1-1-gcc', '2-1-gcc', '3-1-gcc', '4-1-gcc', '5-1-gcc'], F.gcc],
+  ['ii-comar', ['bant', 'barf', 'basv', 'bafz'], F.comar2],
+  ['iv-comar', ['bacg'], F.bacg],
   ['cindacta-i', dt('an', 'bq', 'br', 'bw', 'cc', 'cf', 'cy', 'ga', 'gi', 'ls', 'pco', 'sro', 'sta', 'tnb', 'trm', 'ys'), F.cindacta1],
   ['cindacta-ii', dt('bi', 'co', 'fi', 'ct', 'fl', 'sm', 'ug', 'mdi', 'cgu', 'sti', 'cdt', 'cg', 'cr'), F.cindacta2],
   // a página do CINDACTA III chama de DTCEA-PE o destacamento de Petrolina (DTCEA-PL no catálogo)
@@ -64,6 +68,28 @@ const AERODROMO = {
   pagl: 'SBGL', paaf: 'SBAF',
   'pama-ls': 'SBLS', 'pama-sp': 'SBMT', 'pama-gl': 'SBGL', 'pama-af': 'SBAF',
   afa: 'SBYS', eear: 'SBGW', epcar: 'SBBQ', cpbv: 'SBCC', cla: 'SNCW',
+};
+
+/**
+ * Sites oficiais confirmados (página no ar, verificada em 26/11/2026). Toda unidade fora desta lista
+ * fica sem site próprio e a ficha aponta para a página do superior mais próximo.
+ */
+const W2 = (p) => `https://www2.fab.mil.br/${p}/`;
+const DECEA_UN = (p) => `https://www.decea.mil.br/index.cfm?i=unidades&p=${p}`;
+const SITES = {
+  comaer: 'https://www.fab.mil.br/', decea: 'https://www.decea.mil.br/', ita: 'https://www.ita.br/',
+  'cca-rj': W2('sti'), brevet: W2('brevet'), 'serep-br': W2('serepbr'), ciaar: W2('ciaar'), cenipa: W2('cenipa'),
+  eda: W2('eda'), eear: W2('eear'), cendoc: W2('cendoc'), ipa: W2('ipa'), cfiae: W2('cfiae'), dirsa: W2('dirsa'),
+  cbnb: W2('cbnb'), hamn: W2('hamn'), afa: W2('afa'), cabe: W2('cabe'), unifa: W2('unifa'), 'cindacta-ii': W2('cindacta2'),
+  'serep-rj': W2('sereprj'), 'pama-ls': W2('pamals'), laqfa: W2('laqfa'), musal: W2('musal'), hfasp: W2('hfasp'),
+  hca: W2('hca'), haaf: W2('haaf'), cpbv: W2('cpbv'), bacg: W2('bacg'), 'ii-comar': W2('comar2'), bafz: W2('bafz'),
+  cimaer: W2('cimaer'), ila: W2('ila'), incaer: W2('incaer'), 'iii-comar': W2('comar3'), 'cca-sj': W2('ccasj'),
+  'gap-be': W2('gapbe'), dirap: W2('dirap'), 'cindacta-iv': W2('cindacta4'),
+  bant: 'https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas/74-unidades-sobordinadas',
+  barf: 'https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas/137-om',
+  basv: 'https://www2.fab.mil.br/comar2/index.php/unidades-subordinadas/134-teste-02',
+  'cindacta-i': DECEA_UN('cindacta-i'), 'cindacta-iii': DECEA_UN('cindacta-iii'), 'crcea-se': DECEA_UN('crcea-se'),
+  '1-gcc': 'https://www.decea.mil.br/?i=unidades&p=1o-gcc',
 };
 
 function lerCsv(texto) {
@@ -114,6 +140,23 @@ for (const [id, codigo] of Object.entries(AERODROMO)) {
   addFonte(u, { ...F.aerodromo, titulo: `${F.aerodromo.titulo} (${codigo})` });
   u.revisadoEm = HOJE;
 }
+// Posições reais curadas (OpenStreetMap e complexos pelo endereço do catálogo)
+const posicoes = JSON.parse(readFileSync('data/fontes/posicoes.json', 'utf8'));
+for (const [id, p] of Object.entries(posicoes)) {
+  const u = porId.get(id);
+  if (!u) { faltam.push(`posicao:${id}`); continue; }
+  u.coord = p.coord;
+  u.coordSituacao = 'exata';
+  u.situacao.localizacao = 'confirmado';
+  addFonte(u, { titulo: `Posição: ${p.fonte}`, url: 'https://www.openstreetmap.org/' });
+  u.revisadoEm = HOJE;
+}
+for (const u of unidades) {
+  u.site = SITES[u.id] ?? null;
+  if (u.site) addFonte(u, { titulo: 'Site oficial', url: u.site });
+}
+for (const id of Object.keys(SITES)) if (!porId.has(id)) faltam.push(`site:${id}`);
+
 writeFileSync('data/unidades.json', JSON.stringify(unidades, null, 1) + '\n');
 const conta = (f) => unidades.filter((u) => u.pais === 'Brasil' && f(u)).length;
 console.log('subordinação confirmada:', conta((u) => u.situacao.subordinacao === 'confirmado'));

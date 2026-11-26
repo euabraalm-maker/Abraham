@@ -18,15 +18,6 @@ test('clicar numa unidade isolada seleciona a unidade', async ({ page }) => {
   await expect(page.locator('#painel-ficha .ficha')).toHaveAttribute('data-id', 'dtcea-oi');
 });
 
-test('bolha de unidades no mesmo ponto abre a lista do grupo', async ({ page }) => {
-  await abrirMapa(page);
-  const p = await pontoDaUnidade(page, 'bagl');
-  await page.mouse.click(p.x, p.y);
-  const itens = page.locator('#lista-grupo button');
-  await expect(itens.first()).toBeVisible();
-  expect(await itens.count()).toBeGreaterThan(3);
-});
-
 test('sem servidor de tiles: aviso aparece e as bolhas continuam', async ({ page }) => {
   await page.route('**/tiles.openfreemap.org/**', (r) => r.abort());
   await page.emulateMedia({ reducedMotion: 'reduce' });

@@ -19,3 +19,22 @@
 html.fx-leve .vidro { backdrop-filter: none !important; -webkit-backdrop-filter: none !important; background: var(--fundo-2); box-shadow: none; }
 html.fx-leve .no.destaque { box-shadow: 0 0 0 2px var(--destaque); }
 html.fx-leve .aviao { filter: none; }
+/* Órbita: unidades associadas ao redor do anfitrião */
+.orbitas { position: absolute; inset: 0; pointer-events: none; z-index: 4; overflow: hidden; }
+.orbita { position: absolute; left: 0; top: 0; width: 0; height: 0; }
+.orbita-linhas { position: absolute; left: 0; top: 0; overflow: visible; }
+.orbita-linhas line { stroke: var(--traco); stroke-width: 1; stroke-dasharray: 3 3; opacity: 0.7; }
+.satelite {
+  position: absolute; left: 0; top: 0; pointer-events: auto; cursor: pointer; white-space: nowrap;
+  transform: translate(calc(var(--x) - 50%), calc(var(--y) - 50%));
+  font: 600 0.75rem var(--f-texto); color: var(--texto);
+  background: var(--vidro); border: 1px solid var(--vidro-borda); border-radius: 999px; padding: 4px 10px;
+  backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 6px 16px rgba(5, 10, 40, 0.35);
+  animation: orbitar 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both; animation-delay: var(--atraso);
+}
+.satelite:hover, .satelite:focus-visible { background: var(--vidro-borda); outline: none; box-shadow: 0 0 0 2px var(--destaque); }
+.satelite.sat-esquadrao { border-style: dashed; }
+.satelite.destaque { background: var(--gradiente-acao); color: #fff; border-color: transparent; box-shadow: 0 0 18px var(--destaque); }
+@keyframes orbitar { from { opacity: 0; transform: translate(-50%, -50%) scale(0.4); } }
+html.fx-leve .satelite { backdrop-filter: none; background: var(--fundo-2); }

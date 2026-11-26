@@ -1,0 +1,856 @@
+{
+ "1-gcc": {
+  "coord": [
+   -43.25056,
+   -22.81
+  ],
+  "fonte": "Ilha do Governador (complexo do Galeão) — endereço do catálogo"
+ },
+ "asocea": {
+  "coord": [
+   -43.17034,
+   -22.90854
+  ],
+  "fonte": "Pagadoria dos Inativos e Pensionistas da Aeronáutica, 233, A (OpenStreetMap)"
+ },
+ "aspaer": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "brevet": {
+  "coord": [
+   -43.38241,
+   -22.88125
+  ],
+  "fonte": "Base de Recepção de Veteranos (OpenStreetMap)"
+ },
+ "cae": {
+  "coord": [
+   -43.25056,
+   -22.81
+  ],
+  "fonte": "Ilha do Governador (complexo do Galeão) — endereço do catálogo"
+ },
+ "cbnb": {
+  "coord": [
+   -43.22221,
+   -22.81671
+  ],
+  "fonte": "Colégio Brigadeiro Newton Braga (OpenStreetMap)"
+ },
+ "cca-br": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "cca-rj": {
+  "coord": [
+   -43.25056,
+   -22.81
+  ],
+  "fonte": "Ilha do Governador (complexo do Galeão) — endereço do catálogo"
+ },
+ "cca-sj": {
+  "coord": [
+   -45.86843,
+   -23.2233
+  ],
+  "fonte": "Campus do DCTA — endereço do catálogo"
+ },
+ "ccise": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "cda": {
+  "coord": [
+   -43.3847,
+   -22.8751
+  ],
+  "fonte": "Campo dos Afonsos — endereço do catálogo"
+ },
+ "ceap": {
+  "coord": [
+   -43.3847,
+   -22.8751
+  ],
+  "fonte": "Campo dos Afonsos — endereço do catálogo"
+ },
+ "cecat": {
+  "coord": [
+   -46.61192,
+   -23.5658
+  ],
+  "fonte": "Av. Dom Pedro I, 100 (Cambuci) — endereço do catálogo"
+ },
+ "cecomsaer": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "celog": {
+  "coord": [
+   -46.61192,
+   -23.5658
+  ],
+  "fonte": "Av. Dom Pedro I, 100 (Cambuci) — endereço do catálogo"
+ },
+ "cemal": {
+  "coord": [
+   -43.21412,
+   -22.80882
+  ],
+  "fonte": "Centro de Medicina Aeroespacial (OpenStreetMap)"
+ },
+ "cenciar": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "cendoc": {
+  "coord": [
+   -43.3847,
+   -22.8751
+  ],
+  "fonte": "Campo dos Afonsos — endereço do catálogo"
+ },
+ "cenipa": {
+  "coord": [
+   -47.89598,
+   -15.85714
+  ],
+  "fonte": "Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo"
+ },
+ "cepe": {
+  "coord": [
+   -46.6378,
+   -23.5091
+  ],
+  "fonte": "Campo de Marte — endereço do catálogo"
+ },
+ "cfiae": {
+  "coord": [
+   -43.17034,
+   -22.90854
+  ],
+  "fonte": "Pagadoria dos Inativos e Pensionistas da Aeronáutica, 233, A (OpenStreetMap)"
+ },
+ "cgabeg": {
+  "coord": [
+   -43.25056,
+   -22.81
+  ],
+  "fonte": "Ilha do Governador (complexo do Galeão) — endereço do catálogo"
+ },
+ "cgna": {
+  "coord": [
+   -43.16811,
+   -22.90702
+  ],
+  "fonte": "Av. General Justo, 160 (DECEA) — endereço do catálogo"
+ },
+ "ciaar": {
+  "coord": [
+   -43.8974,
+   -19.66175
+  ],
+  "fonte": "Lagoa Santa — endereço do catálogo"
+ },
+ "ciaer": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "cimaer": {
+  "coord": [
+   -43.25056,
+   -22.81
+  ],
+  "fonte": "Ilha do Governador (complexo do Galeão) — endereço do catálogo"
+ },
+ "cindacta-i": {
+  "coord": [
+   -47.89598,
+   -15.85714
+  ],
+  "fonte": "Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo"
+ },
+ "cindacta-ii": {
+  "coord": [
+   -49.232,
+   -25.4051
+  ],
+  "fonte": "Bacacheri — endereço do catálogo"
+ },
+ "cindacta-iv": {
+  "coord": [
+   -60.05394,
+   -3.02267
+  ],
+  "fonte": "CINDACTA IV (OpenStreetMap)"
+ },
+ "ciscea": {
+  "coord": [
+   -43.16713,
+   -22.9081
+  ],
+  "fonte": "Comissão de Implantação do Sistema de Controle do Espaço Aéreo (OpenStreetMap)"
+ },
+ "clbi": {
+  "coord": [
+   -35.16445,
+   -5.92399
+  ],
+  "fonte": "Centro de Lançamento da Barreira do Inferno (OpenStreetMap)"
+ },
+ "cojaer": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "comae": {
+  "coord": [
+   -47.89598,
+   -15.85714
+  ],
+  "fonte": "Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo"
+ },
+ "comaer": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Ministério da Defesa - Comando da Aeronáutica - FAB (OpenStreetMap)"
+ },
+ "comara": {
+  "coord": [
+   -48.45858,
+   -1.40741
+  ],
+  "fonte": "Comissão de Aeroportos da Região Amazônica (COMARA) (OpenStreetMap)"
+ },
+ "comgep": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "comprep": {
+  "coord": [
+   -47.89598,
+   -15.85714
+  ],
+  "fonte": "Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo"
+ },
+ "copac": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "cporaer-sj": {
+  "coord": [
+   -45.86843,
+   -23.2233
+  ],
+  "fonte": "Campus do DCTA — endereço do catálogo"
+ },
+ "crcea-se": {
+  "coord": [
+   -46.6546,
+   -23.62766
+  ],
+  "fonte": "Aeroporto de Congonhas, torre de controle (página do DECEA)"
+ },
+ "ctla": {
+  "coord": [
+   -43.25056,
+   -22.81
+  ],
+  "fonte": "Ilha do Governador (complexo do Galeão) — endereço do catálogo"
+ },
+ "dcta": {
+  "coord": [
+   -45.86843,
+   -23.2233
+  ],
+  "fonte": "Departamento de Ciência e Tecnologia Aeroespacial (OpenStreetMap)"
+ },
+ "decea": {
+  "coord": [
+   -43.16811,
+   -22.90702
+  ],
+  "fonte": "Departamento de Controle do Espaço Aéreo (OpenStreetMap)"
+ },
+ "dirad": {
+  "coord": [
+   -43.36954,
+   -22.86782
+  ],
+  "fonte": "Diretoria de Administração da Aeronáutica (OpenStreetMap)"
+ },
+ "dirap": {
+  "coord": [
+   -43.25056,
+   -22.81
+  ],
+  "fonte": "Ilha do Governador (complexo do Galeão) — endereço do catálogo"
+ },
+ "diref": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "direns": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "dirsa": {
+  "coord": [
+   -43.25056,
+   -22.81
+  ],
+  "fonte": "Ilha do Governador (complexo do Galeão) — endereço do catálogo"
+ },
+ "dsm-mn": {
+  "coord": [
+   -59.9863,
+   -3.14604
+  ],
+  "fonte": "Base Aérea de Manaus (Ponta Pelada) — endereço do catálogo"
+ },
+ "dtcea-mdi": {
+  "coord": [
+   -49.47456,
+   -28.12591
+  ],
+  "fonte": "Cume do Morro da Igreja (OpenStreetMap)"
+ },
+ "dtcea-sp": {
+  "coord": [
+   -46.6546,
+   -23.62766
+  ],
+  "fonte": "Aeroporto de Congonhas — endereço do catálogo"
+ },
+ "dtcea-sti": {
+  "coord": [
+   -54.92762,
+   -29.22102
+  ],
+  "fonte": "Destacamento de Controle do Espaço Aéreo de Santiago (OpenStreetMap)"
+ },
+ "dtceatm-rj": {
+  "coord": [
+   -43.16811,
+   -22.90702
+  ],
+  "fonte": "Av. General Justo, 160 (DECEA) — endereço do catálogo"
+ },
+ "dti": {
+  "coord": [
+   -46.61192,
+   -23.5658
+  ],
+  "fonte": "Av. Dom Pedro I, 100 (Cambuci) — endereço do catálogo"
+ },
+ "dts-br": {
+  "coord": [
+   -47.89598,
+   -15.85714
+  ],
+  "fonte": "Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo"
+ },
+ "eaoar": {
+  "coord": [
+   -43.38536,
+   -22.88212
+  ],
+  "fonte": "Escola de Aperfeiçoamento de Oficiais da Aeronáutica (OpenStreetMap)"
+ },
+ "ecemar": {
+  "coord": [
+   -43.38476,
+   -22.88152
+  ],
+  "fonte": "Escola de Comando e Estado-Maior da Aeronáutica (OpenStreetMap)"
+ },
+ "emaer": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "esg-rio": {
+  "coord": [
+   -43.15837,
+   -22.94401
+  ],
+  "fonte": "Escola Superior de Guerra (ESG) (OpenStreetMap)"
+ },
+ "fays": {
+  "coord": [
+   -47.35152,
+   -21.92984
+  ],
+  "fonte": "Fazenda da Aeronáutica (OpenStreetMap)"
+ },
+ "gabaer": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "gal": {
+  "coord": [
+   -43.25056,
+   -22.81
+  ],
+  "fonte": "Ilha do Governador (complexo do Galeão) — endereço do catálogo"
+ },
+ "galc": {
+  "coord": [
+   -43.3847,
+   -22.8751
+  ],
+  "fonte": "Campo dos Afonsos — endereço do catálogo"
+ },
+ "gap-af": {
+  "coord": [
+   -43.3847,
+   -22.8751
+  ],
+  "fonte": "Campo dos Afonsos — endereço do catálogo"
+ },
+ "gap-be": {
+  "coord": [
+   -48.47621,
+   -1.37928
+  ],
+  "fonte": "Base Aérea de Belém (Val de Cans) — endereço do catálogo"
+ },
+ "gap-br": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "gap-df": {
+  "coord": [
+   -47.89598,
+   -15.85714
+  ],
+  "fonte": "Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo"
+ },
+ "gap-ls": {
+  "coord": [
+   -43.8974,
+   -19.66175
+  ],
+  "fonte": "Lagoa Santa — endereço do catálogo"
+ },
+ "gap-mn": {
+  "coord": [
+   -59.9863,
+   -3.14604
+  ],
+  "fonte": "Base Aérea de Manaus (Ponta Pelada) — endereço do catálogo"
+ },
+ "gap-rf": {
+  "coord": [
+   -34.90954,
+   -8.14716
+  ],
+  "fonte": "Complexo do II COMAR (Boa Viagem) — endereço do catálogo"
+ },
+ "gap-rj": {
+  "coord": [
+   -43.17034,
+   -22.90854
+  ],
+  "fonte": "Av. Marechal Câmara, 233 — endereço do catálogo"
+ },
+ "gap-sj": {
+  "coord": [
+   -45.86992,
+   -23.20656
+  ],
+  "fonte": "GAP-SJ - Grupamento de Apoio de São José dos Campos (OpenStreetMap)"
+ },
+ "gap-sp": {
+  "coord": [
+   -46.6378,
+   -23.5091
+  ],
+  "fonte": "Campo de Marte — endereço do catálogo"
+ },
+ "geiv": {
+  "coord": [
+   -43.16741,
+   -22.90932
+  ],
+  "fonte": "Grupo Especial de Inspeção em Voo (OpenStreetMap)"
+ },
+ "haaf": {
+  "coord": [
+   -43.38626,
+   -22.88423
+  ],
+  "fonte": "Hospital de Aeronáutica dos Afonsos (OpenStreetMap)"
+ },
+ "habe": {
+  "coord": [
+   -48.4477,
+   -1.42257
+  ],
+  "fonte": "Hospital de Aeronáutica de Belém (OpenStreetMap)"
+ },
+ "haco": {
+  "coord": [
+   -51.18288,
+   -29.92994
+  ],
+  "fonte": "Hospital da Aeronáutica de Canoas - HACO (OpenStreetMap)"
+ },
+ "hamn": {
+  "coord": [
+   -59.98999,
+   -3.14398
+  ],
+  "fonte": "Hospital de Aeronáutica de Manaus - HAMN (OpenStreetMap)"
+ },
+ "harf": {
+  "coord": [
+   -34.91117,
+   -8.15713
+  ],
+  "fonte": "Hospital de Aeronáutica de Recife (HARF) (OpenStreetMap)"
+ },
+ "hca": {
+  "coord": [
+   -43.21201,
+   -22.9213
+  ],
+  "fonte": "Hospital Central da Aeronáutica (OpenStreetMap)"
+ },
+ "hfab": {
+  "coord": [
+   -47.92083,
+   -15.86917
+  ],
+  "fonte": "Área militar do Aeroporto de Brasília — endereço do catálogo"
+ },
+ "hfag": {
+  "coord": [
+   -43.21638,
+   -22.81262
+  ],
+  "fonte": "Hospital de Força Aérea do Galeão (OpenStreetMap)"
+ },
+ "hfasp": {
+  "coord": [
+   -46.6378,
+   -23.5091
+  ],
+  "fonte": "Campo de Marte — endereço do catálogo"
+ },
+ "iae": {
+  "coord": [
+   -45.86843,
+   -23.2233
+  ],
+  "fonte": "Campus do DCTA — endereço do catálogo"
+ },
+ "iaop": {
+  "coord": [
+   -45.86843,
+   -23.2233
+  ],
+  "fonte": "Campus do DCTA — endereço do catálogo"
+ },
+ "ica": {
+  "coord": [
+   -43.16689,
+   -22.90808
+  ],
+  "fonte": "Instituto de Cartografia Aeronáutica (OpenStreetMap)"
+ },
+ "icea": {
+  "coord": [
+   -45.86843,
+   -23.2233
+  ],
+  "fonte": "Campus do DCTA — endereço do catálogo"
+ },
+ "ieav": {
+  "coord": [
+   -45.85806,
+   -23.25194
+  ],
+  "fonte": "Instituto de Estudos Avançados (OpenStreetMap)"
+ },
+ "ifi": {
+  "coord": [
+   -45.86843,
+   -23.2233
+  ],
+  "fonte": "Campus do DCTA — endereço do catálogo"
+ },
+ "ii-comar": {
+  "coord": [
+   -34.90954,
+   -8.14716
+  ],
+  "fonte": "Segundo Comando Aéreo Regional (OpenStreetMap)"
+ },
+ "iii-comar": {
+  "coord": [
+   -43.16769,
+   -22.90661
+  ],
+  "fonte": "Auditório do Terceiro Comando Aéreo Regional (OpenStreetMap)"
+ },
+ "ila": {
+  "coord": [
+   -46.46995,
+   -23.43127
+  ],
+  "fonte": "Base Aérea de São Paulo (Cumbica) — endereço do catálogo"
+ },
+ "imae": {
+  "coord": [
+   -43.3847,
+   -22.8751
+  ],
+  "fonte": "Campo dos Afonsos — endereço do catálogo"
+ },
+ "incaer": {
+  "coord": [
+   -47.89598,
+   -15.85714
+  ],
+  "fonte": "Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo"
+ },
+ "ipa": {
+  "coord": [
+   -43.37904,
+   -22.87667
+  ],
+  "fonte": "Instituto de Psicologia da Aeronáutica (OpenStreetMap)"
+ },
+ "ipev": {
+  "coord": [
+   -45.86843,
+   -23.2233
+  ],
+  "fonte": "Campus do DCTA — endereço do catálogo"
+ },
+ "ita": {
+  "coord": [
+   -45.87645,
+   -23.21021
+  ],
+  "fonte": "Instituto Tecnológico de Aeronautica (OpenStreetMap)"
+ },
+ "laqfa": {
+  "coord": [
+   -43.21567,
+   -22.81093
+  ],
+  "fonte": "Laboratório Químico e Farmacêutico da Aeronáutica (OpenStreetMap)"
+ },
+ "musal": {
+  "coord": [
+   -43.38885,
+   -22.8822
+  ],
+  "fonte": "Museu Aeroespacial (OpenStreetMap)"
+ },
+ "oabr": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "oasd": {
+  "coord": [
+   -43.17121,
+   -22.90337
+  ],
+  "fonte": "Praça Marechal Âncora, Castelo, Centro, Rio de Janeiro, Regi (OpenStreetMap)"
+ },
+ "pamb-rj": {
+  "coord": [
+   -43.25056,
+   -22.81
+  ],
+  "fonte": "Ilha do Governador (complexo do Galeão) — endereço do catálogo"
+ },
+ "pame-rj": {
+  "coord": [
+   -43.21471,
+   -22.87466
+  ],
+  "fonte": "Parque de Material de Eletrônica da Aeronáutica (OpenStreetMap)"
+ },
+ "pasp": {
+  "coord": [
+   -46.6378,
+   -23.5091
+  ],
+  "fonte": "Campo de Marte — endereço do catálogo"
+ },
+ "secprom": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "sefa": {
+  "coord": [
+   -47.87224,
+   -15.79543
+  ],
+  "fonte": "Esplanada dos Ministérios, Bloco M (Comando da Aeronáutica) — endereço do catálogo"
+ },
+ "serep-be": {
+  "coord": [
+   -48.47621,
+   -1.37928
+  ],
+  "fonte": "Base Aérea de Belém (Val de Cans) — endereço do catálogo"
+ },
+ "serep-br": {
+  "coord": [
+   -47.89598,
+   -15.85714
+  ],
+  "fonte": "Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo"
+ },
+ "serep-co": {
+  "coord": [
+   -51.14441,
+   -29.94593
+  ],
+  "fonte": "Base Aérea de Canoas — endereço do catálogo"
+ },
+ "serep-mn": {
+  "coord": [
+   -59.9863,
+   -3.14604
+  ],
+  "fonte": "Base Aérea de Manaus (Ponta Pelada) — endereço do catálogo"
+ },
+ "serep-rj": {
+  "coord": [
+   -43.3847,
+   -22.8751
+  ],
+  "fonte": "Campo dos Afonsos — endereço do catálogo"
+ },
+ "serep-sp": {
+  "coord": [
+   -46.46995,
+   -23.43127
+  ],
+  "fonte": "Base Aérea de São Paulo (Cumbica) — endereço do catálogo"
+ },
+ "seripa-ii": {
+  "coord": [
+   -34.90954,
+   -8.14716
+  ],
+  "fonte": "Complexo do II COMAR (Boa Viagem) — endereço do catálogo"
+ },
+ "seripa-iii": {
+  "coord": [
+   -43.25056,
+   -22.81
+  ],
+  "fonte": "Ilha do Governador (complexo do Galeão) — endereço do catálogo"
+ },
+ "seripa-iv": {
+  "coord": [
+   -46.6378,
+   -23.5091
+  ],
+  "fonte": "Campo de Marte — endereço do catálogo"
+ },
+ "seripa-v": {
+  "coord": [
+   -51.14441,
+   -29.94593
+  ],
+  "fonte": "Base Aérea de Canoas — endereço do catálogo"
+ },
+ "seripa-vi": {
+  "coord": [
+   -47.89598,
+   -15.85714
+  ],
+  "fonte": "Área Especial 12 do Lago Sul (complexo do VI COMAR) — endereço do catálogo"
+ },
+ "srpv-sp": {
+  "coord": [
+   -46.6546,
+   -23.62766
+  ],
+  "fonte": "Aeroporto de Congonhas — endereço do catálogo"
+ },
+ "unifa": {
+  "coord": [
+   -43.3847,
+   -22.8751
+  ],
+  "fonte": "Campo dos Afonsos — endereço do catálogo"
+ },
+ "v-comar": {
+  "coord": [
+   -51.18479,
+   -29.93273
+  ],
+  "fonte": "Força Aérea Brasileira - Comando Aéreo Sul (OpenStreetMap)"
+ },
+ "vi-comar": {
+  "coord": [
+   -47.89598,
+   -15.85714
+  ],
+  "fonte": "Sexto Comando Aéreo Regional (OpenStreetMap)"
+ },
+ "vii-comar": {
+  "coord": [
+   -59.9863,
+   -3.14604
+  ],
+  "fonte": "Base Aérea de Manaus (Ponta Pelada) — endereço do catálogo"
+ }
+}

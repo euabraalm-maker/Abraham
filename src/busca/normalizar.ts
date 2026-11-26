@@ -6,6 +6,8 @@ export function normalizar(s: string): string {
     .normalize('NFD').replace(/[̀-ͯ]/g, '')
     .toLowerCase()
     .replace(/(\d)\s*[º°ªo]/g, '$1')
+    .replace(/(\d)([a-z])/g, '$1 $2')
+    .replace(/([a-z])(\d)/g, '$1 $2')
     .replace(/[^a-z0-9]+/g, ' ')
     .trim()
     .split(' ')

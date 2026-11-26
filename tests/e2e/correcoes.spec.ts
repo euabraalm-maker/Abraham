@@ -16,26 +16,6 @@ test('buscar apelido de esquadrão abre a ficha da base sede', async ({ page }) 
   await expect(page.locator('#painel-ficha .ficha')).toHaveAttribute('data-id', 'baco');
 });
 
-test('lista "Unidades neste ponto" fecha com ✕ e com Esc', async ({ page }) => {
-  await abrirMapa(page);
-  await page.evaluate(async () => {
-    const api = (window as any).__mapa;
-    api.voarPara('bagl');
-    await new Promise((r) => api.map.once('idle', r));
-  });
-  const box = await page.locator('#mapa').boundingBox();
-  const centro = () => page.mouse.click(box!.x + box!.width / 2, box!.y + box!.height / 2);
-  await centro();
-  const painel = page.locator('.painel-grupo');
-  await expect(painel).toBeVisible();
-  await page.keyboard.press('Escape');
-  await expect(painel).toBeHidden();
-  await centro();
-  await expect(painel).toBeVisible();
-  await page.getByRole('button', { name: 'Fechar lista' }).click();
-  await expect(painel).toBeHidden();
-});
-
 test('no celular, cabeçalho dos filtros e botão de tema ficam acessíveis', async ({ page }) => {
   await page.setViewportSize({ width: 375, height: 740 });
   await abrirMapa(page);

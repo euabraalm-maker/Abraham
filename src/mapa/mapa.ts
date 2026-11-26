@@ -5,6 +5,8 @@ import type { CategoriaId, Unidade } from '../dados/tipos';
 import { criarEstilo, FONTE_NEGRITO, type Tema } from './estilo';
 import { desenharIcone } from './icones';
 import { animarAviao } from './aviao';
+import { agruparPorLocal, type Grupo } from '../dados/locais';
+import { criarOrbita, ZOOM_ORBITA } from './orbita';
 
 export interface MapaApi {
   voarPara(id: string): void;
@@ -12,6 +14,8 @@ export interface MapaApi {
   definirTema(t: 'escuro' | 'claro'): void;
   aoSelecionar(cb: (id: string) => void): void;
   aoSelecionarGrupo(cb: (ids: string[]) => void): void;
+  /** Realça um satélite na órbita (ex.: esquadrão escolhido na busca); null limpa. */
+  destacarSatelite(id: string | null): void;
   vistaDeCima(): void;
   map: maplibregl.Map;
   unidades: Unidade[];
@@ -24,20 +28,15 @@ const AVISO_TILES = 'Mapa detalhado indisponível no momento — exibindo divisa
 
 const movimentoReduzido = () => window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-function noMapa(u: Unidade) {
-  return u.pais === 'Brasil' && CATEGORIAS[u.categoria].noMapa && !!u.coord;
-}
-
-function colecao(us: Unidade[], ids: Set<string> | null): GeoJSON.FeatureCollection<GeoJSON.Point> {
+/** Um ponto por local: o anfitrião, com quantos satélites orbitam ao redor dele. */
+function colecao(grupos: Grupo[]): GeoJSON.FeatureCollection<GeoJSON.Point> {
   return {
     type: 'FeatureCollection',
-    features: us
-      .filter((u) => noMapa(u) && (!ids || ids.has(u.id)))
-      .map((u) => ({
-        type: 'Feature',
-        geometry: { type: 'Point', coordinates: u.coord! },
-        properties: { id: u.id, sigla: u.sigla, categoria: u.categoria },
-      })),
+    features: grupos.map(({ anfitriao: u, satelites }) => ({
+      type: 'Feature',
+      geometry: { type: 'Point', coordinates: u.coord! },
+      properties: { id: u.id, sigla: u.sigla, categoria: u.categoria, satelites: satelites.length, peso: 1 + satelites.length },
+    })),
   };
 }
 
@@ -50,6 +49,12 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
   const porId = new Map(us.map((u) => [u.id, u]));
   const cbSelecionar: ((id: string) => void)[] = [];
   const cbGrupo: ((ids: string[]) => void)[] = [];
+  let grupos = new Map<string, Grupo>();
+  const reagrupar = () => {
+    const gs = agruparPorLocal(us, filtroAtual);
+    grupos = new Map(gs.map((g) => [g.anfitriao.id, g]));
+    return colecao(gs);
+  };
 
   const map = new maplibregl.Map({
     container: el,
@@ -75,8 +80,9 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
     if (!map.getSource('unidades')) {
       map.addSource('unidades', {
         type: 'geojson',
-        data: colecao(us, filtroAtual),
+        data: reagrupar(),
         cluster: true,
+        clusterProperties: { total: ['+', ['get', 'peso']] },
         clusterRadius: 48,
         clusterMaxZoom: CLUSTER_MAX_ZOOM,
       });
@@ -102,7 +108,7 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
     if (temTexto) {
       map.addLayer({
         id: 'bolhas-numero', type: 'symbol', source: 'unidades', filter: ['has', 'point_count'],
-        layout: { 'text-field': ['get', 'point_count_abbreviated'], 'text-font': FONTE_NEGRITO, 'text-size': 13, 'text-allow-overlap': true },
+        layout: { 'text-field': ['get', 'total'], 'text-font': FONTE_NEGRITO, 'text-size': 13, 'text-allow-overlap': true },
         paint: { 'text-color': '#ffffff' },
       });
     }
@@ -114,6 +120,19 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
         'icon-allow-overlap': true,
       },
     });
+    // Selo com o número de unidades que orbitam o anfitrião (visível de longe)
+    const semCluster = ['all', ['!', ['has', 'point_count']], ['>', ['get', 'satelites'], 0]];
+    map.addLayer({
+      id: 'selo-satelites', type: 'circle', source: 'unidades', maxzoom: ZOOM_ORBITA, filter: semCluster as never,
+      paint: { 'circle-radius': 8, 'circle-color': t === 'escuro' ? '#7a5cff' : '#5b44c4', 'circle-stroke-color': '#ffffff', 'circle-stroke-width': 1.2, 'circle-translate': [12, -12] },
+    });
+    if (temTexto) {
+      map.addLayer({
+        id: 'selo-satelites-numero', type: 'symbol', source: 'unidades', maxzoom: ZOOM_ORBITA, filter: semCluster as never,
+        layout: { 'text-field': ['to-string', ['get', 'satelites']], 'text-font': FONTE_NEGRITO, 'text-size': 10, 'text-allow-overlap': true, 'text-offset': [1, -1] },
+        paint: { 'text-color': '#ffffff' },
+      });
+    }
     if (temTexto) {
       map.addLayer({
         id: 'unidades-rotulo', type: 'symbol', source: 'unidades', minzoom: 7, filter: ['!', ['has', 'point_count']],
@@ -198,6 +217,8 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
     map.on('mouseleave', camada, () => (map.getCanvas().style.cursor = ''));
   }
 
+  const orbita = criarOrbita(map, el, () => grupos, (id) => cbSelecionar.forEach((cb) => cb(id)));
+
   const api: MapaApi = {
     map,
     unidades: us,
@@ -214,7 +235,8 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
     },
     filtrar(ids) {
       filtroAtual = ids;
-      (map.getSource('unidades') as GeoJSONSource | undefined)?.setData(colecao(us, ids));
+      (map.getSource('unidades') as GeoJSONSource | undefined)?.setData(reagrupar());
+      orbita.atualizar();
     },
     definirTema(t) {
       tema = t;
@@ -222,6 +244,7 @@ export function criarMapa(el: HTMLElement, us: Unidade[], o: { tema: Tema }): Ma
     },
     aoSelecionar(cb) { cbSelecionar.push(cb); },
     aoSelecionarGrupo(cb) { cbGrupo.push(cb); },
+    destacarSatelite(id) { orbita.destacar(id); },
     vistaDeCima() {
       map.easeTo({ pitch: 0, bearing: 0, duration: movimentoReduzido() ? 0 : 800 });
     },

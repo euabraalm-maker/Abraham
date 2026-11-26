@@ -59,3 +59,11 @@ describe('buscar', () => {
     expect(buscar('a', us, 3).length).toBeLessThanOrEqual(3);
   });
 });
+
+describe('sigla de esquadrão digitada sem espaço', () => {
+  it('"1º/14ºGAV" acha o 1º/14º GAV', () => {
+    expect(normalizar('1º/14ºGAV')).toBe(normalizar('1º/14º GAV'));
+    expect(primeiro('1º/14ºGAV')).toBe('1-14-gav');
+    expect(primeiro('1/14gav')).toBe('1-14-gav');
+  });
+});

@@ -32,19 +32,6 @@ test('elo do caminho abre a ficha daquela unidade', async ({ page }) => {
   await expect(page.locator('#painel-ficha .ficha')).toHaveAttribute('data-id', 'baan');
 });
 
-test('lista do grupo abre a ficha escolhida', async ({ page }) => {
-  await abrirMapa(page);
-  await page.evaluate(async () => {
-    const api = (window as any).__mapa;
-    api.voarPara('bagl');
-    await new Promise((r) => api.map.once('idle', r));
-  });
-  const box = await page.locator('#mapa').boundingBox();
-  await page.mouse.click(box!.x + box!.width / 2, box!.y + box!.height / 2);
-  await page.locator('#lista-grupo button', { hasText: 'PAMA-GL' }).click();
-  await expect(page.locator('#painel-ficha .ficha')).toHaveAttribute('data-id', 'pama-gl');
-});
-
 test('FAB no exterior lista as unidades fora do Brasil', async ({ page }) => {
   await abrirMapa(page);
   await page.getByRole('button', { name: /FAB no exterior/ }).click();

@@ -62,3 +62,17 @@ describe('sede de esquadrão não confirmada', () => {
     expect(ficha('baan').querySelector('.esquadroes')?.textContent).toContain('sede a conferir');
   });
 });
+
+describe('site oficial', () => {
+  it('botão do site aparece logo abaixo do nome', () => {
+    const el = ficha('baan');
+    const titulo = el.querySelector('.titulo')!;
+    expect(titulo.nextElementSibling?.querySelector('a.site-oficial')).not.toBeNull();
+  });
+  it('sem site próprio, aponta para a página do superior mais próximo que tenha site', () => {
+    const a = ficha('dtcea-x').querySelector('a.site-superior');
+    expect(a?.textContent).toContain('BAAN');
+    expect(a?.getAttribute('href')).toBe('https://www.fab.mil.br/');
+    expect(ficha('dtcea-x').textContent).toContain('Sem site próprio');
+  });
+});
