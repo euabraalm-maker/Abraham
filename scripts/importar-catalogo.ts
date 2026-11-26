@@ -158,6 +158,16 @@ function main() {
     fontes: [{ titulo: 'Decreto nº 11.237/2022 — estrutura do Comando da Aeronáutica', url: 'https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/decreto/D11237.htm' }],
     revisadoEm: hoje,
   });
+  // CGTEC: não tem ficha no catálogo; informado pelo instrutor (página institucional do CGTEC/PAME-RJ)
+  saida.set('cgtec', {
+    id: 'cgtec', sigla: 'CGTEC', nome: 'Centro de Gerenciamento Técnico do SISCEAB', categoria: 'decea',
+    tipoCatalogo: 'Centro', cidade: 'Rio de Janeiro', uf: 'RJ', pais: 'Brasil', coord: null, coordSituacao: 'aproximada',
+    subordinadaA: null, site: null, ficha: 'basica',
+    historico: 'Criado a partir da Diretriz para a Implantação do Centro de Gerenciamento Técnico do SISCEAB (DCA 21-2), aprovada pelo DECEA em julho de 2009, para otimizar o gerenciamento do estado técnico e operacional dos sistemas, equipamentos e redes do SISCEAB. Funciona no Parque de Material de Eletrônica da Aeronáutica do Rio de Janeiro (PAME-RJ), que abriga desde outubro de 2012 o seu núcleo (NuCGTEC), responsável pelo monitoramento contínuo das infraestruturas de suporte ao controle do espaço aéreo.',
+    situacao: { nome: 'confirmado', localizacao: 'a-conferir', subordinacao: 'a-conferir' },
+    fontes: [{ titulo: 'Informação do instrutor (página institucional do CGTEC/PAME-RJ)' }],
+    revisadoEm: hoje,
+  });
   // esquadrões sem sede identificável: usar a primeira base existente da UF? Não: ficam sem sediadoEm e são listados.
   const semSede = [...saida.values()].filter((u) => u.categoria === 'esquadrao' && (!u.sediadoEm || !saida.has(u.sediadoEm)));
   if (semSede.length) console.warn('Esquadrões sem sede:', semSede.map((u) => `${u.sigla} (${u.cidade})`).join(', '));

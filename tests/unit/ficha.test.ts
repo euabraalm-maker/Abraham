@@ -76,3 +76,12 @@ describe('site oficial', () => {
     expect(ficha('dtcea-x').textContent).toContain('Sem site próprio');
   });
 });
+
+describe('fonte sem endereço', () => {
+  it('aparece como texto, sem link', () => {
+    const u = unidade({ id: 'cgtec', sigla: 'CGTEC', fontes: [{ titulo: 'Informação do instrutor' }] });
+    const el = renderizarFicha(u, new Map([[u.id, u]]), 'painel');
+    expect(el.querySelector('.revisao')?.textContent).toContain('Informação do instrutor');
+    expect([...el.querySelectorAll('.revisao a')].some((a) => a.textContent === 'Informação do instrutor')).toBe(false);
+  });
+});

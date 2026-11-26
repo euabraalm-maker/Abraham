@@ -72,3 +72,11 @@ describe('links de rede interna', () => {
     expect(validarConjunto(us).some((e) => e.includes('baan') && e.includes('rede interna'))).toBe(true);
   });
 });
+
+describe('fonte sem endereço', () => {
+  it('é aceita pelo esquema', async () => {
+    const { esquemaUnidade } = await import('../../src/dados/tipos');
+    const u = { ...amostraValida()[0], fontes: [{ titulo: 'Informação do instrutor' }] };
+    expect(() => esquemaUnidade.parse(u)).not.toThrow();
+  });
+});
